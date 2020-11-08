@@ -1,9 +1,30 @@
 ---
-title: "R Notebook"
-output: html_notebook
+title: "Airbnb Data Analysis Project Notebook"
+author: "BRUNO Charlène, CHEONG Loïc, PHILBERT Pierre & SORY Anas"
+output:
+  html_notebook: default
+  html_document:
+    df_print: paged
+  pdf_document: default
 ---
 
+ING5 Promo 2020 BDA group 02
+
+A real estate investor is looking forward to using this data in order to take a decision
+regarding the best option he has in real estate to generate profit on Airbnb from his
+investment.
+He downloaded the latest available data at a specific time about the following cities:
+
+* Malaga
+* Mallorca
+* Sevilla
+
+
 This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+
+
+# Data preparation
 
 ```{r}
 library(dplyr)
@@ -14,7 +35,8 @@ library(data.table)
 
 
 ```{r}
-setwd("C:/Users/user/Documents/ING5/Data Analytics/Projet/Airbnb_Project_Data_Analysis")
+setwd("C:/Users/LOL/Desktop/LOIC/ECE/ING5/Data Analysis/Project/Airbnb_Project_Data_Analysis")
+#Charlène's path : C:/Users/user/Documents/ING5/Data Analytics/Projet/Airbnb_Project_Data_Analysis"
 ```
 
 ```{r}
@@ -128,6 +150,7 @@ for(i in 1:length(cities)){
 rm(list=ls())
 ```
 
+Load the data
 ```{r}
 ## Once data for multiple cities are prepared
 ## We can read these data and concatenate them together into one dataframe
@@ -163,103 +186,155 @@ listings <-
 listings$bedrooms <- ifelse(listings$bedrooms >= 5, "5+", listings$bedrooms)
 ```
 
+Let's see the content of the data frame **listings**
+```{r}
+str(listings)
+```
+
 
 ```{r}
-# Analysis 1
-#Find the "average availability over 30 days" of listings per each city.
-#This should be calculated from calendar dataset.
+head(listings)
+```
+
+# Analysis 1: Comparing Cities
+* Find the "average availability over 30 days" of listings per each city. This should be calculated from calendar dataset.
+```{r}
 listings %>% 
 group_by(city) %>%
 summarise(availabilty_average = mean(availability_30))
 ```
+
+* Find the "average revenue of over 30 days" of listings per each city. This should be calculated from calendar dataset
 ```{r}
-#Find the "average revenue of over 30 days" of listings per each city.
-# This should be calculated from calendar dataset
 listings %>% 
 group_by(city) %>%
 summarise(revenue_average = mean(revenue_30))
 ```
+
+* Compare the distribution of estimated availability for the next 30 days of listings per each city.
+
 ```{r}
-#Compare the distribution of estimated #availability for the next 30 days of
-#listings per each city.
+qplot(availability_30,data=listings,geom="density",color=city)
+
 p <- ggplot(listings, aes(city, availability_30))
 p + geom_boxplot(aes(colour = "red"), outlier.shape = NA) +
     scale_y_continuous(limits = quantile(listings$availability_30, c(0.1, 0.9), na.rm = T))
 ```
 
+ 
+
+* Comparing the distribution of estimated revenue for the next 30 days of listings per each city.
 ```{r}
-## Comparing the distribution of estimated revenue for the next 30 days of listings
-## per each city.
+qplot(revenue_30,data=listings,geom="density",color=city) + facet_grid(.~city) 
+#Zoom in of the previous plot
+qplot(revenue_30,data=listings,geom="density",color=city) + facet_grid(.~city) +  xlim(0,7500) 
+
 p <- ggplot(listings, aes(city, revenue_30))
 p + geom_boxplot(aes(colour = "red"), outlier.shape = NA) +
     scale_y_continuous(limits = quantile(listings$revenue_30, c(0.1, 0.9), na.rm = T))
+
 ```
 
+
+
+
+*Compare the distribution of estimated revenue for the next 30 days of listings
+per each city & for each house size (# of bedrooms)
+
 ```{r}
-#Compare the distribution of estimated #revenue for the next 30 days of listings
-#per each city & for each house size (# of #bedrooms)
-p <- ggplot(listings%>%filter(!is.na(bedrooms)), aes(bedrooms, revenue_30))
+new_listings <- listings%>%filter(!is.na(bedrooms))
+#Histogram
+qplot(revenue_30,data=new_listings,bins=30,fill=bedrooms) + facet_grid(bedrooms~city)+xlim(0,6000)
+#Histogram compacted
+qplot(revenue_30,data=new_listings,geom="histogram",fill=bedrooms)+ facet_grid(.~city)+  xlim(0,10000)
+#Density
+qplot(revenue_30,data=new_listings,geom="density",color=bedrooms) + facet_grid(.~city)+  xlim(0,6000)
+#Boxplot
+p <- ggplot(new_listings, aes(bedrooms, revenue_30))
 p + geom_boxplot(aes(colour = "red"), outlier.shape = NA) +
     scale_y_continuous(limits = quantile(listings$revenue_30, c(0.1, 0.9), na.rm = T))+ facet_wrap(~ city)
+
 ```
 
+
+* Compare the distribution of estimated #revenue for the next 30 days of listings per each city & for each room type #(room_type).
 ```{r}
-#Compare the distribution of estimated #revenue for the next 30 days of listings
-#per each city & for each room type #(room_type).
+#Density
+qplot(revenue_30,data=listings,geom="density",color=room_type) + facet_grid(.~city)+xlim(0,6000)
+#Boxplot
 p <- ggplot(listings, aes(room_type, revenue_30))
 p + geom_boxplot(aes(colour = "red"), outlier.shape = NA) +
     scale_y_continuous(limits = quantile(listings$revenue_30, c(0.1, 0.9), na.rm = T))+ facet_wrap(~ city)+ coord_flip()
 ```
+
+
+
+
+
+# Analysis 2: Deep Dive in one City Analysis
+For each city, you can perform a finer grained analysis to answer the following questions:
+
+## 2.1 What is the proportion of each room type ?
 ```{r}
-#Analysis 2: Deep Dive in one City Analysis
-#What is the proportion of each room type?
 p<-ggplot(listings, aes(x=room_type))
 p + geom_bar()+facet_wrap(~ city)+ coord_flip()
 ```
 
+## 2.2 What is the proportion of each house size (# of bedroom)?
 ```{r}
-#What is the proportion of each house size (# of bedroom)?
 p<-ggplot(listings%>%filter(!is.na(bedrooms)), aes(x=bedrooms))
 p + geom_bar()+facet_wrap(~ city)
 ```
-```{r}
-#What is the proportion of each neighborhood?
-p<-ggplot(listings%>%top_n(20), aes(x=neighbourhood_cleansed))
-p + geom_bar()+facet_wrap(~ city)
-```
-```{r}
-#What is the average availability over the next 30 days for each room type /
-#house size / neighborhood?
 
-#city/room_type
+## 2.3 What is the proportion of each neighborhood?
+There are length(unique(listings$neighbourhood_cleansed)) = `r length(unique(listings$neighbourhood_cleansed))` distincts neighborhoods. For simplicity, we will just plot 10 of the neighborhoods chosen arbitrarily
+```{r}
+top_10_neighbourhood = filter(listings, neighbourhood_cleansed == c("Centro","Puerto de la Torre","Este","Palma de Mallorca","Manacor","Capdepera","Feria","Los Remedios","Museo","Triana Oeste"))
+
+p<-ggplot(top_10_neighbourhood, aes(x=neighbourhood_cleansed))
+p + geom_bar()+facet_wrap(~ city)+ coord_flip()
+```
+
+## 2.4 What is the average availability over the next 30 days for each room type /house size / neighborhood?
+ 
+### 2.4.1 What is the average availability over the next 30 days for each room type ?
+
+```{r}
 listings %>% 
 group_by(city,room_type) %>%
 summarise(availability_average = mean(availability_30))
 ```
+
+
+### 2.4.2 What is the average availability over the next 30 days for each house size ?
+
+
 ```{r}
-#city/bedrooms
 listings %>%
 filter(!is.na(bedrooms))%>%
 group_by(city,bedrooms) %>%
 summarise(availability_average = mean(availability_30))
 ```
 
+### 2.4.3 What is the average availability over the next 30 days for each  neighborhood?
+
 ```{r}
-#city/neighbourhood
 listings %>% 
 group_by(city,neighbourhood_cleansed) %>%
 summarise(availability_average = mean(availability_30))
 ```
 
-```{r}
-#What is the average revenue over the next 30 days for each room type /
-#house size / neighborhood?
 
+## 2.5 What is the average revenue over the next 30 days for each room type /house size / neighborhood?
+### 2.5.1 What is the average revenue over the next 30 days for each room type ?
+```{r}
 #city/room_type
 listings %>% 
 group_by(city,room_type) %>%
 summarise(revenue_average = mean(revenue_30))
 ```
+
+### 2.5.2 What is the average revenue over the next 30 days for each house size ?
 ```{r}
 #city/bedrooms
 listings %>% 
@@ -267,6 +342,8 @@ filter(!is.na(bedrooms))%>%
 group_by(city,bedrooms) %>%
 summarise(renenue_average = mean(revenue_30))
 ```
+
+### 2.5.3 What is the average revenue over the next 30 days for each neighborhood?
 ```{r}
 #city/neighbourhood
 listings %>% 
@@ -274,51 +351,78 @@ group_by(city,neighbourhood_cleansed) %>%
 summarise(renenue_average = mean(revenue_30))
 ```
 
+## 2.6 What is the distribution of availability over the next 30 days for each room type/ house size / neighborhood?
+### 2.6.1 What is the distribution of availability over the next 30 days for each room type?
 ```{r}
-#What is the distribution of availability over the next 30 days for each room type
-#/ house size / neighborhood?
-
 #city/room_type
 p <- ggplot(listings%>%filter(!is.na(room_type)), aes(city, availability_30))
 p + geom_boxplot(aes(colour = room_type), outlier.shape = NA) +
     scale_y_continuous(limits = quantile(listings$availabilty_30, c(0.1, 0.9), na.rm = T))
+#DENSITY 
+qplot(availability_30,data=listings,geom="density",color=room_type) + facet_grid(.~city)
 
 ```
+
+### 2.6.2 What is the distribution of availability over the next 30 days for each house size ?
+
 ```{r}
 #city/bedrooms
 p <- ggplot(listings%>%filter(!is.na(bedrooms)), aes(city, availability_30))
 p + geom_boxplot(aes(colour = bedrooms), outlier.shape = NA) +
     scale_y_continuous(limits = quantile(listings$availabilty_30, c(0.1, 0.9), na.rm = T))
+#DENSITY
+qplot(availability_30,data=subset(listings, !is.na(bedrooms)),geom="density",color=bedrooms) + facet_grid(.~city)
 ```
+
+
+### 2.6.3 What is the distribution of availability over the next 30 days for each neighborhood?
 
 ```{r}
 #city/neighbourhood_cleansed
-p <- ggplot(listings%>% top_n(10), aes(city, availability_30))
+top_10_neighbourhood = filter(listings, neighbourhood_cleansed == c("Centro","Puerto de la Torre","Este","Palma de Mallorca","Manacor","Capdepera","Feria","Los Remedios","Museo","Triana Oeste"))
+
+p <- ggplot(top_10_neighbourhood, aes(city, availability_30))
 p + geom_boxplot(aes(colour = neighbourhood_cleansed), outlier.shape = NA) +
     scale_y_continuous(limits = quantile(listings$availabilty_30, c(0.1, 0.9), na.rm = T))
+
+qplot(availability_30,data=top_10_neighbourhood,geom="density",color=neighbourhood_cleansed) + facet_grid(.~city)
 ```
 
-```{r}
-#What is the distribution of revenue over the next 30 days for each room type /
-#house size / neighborhood? 
 
+## 2.7 What is the distribution of revenue over the next 30 days for each room type /house size / neighborhood?
+### 2.7.1 What is the distribution of revenue over the next 30 days for each room type ?
+```{r}
 #city/room_type
 p <- ggplot(listings%>%filter(!is.na(room_type)), aes(city, revenue_30))
 p + geom_boxplot(aes(colour = room_type), outlier.shape = NA) +
     scale_y_continuous(limits = quantile(listings$revenue_30, c(0.1, 0.9), na.rm = T))
+#DENSITY
+qplot(revenue_30,data=listings,geom="density",color=room_type) + facet_grid(.~city)+xlim(0,7500) #Zoom in
 ```
+
+### 2.7.2 What is the distribution of revenue over the next 30 days for each house size ?
 ```{r}
 #city/bedrooms
-p <- ggplot(listings%>%filter(!is.na(bedrooms)), aes(city, revenue_30))
+new_listings <- listings%>%filter(!is.na(bedrooms))
+p <- ggplot(new_listings , aes(city, revenue_30))
 p + geom_boxplot(aes(colour = bedrooms), outlier.shape = NA) +
     scale_y_continuous(limits = quantile(listings$revenue_30, c(0.1, 0.9), na.rm = T))
+#DENSITY
+qplot(revenue_30,data=new_listings ,geom="density",color=bedrooms) + facet_grid(.~city)+xlim(0,6000) #Zoom in
 ```
 
-
+### 2.7.3 What is the distribution of revenue over the next 30 days for each neighborhood?
+As earlier, we will just plot 10 of the neighborhoods chosen arbitrarily for simplicity. 
 ```{r}
 #city/neighbourhood_cleansed
-p <- ggplot(listings, aes(city, revenue_30))
+neighbourhood_10 = filter(listings, neighbourhood_cleansed == c("Centro","Puerto de la Torre","Este","Palma de Mallorca","Manacor","Capdepera","Feria","Los Remedios","Museo","Triana Oeste"))
+
+p <- ggplot(neighbourhood_10, aes(city, revenue_30))
 p + geom_boxplot(aes(colour = neighbourhood_cleansed), outlier.shape = NA) +
-    scale_y_continuous(limits = quantile(listings$revenue_30, c(0.1, 0.9), na.rm = T))
+    scale_y_continuous(limits = quantile(neighbourhood_10$revenue_30, c(0.1, 0.9), na.rm = T))
+#DENSITY
+qplot(revenue_30,data=neighbourhood_10 ,geom="density",color=neighbourhood_cleansed) + facet_grid(.~city)+xlim(0,6000)
 ```
+
+
 
