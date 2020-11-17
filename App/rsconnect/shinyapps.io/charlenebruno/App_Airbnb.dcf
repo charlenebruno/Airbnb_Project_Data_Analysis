@@ -1,0 +1,12 @@
+name: App_Airbnb
+title: App_Airbnb
+username:
+account: charlenebruno
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3250200
+bundleId: 3871502
+url: https://charlenebruno.shinyapps.io/App_Airbnb/
+when: 1605622664.3805
+asMultiple: FALSE
+asStatic: FALSE
