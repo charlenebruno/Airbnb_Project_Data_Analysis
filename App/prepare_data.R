@@ -88,36 +88,44 @@ clean_all_data <- function(){
 ## We can read these data and concatenate them together into one dataframe
 read_cleansed_data <- function(){
   # Reading cleansed data
-  countries_ <- 
+  countries <- c("france","germany","spain")
   
-  # 
-  # # We are only interested in data between min_date and max_date
-  # min_date <- '2020-05-01'
-  # max_date <- '2020-11-01'
-  # 
-  # files_paths <- c()
+  files_paths <- c()
   # 
   # # Read data in cities between min_date and max_date
-  # for(city in cities){
-  #   file_dir <- file.path(".", "data_cleansed", city)
-  #   file_subdirs <- list.dirs(file_dir)
-  #   file_subdirs <- file_subdirs[-1]
-  #   
-  #   for(file_subdir in file_subdirs){
-  #     if(file_subdir < file.path(file_dir, min_date) | file_subdir > file.path(file_dir, max_date)  )
-  #       file_subdirs = file_subdirs[file_subdirs != file_subdir]
-  #   }
-  #   files_paths <- c(files_paths, file_subdirs)
-  # }
-  # files_paths <- file.path(files_paths, "listings.csv")
-  # listings <- 
-  #   do.call(rbind,
-  #           lapply(files_paths, read.csv, row.names=1))
-  # 
+  for(country in countries){
+    file_dir <- file.path(".", "data_cleansed", country)
+    
+    file_subdirs_cities <- list.dirs(file_dir,recursive=FALSE)
+    file_subdirs_cities <- file_subdirs_cities[-1]
+    
+    for(file_subdir_city in file_subdirs_cities){
+      if(file_subdir_city != file_subdirs_cities)
+        file_subdirs_cities = c(file_subdirs_cities,file_subdir_city)
+      file_subdirs_dates <- list.dirs(file_subdirs_cities,recursive=FALSE)
+      file_subdirs_dates <- file_subdirs_dates[-1]
+     
+     for(file_subdir_date in file_subdirs_dates){
+       if(file_subdir_date != file_subdirs_dates)
+         file_subdirs_dates = c(file_subdirs_dates,file_subdir_date)
+     }
+    }
+     files_paths <- c(files_paths, file_subdirs_dates)
+  
+  }
+
+   files_paths <- file.path(files_paths, "listings.csv")
+   print(files_paths)
+   listings <- 
+     do.call(rbind,
+            lapply(files_paths, read.csv, row.names=1))
   # ## Preprocess
-  # listings$bedrooms <- ifelse(listings$bedrooms >= 5, "5+", listings$bedrooms)
+  #listings$bedrooms <- ifelse(listings$bedrooms >= 5, "5+", listings$bedrooms)
   return(listings)
 }
+
+listings_read <-read_cleansed_data()
+
 
 
 
