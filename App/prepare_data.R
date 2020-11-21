@@ -114,5 +114,11 @@ read_cleansed_data <- function(){
 }
 
 
-
 listings_read <-read_cleansed_data()
+
+
+
+
+
+
+
