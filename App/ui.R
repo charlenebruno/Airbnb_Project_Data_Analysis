@@ -25,7 +25,9 @@ ui <- fluidPage(
     mainPanel(
       
       # Output: Histogram ----
-      plotOutput(outputId = "distPlot")
+      plotOutput(outputId = "distPlot"),
+      
+      textOutput("urls_data")
       
     )
   )

@@ -1,4 +1,6 @@
 # Define server logic required to draw a histogram ----
+
+source("prepare_data.R")
 server <- function(input, output) {
   
   # Histogram of the Old Faithful Geyser Data ----
@@ -9,6 +11,9 @@ server <- function(input, output) {
   # 1. It is "reactive" and therefore should be automatically
   #    re-executed when inputs (input$bins) change
   # 2. Its output type is a plot
+  
+  output$urls_data <- renderText({decompose__filtered_urls()})
+  
   output$distPlot <- renderPlot({
     
     x    <- faithful$waiting
