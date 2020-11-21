@@ -91,42 +91,28 @@ read_cleansed_data <- function(){
   countries <- c("france","germany","spain")
   
   files_paths <- c()
-  # 
+  
   # # Read data in cities between min_date and max_date
   for(country in countries){
     file_dir <- file.path(".", "data_cleansed", country)
-    
     file_subdirs_cities <- list.dirs(file_dir,recursive=FALSE)
-    file_subdirs_cities <- file_subdirs_cities[-1]
     
     for(file_subdir_city in file_subdirs_cities){
-      if(file_subdir_city != file_subdirs_cities)
-        file_subdirs_cities = c(file_subdirs_cities,file_subdir_city)
-      file_subdirs_dates <- list.dirs(file_subdirs_cities,recursive=FALSE)
-      file_subdirs_dates <- file_subdirs_dates[-1]
-     
-     for(file_subdir_date in file_subdirs_dates){
-       if(file_subdir_date != file_subdirs_dates)
-         file_subdirs_dates = c(file_subdirs_dates,file_subdir_date)
-     }
+      file_subdirs_dates <- list.dirs(file_subdir_city,recursive=FALSE)
+      files_paths <- c(files_paths, file_subdirs_dates)
     }
-     files_paths <- c(files_paths, file_subdirs_dates)
-  
   }
-
-   files_paths <- file.path(files_paths, "listings.csv")
-   print(files_paths)
-   listings <- 
-     do.call(rbind,
+  
+  files_paths <- file.path(files_paths, "listings.csv")
+  print(files_paths)
+  listings <- 
+    do.call(rbind,
             lapply(files_paths, read.csv, row.names=1))
   # ## Preprocess
-  #listings$bedrooms <- ifelse(listings$bedrooms >= 5, "5+", listings$bedrooms)
+  listings$bedrooms <- ifelse(listings$bedrooms >= 5, "5+", listings$bedrooms)
   return(listings)
 }
 
+
+
 listings_read <-read_cleansed_data()
-
-
-
-
-
