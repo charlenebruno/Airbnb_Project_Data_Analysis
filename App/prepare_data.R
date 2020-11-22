@@ -4,7 +4,9 @@ library(ggplot2)
 library(data.table)
 
 
-setwd("C:/Users/user/Documents/ING5/Data Analytics/Projet/Airbnb_Project_Data_Analysis/App")
+setwd("C:/Users/LOL/Desktop/LOIC/ECE/ING5/Data Analysis/Project/Airbnb_Project_Data_Analysis/App")
+#C:/Users/LOL/Desktop/LOIC/ECE/ING5/Data Analysis/Project/Airbnb_Project_Data_Analysis/App
+#C:/Users/user/Documents/ING5/Data Analytics/Projet/Airbnb_Project_Data_Analysis/App
 
 # a generic function to prepare data for a specific url,country,city, date
 prepare_data <- function(url,country,city,date)
@@ -82,7 +84,8 @@ clean_all_data <- function(){
   }
 }
 
-#clean_all_data()
+#Download the data 
+#clean_all_data() #Uncomment this line for the 1st running execution of the code
 
 ## Once data for multiple cities are prepared
 ## We can read these data and concatenate them together into one dataframe
@@ -104,7 +107,7 @@ read_cleansed_data <- function(){
   }
   
   files_paths <- file.path(files_paths, "listings.csv")
-  print(files_paths)
+  #print(files_paths)
   listings <- 
     do.call(rbind,
             lapply(files_paths, read.csv, row.names=1))
