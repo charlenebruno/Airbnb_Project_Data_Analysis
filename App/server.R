@@ -3,21 +3,7 @@ library(shiny)
 library(leaflet)
 source("prepare_data.R")
 
-#setwd("C:/Users/LOL/Desktop/LOIC/ECE/ING5/Data Analysis/Project/Airbnb_Project_Data_Analysis/App")
-
 server <- function(session,input, output) {
-  
-  
-  # Histogram of the Old Faithful Geyser Data ----
-  # with requested number of bins
-  # This expression that generates a histogram is wrapped in a call
-  # to renderPlot to indicate that:
-  #
-  # 1. It is "reactive" and therefore should be automatically
-  #    re-executed when inputs (input$bins) change
-  # 2. Its output type is a plot
-  
-  #output$urls_data <- renderText({decompose__filtered_urls()})
   
   # output$distPlot <- renderPlot({
   # 
@@ -29,8 +15,6 @@ server <- function(session,input, output) {
   #        main = "Histogram of waiting times")
   # 
   # })
-  
-  #output$mytable = DT::renderDataTable({mydata})
   output$my_table <- renderTable({mydata %>% 
     group_by(city) %>%
     summarise(avg = mean(availability_30))%>%
