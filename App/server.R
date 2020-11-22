@@ -17,15 +17,18 @@ server <- function(session,input, output) {
   # })
   output$my_table <- renderTable({mydata %>% 
     group_by(city) %>%
-    summarise(avg = mean(availability_30))%>%
+    summarise(avg = mean(switch(input$features,
+                                availability_30 = availability_30,
+                                revenue_30 = revenue_30,
+                                price = price)))%>%
     filter(city %in% str_split(paste0(input$checkGroup_city, collapse = ","),",", simplify = TRUE))
     })
   
+  output$text_feature_selected <- renderText({
+    paste("You have selected :",input$features)
+  })
+  
   output$text1 <- renderText({
-    # cities <- input$checkGroup_country
-    # cities <- paste(input$cities, collapse = ", ")
-    # paste("You have selected :",z)
-    #print(str_split(paste0(input$checkGroup_city, collapse = ","),",", simplify = TRUE))
     paste("You have selected :",paste(input$checkGroup_city, collapse = ", "))
     })
   

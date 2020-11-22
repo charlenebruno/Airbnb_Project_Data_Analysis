@@ -4,11 +4,11 @@ library(ggplot2)
 library(data.table)
 
 #chemin Charlène
-#setwd("C:/Users/user/Documents/ING5/Data Analytics/Projet/Airbnb_Project_Data_Analysis/App")
+setwd("C:/Users/user/Documents/ING5/Data Analytics/Projet/Airbnb_Project_Data_Analysis/App")
 #chemin Loïc
 ##setwd("C:/Users/LOL/Desktop/LOIC/ECE/ING5/Data Analysis/Project/Airbnb_Project_Data_Analysis/App")
 # chemin Pierre 
-setwd("C:/Users/Pierre/Desktop/Airbnb_Project_Data_Analysis/App")
+#setwd("C:/Users/Pierre/Desktop/Airbnb_Project_Data_Analysis/App")
 
 # a generic function to prepare data for a specific url,country,city, date
 prepare_data <- function(url,country,city,date)
@@ -40,11 +40,11 @@ prepare_data <- function(url,country,city,date)
 
   ## clean price column and transform to numeric
    listings$price <- as.numeric(str_remove(listings$price,"[$]"))
+   listings$price[is.na(listings$price)]<-0
    listings$availability_30 <- as.numeric(listings$availability_30)
    listings$availability_30[is.na(listings$availability_30)]<-30
    ##Add revenue_30
    listings$revenue_30 <- listings$price *(30-listings$availability_30)
-   listings$revenue_30[is.na(listings$revenue_30)]<-0
   
   #write the cleansed data in csv
   dir.create(file.path("data_cleansed",country, city, date), recursive = TRUE)

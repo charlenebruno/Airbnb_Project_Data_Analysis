@@ -29,7 +29,6 @@ ui <- fluidPage(
                              column(4,
                                     checkboxGroupInput("checkGroup_city",
                                                        h3("Choose a city"),
-                                                       inline = TRUE,
                                                        choices = unique(mydata$city),
                                                        selected = 1)
                                     ),
@@ -37,8 +36,9 @@ ui <- fluidPage(
                              column(4,
 
                                     radioButtons("aggreg", h3("Aggregation Type"),
-                                                 choices = list("Average" = 1, "Median" = 2,
-                                                                "Histogram" = 3,"Density"=4,"Boxplot"=5),selected = 1)
+                                                 choices = c("Average", "Median",
+                                                              "Histogram","Density",
+                                                             "Boxplot"),selected = "Average")
                                     )
                         
                            ),
@@ -47,15 +47,14 @@ ui <- fluidPage(
                            fluidRow(
                              column(4,
                                     radioButtons("features", h3("Features"),
-                                                 choices = list("availability over last 30 days" = 1, "revenue" = 2,
-                                                                "price" = 3),selected = 1)
+                                                 choices = c("availability_30", "revenue_30",
+                                                                "price"),selected = "availability_30")
                              ),
                              column(4,
                                     checkboxGroupInput("dimension",
                                                        h3("Add a dimension"),
-                                                       inline = TRUE,
-                                                       choices = list("Room_Type" = 1, "nb_Bedrooms" = 2, "Neighborhood" = 3),
-                                                       selected = 1)
+                                                       choices = c("Room_Type", "nb_Bedrooms", "Neighborhood"),
+                                                       selected = "Room_Type")
                              ),
 
                            )
@@ -71,14 +70,9 @@ ui <- fluidPage(
                            
                            h3("Hello Wolrd !"),br(),
                            textOutput("text1"),
-                           # Output: Histogram ----
-                           # plotOutput(outputId = "distPlot"),
-                           # 
-                           # textOutput("urls_data"),
-                           # DT::dataTableOutput("mytable")
+                           textOutput("text_feature_selected"),
                            tableOutput("my_table"),
-                           
-                           plotOutput(outputId = "histogram_price")
+                           #plotOutput(outputId = "histogram_price")
                          )
                        )
               ),#End of Tab1
