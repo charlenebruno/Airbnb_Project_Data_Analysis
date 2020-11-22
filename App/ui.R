@@ -30,7 +30,7 @@ ui <- fluidPage(
                                     checkboxGroupInput("checkGroup_city",
                                                        h3("Choose a city"),
                                                        choices = unique(mydata$city),
-                                                       selected = 1)
+                                                       selected = "bordeaux")
                                     ),
 
                              column(4,
@@ -51,13 +51,24 @@ ui <- fluidPage(
                                                                 "price"),selected = "availability_30")
                              ),
                              column(4,
-                                    checkboxGroupInput("dimension",
+                                    radioButtons("dimension",
                                                        h3("Add a dimension"),
-                                                       choices = c("Room_Type", "nb_Bedrooms", "Neighborhood"),
-                                                       selected = "Room_Type")
+                                                       choices = c("None", "Room_Type", "nb_Bedrooms", "Neighborhood"),
+                                                       selected = "None")
                              ),
 
-                           )
+                           ),
+                           fluidRow(
+                             column(10,
+                                    dateRangeInput("date_range", h3("Date range"), start  = min(mydata$date),
+                                                   end    = max(mydata$date),
+                                                   min    = min(mydata$date),
+                                                   max    = max(mydata$date))),
+                             column(10,
+                                    sliderInput("slider2", "",
+                                                min = 0, max = 100, value = c(25, 75)))
+                             )
+                           
                            
                            
 
@@ -72,7 +83,7 @@ ui <- fluidPage(
                            textOutput("text1"),
                            textOutput("text_feature_selected"),
                            tableOutput("my_table"),
-                           #plotOutput(outputId = "histogram_price")
+                           plotOutput(outputId = "plot_tab1")
                          )
                        )
               ),#End of Tab1
@@ -86,7 +97,11 @@ ui <- fluidPage(
                                       choices = unique(mydata$city),
                                       selected = 1),
                            selectInput("select_date2",
-                                       "Select a date",choices ="", selected = "")
+                                       "Select a date",choices ="", selected = ""),
+                           radioButtons("dimension_tab2",
+                                        h3("Select a dimension for the histogram"),
+                                        choices = c("Room_Type", "nb_Bedrooms", "Neighborhood"),
+                                        selected = "Room_Type")
                          ),
                            
                          
@@ -94,7 +109,8 @@ ui <- fluidPage(
                          mainPanel(
                            textOutput("text2"),
                             
-                           leafletOutput("mymap")
+                           leafletOutput("mymap"),
+                           plotOutput(outputId = "plot_tab2")
                          )
                        )
                        
