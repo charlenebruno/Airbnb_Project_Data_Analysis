@@ -7,7 +7,7 @@ source("prepare_data.R")
 # Define UI for app that draws a histogram ----
 ui <- fluidPage(
   # App title ----
-  titlePanel("Hello Shiny!"),
+  titlePanel("Airbnb Analysis"),
   
   tabsetPanel(type = "tabs",
               tabPanel("Tab 1  (Analysis 1 - Comparing cities)",
@@ -35,7 +35,7 @@ ui <- fluidPage(
                                     ),
                              column(3,
                                     radioButtons("features", h3("Features"),
-                                                 choices = list("availability over last 30 days" = 1, "revenue" = 2,
+                                                 choices = list("availability_30" = 1, "revenue_30" = 2,
                                                                 "price" = 3),selected = 1)
                              ),
                              column(3,
@@ -81,7 +81,7 @@ ui <- fluidPage(
                          # Main panel for displaying outputs ----
                          mainPanel(
                            textOutput("text2"),
-                           # 
+                            
                            leafletOutput("mymap")
                          )
                        )
