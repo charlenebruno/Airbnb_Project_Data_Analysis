@@ -67,6 +67,8 @@ ui <- fluidPage(
                          
                          # Main panel for displaying outputs ----
                          mainPanel(
+                           
+                           
                            h3("Hello Wolrd !"),br(),
                            textOutput("text1"),
                            # Output: Histogram ----
@@ -74,7 +76,9 @@ ui <- fluidPage(
                            # 
                            # textOutput("urls_data"),
                            # DT::dataTableOutput("mytable")
-                           tableOutput("my_table")
+                           tableOutput("my_table"),
+                           
+                           plotOutput(outputId = "histogram_price")
                          )
                        )
               ),#End of Tab1

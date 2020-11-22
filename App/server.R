@@ -29,6 +29,16 @@ server <- function(session,input, output) {
     paste("You have selected :",paste(input$checkGroup_city, collapse = ", "))
     })
   
+  output$histogram_price <- renderPlot({
+    city <- mydata %>% group_by(city) %>%filter(city=="barcelona")
+    x <- city$price
+    # bins <- seq(min(x), max(x), length.out = input$bins + 1)
+    #breaks = bins
+    hist(x, col = "#75AADB", border = "white",
+         xlab = "price",
+         main = "Histogram price")
+  })
+  
   output$text2 <- renderText(paste("You have selected",input$select_city))
 
   output$mymap <- renderLeaflet({

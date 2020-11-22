@@ -4,11 +4,11 @@ library(ggplot2)
 library(data.table)
 
 #chemin Charlène
-setwd("C:/Users/user/Documents/ING5/Data Analytics/Projet/Airbnb_Project_Data_Analysis/App")
+#setwd("C:/Users/user/Documents/ING5/Data Analytics/Projet/Airbnb_Project_Data_Analysis/App")
 #chemin Loïc
 ##setwd("C:/Users/LOL/Desktop/LOIC/ECE/ING5/Data Analysis/Project/Airbnb_Project_Data_Analysis/App")
 # chemin Pierre 
-#setwd("C:/Users/Pierre/Desktop/Airbnb_Project_Data_Analysis/App")
+setwd("C:/Users/Pierre/Desktop/Airbnb_Project_Data_Analysis/App")
 
 # a generic function to prepare data for a specific url,country,city, date
 prepare_data <- function(url,country,city,date)
