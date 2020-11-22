@@ -60,12 +60,9 @@ ui <- fluidPage(
                            ),
                            fluidRow(
                              column(10,
-                                    dateRangeInput("date_range", h3("Date range"), start  = min(mydata$date),
-                                                   end    = max(mydata$date),
-                                                   min    = min(mydata$date),
-                                                   max    = max(mydata$date))),
+                                    dateRangeInput("date_range", h3("Date range"))),
                              column(10,
-                                    sliderInput("slider2", "",
+                                    sliderInput("slider2", "Zoom in/out the graph",
                                                 min = 0, max = 100, value = c(25, 75)))
                              )
                            

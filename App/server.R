@@ -5,72 +5,7 @@ source("prepare_data.R")
 
 server <- function(session,input, output) {
   
-  # output$distPlot <- renderPlot({
-  # 
-  #   x    <- faithful$waiting
-  #   bins <- seq(min(x), max(x), length.out = input$bins + 1)
-  # 
-  #   hist(x, breaks = bins, col = "#75AADB", border = "white",
-  #        xlab = "Waiting time to next eruption (in mins)",
-  #        main = "Histogram of waiting times")
-  # 
-  # })
-  
-  
-  output$my_table <- renderTable({
-    if (input$dimension == "None"){
-      if (input$aggreg == "Average") {
-        mydata %>% 
-          group_by(city) %>%
-          summarise(avg = mean(switch(input$features,
-                                      availability_30 = availability_30,
-                                      revenue_30 = revenue_30,
-                                      price = price)))%>%
-          filter(city %in% str_split(paste0(input$checkGroup_city, collapse = ","),",", simplify = TRUE))
-      }
-      else if(input$aggreg == "Median"){
-        mydata %>% 
-          group_by(city) %>%
-          summarise(Median = median(switch(input$features,
-                                           availability_30 = availability_30,
-                                           revenue_30 = revenue_30,
-                                           price = price)))%>%
-          filter(city %in% str_split(paste0(input$checkGroup_city, collapse = ","),",", simplify = TRUE))
-      }
-    }
-    
-    #IF another dimension was selected
-    else{
-      if (input$aggreg == "Average") {
-        mydata %>% 
-          filter(!is.na(bedrooms)) %>%
-          group_by(city, dimension =switch(input$dimension, 
-                               Room_Type = room_type, 
-                               nb_Bedrooms = bedrooms,
-                               Neighborhood = neighbourhood_cleansed)) %>%
-          summarise(avg = mean(switch(input$features,
-                                      availability_30 = availability_30,
-                                      revenue_30 = revenue_30,
-                                      price = price)))%>%
-          filter(city %in% str_split(paste0(input$checkGroup_city, collapse = ","),",", simplify = TRUE))
-      }
-      else if(input$aggreg == "Median"){
-        mydata %>% 
-          filter(!is.na(bedrooms)) %>%
-          group_by(city,dimension =switch(input$dimension,
-                               Room_Type = room_type, 
-                               nb_Bedrooms = bedrooms,
-                               Neighborhood = neighbourhood_cleansed)) %>%
-          summarise(Median = median(switch(input$features,
-                                           availability_30 = availability_30,
-                                           revenue_30 = revenue_30,
-                                           price = price)))%>%
-          filter(city %in% str_split(paste0(input$checkGroup_city, collapse = ","),",", simplify = TRUE))
-      }
-    }
-    
-   
-    })
+  #OUTPUT FOR TAB1
   
   output$text_feature_selected <- renderText({
     paste("You have selected the feature :",input$features)
@@ -78,17 +13,79 @@ server <- function(session,input, output) {
   
   output$text1 <- renderText({
     paste("You have selected the cities :",paste(input$checkGroup_city, collapse = ", "))
-    })
+  })
+  
+  
+  
+  mydata_cities_selected_tab1 <- reactive({#the data is filtered by the cities selected by the user
+    mydata %>% filter(city %in% str_split(paste0(input$checkGroup_city, collapse = ","),",", simplify = TRUE),!is.na(bedrooms))
+  })
+  
+  mydata_filtered_by_date_tab1 <- reactive({ 
+    mydata_cities_selected_tab1() %>% #the data is filtered by date and cities selected by the user
+      filter(date >= input$date_range[1], date <= input$date_range[2])
+  })
+  
+  output$my_table <- renderTable({
+    if (input$dimension == "None"){
+      if (input$aggreg == "Average") {
+        mydata_filtered_by_date_tab1()%>%
+          group_by(city) %>%
+          summarise(avg = mean(switch(input$features,
+                                      availability_30 = availability_30,
+                                      revenue_30 = revenue_30,
+                                      price = price)))
+      }
+      else if(input$aggreg == "Median"){
+        mydata_filtered_by_date_tab1()%>% 
+          group_by(city) %>%
+          summarise(Median = median(switch(input$features,
+                                           availability_30 = availability_30,
+                                           revenue_30 = revenue_30,
+                                           price = price)))
+      }
+    }
+    
+    #IF another dimension was selected
+    else{
+      if (input$aggreg == "Average") {
+        mydata_filtered_by_date_tab1()%>%
+          group_by(city, dimension =switch(input$dimension, 
+                               Room_Type = room_type, 
+                               nb_Bedrooms = bedrooms,
+                               Neighborhood = neighbourhood_cleansed)) %>%
+          summarise(avg = mean(switch(input$features,
+                                      availability_30 = availability_30,
+                                      revenue_30 = revenue_30,
+                                      price = price)))
+      }
+      else if(input$aggreg == "Median"){
+        mydata_filtered_by_date_tab1()%>%
+          group_by(city,dimension =switch(input$dimension,
+                               Room_Type = room_type, 
+                               nb_Bedrooms = bedrooms,
+                               Neighborhood = neighbourhood_cleansed)) %>%
+          summarise(Median = median(switch(input$features,
+                                           availability_30 = availability_30,
+                                           revenue_30 = revenue_30,
+                                           price = price)))
+      }
+    }
+    
+   
+    })#END OF TABLE
+  
+  
   
   output$plot_tab1 <- renderPlot({
-    DATA <- mydata %>% 
-      filter(city %in% str_split(paste0(input$checkGroup_city, collapse = ","),",", simplify = TRUE), !is.na(bedrooms))
+    # DATA <- mydata %>% 
+    #   filter(city %in% str_split(paste0(input$checkGroup_city, collapse = ","),",", simplify = TRUE), !is.na(bedrooms))
     
     if(input$aggreg == "Histogram"){ 
       qplot(switch(input$features,
                    availability_30 = availability_30,
                    revenue_30 = revenue_30,
-                   price = price),data=DATA,geom="histogram", xlab=input$features, 
+                   price = price),data=mydata_filtered_by_date_tab1(),geom="histogram", xlab=input$features, 
             fill=switch(input$dimension,
                         None = NULL, 
                         Room_Type = room_type, 
@@ -103,7 +100,7 @@ server <- function(session,input, output) {
                      availability_30 = availability_30,
                      revenue_30 = revenue_30,
                      price = price),
-              data=DATA,geom="density", xlab=input$features, 
+              data=mydata_filtered_by_date_tab1(),geom="density", xlab=input$features, 
               color=city)
       }
       else{
@@ -111,7 +108,7 @@ server <- function(session,input, output) {
                      availability_30 = availability_30,
                      revenue_30 = revenue_30,
                      price = price),
-              data=DATA,geom="density", xlab=input$features, 
+              data=mydata_filtered_by_date_tab1(),geom="density", xlab=input$features, 
               color=switch(input$dimension,
                            None = NULL, 
                            Room_Type = room_type, 
@@ -124,19 +121,19 @@ server <- function(session,input, output) {
     
     else if(input$aggreg == "Boxplot"){
       if (input$dimension == "None"){
-        p <- ggplot(DATA, aes(city, switch(input$features,
+        p <- ggplot(mydata_filtered_by_date_tab1(), aes(city, switch(input$features,
                                            availability_30 = availability_30,
                                            revenue_30 = revenue_30,
                                            price = price)))
         p + geom_boxplot(aes(colour = "red"), outlier.shape = NA) +
           scale_y_continuous(limits = quantile(switch(input$features,
-                                                      availability_30 = DATA$availability_30,
-                                                      revenue_30 = DATA$revenue_30,
-                                                      price = DATA$price), c(0.1, 0.9), na.rm = T))+
+                                                      availability_30 = mydata_filtered_by_date_tab1()$availability_30,
+                                                      revenue_30 = mydata_filtered_by_date_tab1()$revenue_30,
+                                                      price = mydata_filtered_by_date_tab1()$price), c(0.1, 0.9), na.rm = T))+
           ylab(input$features)
       }
       else{
-        p <- ggplot(DATA, aes(switch(input$dimension,
+        p <- ggplot(mydata_filtered_by_date_tab1(), aes(switch(input$dimension,
                                      None = NULL, 
                                      Room_Type = room_type, 
                                      nb_Bedrooms = bedrooms,
@@ -147,15 +144,18 @@ server <- function(session,input, output) {
                                            price = price)))
         p + geom_boxplot(aes(colour = "red"), outlier.shape = NA) +
           scale_y_continuous(limits = quantile(switch(input$features,
-                                                      availability_30 = DATA$availability_30,
-                                                      revenue_30 = DATA$revenue_30,
-                                                      price = DATA$price), c(0.1, 0.9), na.rm = T))+
+                                                      availability_30 = mydata_filtered_by_date_tab1()$availability_30,
+                                                      revenue_30 = mydata_filtered_by_date_tab1()$revenue_30,
+                                                      price = mydata_filtered_by_date_tab1()$price), c(0.1, 0.9), na.rm = T))+
           ylab(input$features) + xlab(input$dimension)+ facet_wrap(~ city)+
           theme(axis.text.x=element_text(angle=90,hjust=1,vjust=0.5))
       }
       
       }
-  })
+  })#END OF PLOT_TAB1
+  
+  ###############################################################################################################################
+  #OUTPUT FOR TAB2
   
   output$text2 <- renderText(paste("You have selected",input$select_city))
 
@@ -200,13 +200,21 @@ server <- function(session,input, output) {
     updateSelectInput(session, "select_date2","Select a date", 
                       choices = mydata$date[mydata$city==input$select_city]))
   
+  min_date <- reactive({
+    min(as.vector((mydata %>% filter(city %in% str_split(paste0(input$checkGroup_city, collapse = ","),",", simplify = TRUE))%>% select(date))[,1]))
+  })
+  
+  max_date <- reactive({
+    max(as.vector((mydata %>% filter(city %in% str_split(paste0(input$checkGroup_city, collapse = ","),",", simplify = TRUE))%>% select(date))[,1]))
+  })
+  
   observeEvent(
-    input$select_city,
+    input$checkGroup_city,
     updateDateRangeInput(session, "date_range","Date range", 
-                      start  = min(as.vector((mydata %>% filter(city %in% str_split(paste0(input$checkGroup_city, collapse = ","),",", simplify = TRUE))%>% select(date))[,1])),
-                      end    = max(mydata$date),
-                      min    = min(mydata$date),
-                      max    = max(mydata$date)
+                      start  = min_date(),
+                      end    = max_date(),
+                      min    = min_date(),
+                      max    = max_date()
                       )
     )
   
