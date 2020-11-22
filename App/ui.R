@@ -24,11 +24,30 @@ ui <- fluidPage(
                            #             max = 50,
                            #             value = 30),
                            
-                           checkboxGroupInput("checkGroup_city",
-                                              h3("Choose a city"),
-                                              inline = TRUE,
-                                              choices = unique(mydata$city),
-                                              selected = 1)
+                           fluidRow(
+                             
+                             column(3,
+                                    checkboxGroupInput("checkGroup_city",
+                                                       h3("Choose a city"),
+                                                       inline = TRUE,
+                                                       choices = unique(mydata$city),
+                                                       selected = 1)
+                                    ),
+                             column(3,
+                                    radioButtons("features", h3("Features"),
+                                                 choices = list("availability over last 30 days" = 1, "revenue" = 2,
+                                                                "price" = 3),selected = 1)
+                             ),
+                             column(3,
+                                    radioButtons("aggreg", h3("Aggregation Type"),
+                                                 choices = list("Average" = 1, "Median" = 2,
+                                                                "Histogram" = 3,"Density"=4,"Boxplot"=5),selected = 1)
+                                    )
+                        
+                           )
+                           
+                           
+
                            
                          ),
                          

@@ -1,0 +1,1355 @@
+"","id","neighbourhood_cleansed","city","country","latitude","longitude","property_type","room_type","accommodates","bedrooms","beds","price","minimum_nights","maximum_nights","availability_30","date","revenue_30"
+"1",4620,"LA MALVA-ROSA","valencia","spain",39.47553,-0.32461,"Townhouse","Entire home/apt",7,4,6,150,2,365,30,"2020-05-31",0
+"2",45528,"EL SALER","valencia","spain",39.3553,-0.32387,"Condominium","Entire home/apt",4,2,3,80,15,30,0,"2020-05-31",2400
+"3",48154,"MORVEDRE","valencia","spain",39.48575,-0.37428,"Apartment","Entire home/apt",4,2,2,45,3,15,30,"2020-05-31",0
+"4",55692,"LA SEU","valencia","spain",39.47681,-0.37523,"Apartment","Entire home/apt",3,1,1,100,1,730,0,"2020-05-31",3000
+"5",100347,"ARRANCAPINS","valencia","spain",39.45965,-0.38453,"Apartment","Entire home/apt",6,3,3,100,5,10,0,"2020-05-31",3000
+"6",102524,"CABANYAL-CANYAMELAR","valencia","spain",39.47209,-0.33098,"House","Entire home/apt",16,5,16,400,3,1125,0,"2020-05-31",12000
+"7",121035,"SANT FRANCESC","valencia","spain",39.47156,-0.37603,"House","Private room",2,1,1,37,1,30,25,"2020-05-31",185
+"8",129331,"LA ROQUETA","valencia","spain",39.46848,-0.38074,"Apartment","Entire home/apt",2,1,1,55,5,150,5,"2020-05-31",1375
+"9",136378,"EL MERCAT","valencia","spain",39.47387,-0.3777,"Condominium","Entire home/apt",3,1,0,75,5,90,16,"2020-05-31",1050
+"10",137209,"LA CREU DEL GRAU","valencia","spain",39.46316,-0.34768,"Apartment","Entire home/apt",5,2,5,50,2,730,26,"2020-05-31",200
+"11",137737,"LA PETXINA","valencia","spain",39.46992,-0.39093,"Apartment","Entire home/apt",2,1,1,55,2,20,0,"2020-05-31",1650
+"12",146771,"EN CORTS","valencia","spain",39.45624,-0.36809,"House","Private room",2,1,1,32,2,30,30,"2020-05-31",0
+"13",147548,"MONT-OLIVET","valencia","spain",39.46195,-0.36063,"Apartment","Entire home/apt",11,4,9,280,2,330,27,"2020-05-31",840
+"14",149715,"CABANYAL-CANYAMELAR","valencia","spain",39.46609,-0.32673,"House","Entire home/apt",10,6,7,225,2,30,29,"2020-05-31",225
+"15",152369,"EL CARME","valencia","spain",39.47863,-0.38219,"Loft","Entire home/apt",2,0,1,60,2,365,0,"2020-05-31",1800
+"16",153375,"MONT-OLIVET","valencia","spain",39.46031,-0.35974,"Apartment","Entire home/apt",2,1,2,20,180,1125,0,"2020-05-31",600
+"17",165971,"LA ROQUETA","valencia","spain",39.4679,-0.38206,"Apartment","Entire home/apt",5,1,2,56,4,27,23,"2020-05-31",392
+"18",166315,"EL MERCAT","valencia","spain",39.47237,-0.37965,"Apartment","Entire home/apt",4,1,4,80,5,90,0,"2020-05-31",2400
+"19",169284,"NOU MOLES","valencia","spain",39.46759,-0.39067,"Apartment","Entire home/apt",3,1,1,30,1,1125,30,"2020-05-31",0
+"20",182221,"LA CREU DEL GRAU","valencia","spain",39.46167,-0.34249,"Apartment","Entire home/apt",6,2,5,90,1,1125,29,"2020-05-31",90
+"21",185398,"LA PETXINA","valencia","spain",39.47398,-0.39155,"Apartment","Entire home/apt",8,3,8,59,1,1125,0,"2020-05-31",1770
+"22",191651,"BENICALAP","valencia","spain",39.49345,-0.3933,"Condominium","Entire home/apt",8,4,5,80,3,360,1,"2020-05-31",2320
+"23",192674,"EL CARME","valencia","spain",39.48034,-0.37912,"Apartment","Entire home/apt",5,2,3,90,3,365,29,"2020-05-31",90
+"24",193326,"CABANYAL-CANYAMELAR","valencia","spain",39.47294,-0.32912,"Apartment","Private room",2,1,2,21,1,1125,29,"2020-05-31",21
+"25",222753,"EN CORTS","valencia","spain",39.4578,-0.36927,"House","Private room",3,2,2,31,2,365,0,"2020-05-31",930
+"26",225070,"CABANYAL-CANYAMELAR","valencia","spain",39.47152,-0.32993,"Apartment","Private room",2,1,3,19,1,365,30,"2020-05-31",0
+"27",231347,"EL MERCAT","valencia","spain",39.47281,-0.37767,"Apartment","Entire home/apt",6,2,3,90,1,1125,27,"2020-05-31",270
+"28",231367,"MONT-OLIVET","valencia","spain",39.45747,-0.36805,"Apartment","Entire home/apt",2,1,1,42,1,1125,0,"2020-05-31",1260
+"29",247994,"LA MALVA-ROSA","valencia","spain",39.48082,-0.32889,"Condominium","Entire home/apt",5,2,4,65,3,364,0,"2020-05-31",1950
+"30",250981,"LA CREU DEL GRAU","valencia","spain",39.46271,-0.34266,"Apartment","Entire home/apt",6,2,3,94,3,365,29,"2020-05-31",94
+"31",252608,"LA SEU","valencia","spain",39.47499,-0.3751,"Condominium","Entire home/apt",4,1,2,80,6,1125,0,"2020-05-31",2400
+"32",260929,"EXPOSICIO","valencia","spain",39.47686,-0.36422,"Apartment","Private room",2,1,1,45,2,25,29,"2020-05-31",45
+"33",260935,"EXPOSICIO","valencia","spain",39.47663,-0.36315,"Apartment","Private room",2,1,1,35,1,21,29,"2020-05-31",35
+"34",265340,"RUSSAFA","valencia","spain",39.46255,-0.37454,"Loft","Entire home/apt",2,1,1,85,2,180,14,"2020-05-31",1360
+"35",273373,"LA MALVA-ROSA","valencia","spain",39.48183,-0.32578,"Townhouse","Entire home/apt",14,4,14,270,3,365,1,"2020-05-31",7830
+"36",276455,"LA CARRASCA","valencia","spain",39.47273,-0.33993,"Apartment","Private room",1,1,1,38,2,14,30,"2020-05-31",0
+"37",288057,"MORVEDRE","valencia","spain",39.48441,-0.37405,"Apartment","Entire home/apt",3,1,1,59,3,120,29,"2020-05-31",59
+"38",308525,"EL BOTANIC","valencia","spain",39.47469,-0.38608,"Loft","Entire home/apt",3,1,2,60,4,365,30,"2020-05-31",0
+"39",313137,"RUSSAFA","valencia","spain",39.46332,-0.37462,"Apartment","Entire home/apt",4,2,2,44,3,365,23,"2020-05-31",308
+"40",338751,"EL PILAR","valencia","spain",39.47498,-0.38302,"Apartment","Entire home/apt",4,2,3,80,2,90,30,"2020-05-31",0
+"41",342806,"EL MERCAT","valencia","spain",39.47528,-0.3774,"Apartment","Private room",3,1,2,43,2,45,26,"2020-05-31",172
+"42",345690,"LA MALVA-ROSA","valencia","spain",39.48054,-0.32525,"Bed and breakfast","Private room",3,1,1,200,1,1125,30,"2020-05-31",0
+"43",345709,"EL CARME","valencia","spain",39.47863,-0.38141,"Apartment","Entire home/apt",3,1,3,50,10,365,30,"2020-05-31",0
+"44",346695,"EL CARME","valencia","spain",39.47911,-0.37716,"Apartment","Entire home/apt",4,2,2,75,2,365,29,"2020-05-31",75
+"45",349904,"EL CARME","valencia","spain",39.4787,-0.38099,"Loft","Entire home/apt",4,2,2,90,3,365,30,"2020-05-31",0
+"46",359710,"LA CREU DEL GRAU","valencia","spain",39.46056,-0.3421,"Apartment","Entire home/apt",4,2,2,39,3,180,0,"2020-05-31",1170
+"47",361016,"ARRANCAPINS","valencia","spain",39.46241,-0.38445,"Apartment","Entire home/apt",6,3,5,71,2,180,30,"2020-05-31",0
+"48",364517,"CIUTAT DE LES ARTS I DE LES CIENCIES","valencia","spain",39.45496,-0.3588,"Apartment","Private room",2,1,2,40,2,10,0,"2020-05-31",1200
+"49",364906,"MARXALENES","valencia","spain",39.48522,-0.38525,"Apartment","Entire home/apt",4,3,3,50,6,1125,30,"2020-05-31",0
+"50",377455,"RUSSAFA","valencia","spain",39.46357,-0.37417,"Loft","Entire home/apt",3,1,3,45,3,330,0,"2020-05-31",1350
+"51",379870,"SANT FRANCESC","valencia","spain",39.47146,-0.37729,"Apartment","Entire home/apt",2,1,2,120,3,330,27,"2020-05-31",360
+"52",379871,"SANT FRANCESC","valencia","spain",39.47146,-0.37729,"Apartment","Entire home/apt",6,3,6,270,3,330,28,"2020-05-31",540
+"53",396062,"NOU MOLES","valencia","spain",39.47292,-0.402,"Apartment","Entire home/apt",4,2,3,80,2,1125,1,"2020-05-31",2320
+"54",407451,"EL SALER","valencia","spain",39.35878,-0.31932,"Condominium","Entire home/apt",3,1,1,60,100,1125,28,"2020-05-31",120
+"55",414667,"EL MERCAT","valencia","spain",39.47516,-0.37712,"Apartment","Entire home/apt",6,3,4,160,2,1125,12,"2020-05-31",2880
+"56",421405,"EL MERCAT","valencia","spain",39.47415,-0.37746,"Apartment","Private room",1,1,1,29,2,30,26,"2020-05-31",116
+"57",437683,"SANT FRANCESC","valencia","spain",39.47146,-0.37729,"Apartment","Entire home/apt",2,1,2,100,3,330,27,"2020-05-31",300
+"58",447232,"EL MERCAT","valencia","spain",39.47302,-0.37897,"Apartment","Entire home/apt",4,1,2,75,3,365,30,"2020-05-31",0
+"59",448856,"MONT-OLIVET","valencia","spain",39.46039,-0.36252,"Apartment","Private room",2,2,3,24,2,5,28,"2020-05-31",48
+"60",455833,"ARRANCAPINS","valencia","spain",39.46191,-0.38468,"Apartment","Entire home/apt",4,2,3,60,2,30,17,"2020-05-31",780
+"61",462101,"EL PERELLONET","valencia","spain",39.29159,-0.28473,"Apartment","Private room",5,1,4,125,1,1125,29,"2020-05-31",125
+"62",467151,"BENICALAP","valencia","spain",39.49236,-0.39944,"Condominium","Entire home/apt",3,1,2,75,2,1125,30,"2020-05-31",0
+"63",472858,"CIUTAT JARDI","valencia","spain",39.47409,-0.34397,"Apartment","Private room",4,1,0,20,3,365,30,"2020-05-31",0
+"64",476415,"PENYA-ROJA","valencia","spain",39.46118,-0.35395,"Apartment","Entire home/apt",5,2,3,70,2,90,23,"2020-05-31",490
+"65",478752,"SANT PAU","valencia","spain",39.49038,-0.40433,"Apartment","Entire home/apt",4,1,3,60,4,400,30,"2020-05-31",0
+"66",480180,"SANT FRANCESC","valencia","spain",39.47146,-0.37729,"Apartment","Entire home/apt",2,1,2,100,3,330,27,"2020-05-31",300
+"67",480218,"SANT FRANCESC","valencia","spain",39.47146,-0.37729,"Apartment","Entire home/apt",2,1,2,120,3,330,27,"2020-05-31",360
+"68",487638,"EL PLA DEL REMEI","valencia","spain",39.46929,-0.36488,"Apartment","Entire home/apt",2,1,1,75,2,180,0,"2020-05-31",2250
+"69",491152,"CIUTAT JARDI","valencia","spain",39.47351,-0.34618,"Apartment","Private room",1,2,1,29,1,1125,30,"2020-05-31",0
+"70",491295,"LA MALVA-ROSA","valencia","spain",39.47524,-0.32821,"Apartment","Entire home/apt",3,2,2,75,3,31,0,"2020-05-31",2250
+"71",493409,"AIORA","valencia","spain",39.46331,-0.33924,"Apartment","Entire home/apt",12,5,8,225,5,60,0,"2020-05-31",6750
+"72",503545,"PATRAIX","valencia","spain",39.46134,-0.39084,"Apartment","Private room",2,1,1,20,2,7,28,"2020-05-31",40
+"73",508758,"ARRANCAPINS","valencia","spain",39.47032,-0.38787,"Apartment","Private room",5,3,3,45,2,1125,30,"2020-05-31",0
+"74",522347,"LA SEU","valencia","spain",39.47518,-0.37514,"Apartment","Private room",2,1,2,29,2,15,23,"2020-05-31",203
+"75",524523,"EXPOSICIO","valencia","spain",39.4768,-0.3635,"Apartment","Private room",1,1,1,20,2,21,30,"2020-05-31",0
+"76",528679,"MESTALLA","valencia","spain",39.47626,-0.35548,"Apartment","Entire home/apt",7,4,5,90,10,1125,1,"2020-05-31",2610
+"77",530706,"EL PILAR","valencia","spain",39.47232,-0.38093,"Apartment","Entire home/apt",3,1,0,65,1,1125,30,"2020-05-31",0
+"78",538813,"LA CARRASCA","valencia","spain",39.4797,-0.35263,"Apartment","Entire home/apt",3,1,1,54,4,1125,29,"2020-05-31",54
+"79",542794,"LA ROQUETA","valencia","spain",39.46447,-0.38021,"Loft","Entire home/apt",3,2,3,59,30,360,0,"2020-05-31",1770
+"80",545639,"EL PLA DEL REMEI","valencia","spain",39.46808,-0.37298,"House","Private room",2,1,2,35,2,1125,28,"2020-05-31",70
+"81",549738,"EL PLA DEL REMEI","valencia","spain",39.46891,-0.37184,"House","Private room",2,1,2,45,2,1125,28,"2020-05-31",90
+"82",550630,"ARRANCAPINS","valencia","spain",39.46702,-0.38446,"Apartment","Entire home/apt",6,3,7,65,1,1125,30,"2020-05-31",0
+"83",551884,"LA SEU","valencia","spain",39.47694,-0.37708,"Apartment","Entire home/apt",6,2,3,55,1,1125,25,"2020-05-31",275
+"84",556620,"TRINITAT","valencia","spain",39.48461,-0.36856,"Apartment","Private room",1,1,1,20,2,31,29,"2020-05-31",20
+"85",556631,"EL PILAR","valencia","spain",39.47205,-0.38189,"Guest suite","Entire home/apt",8,3,6,200,7,364,23,"2020-05-31",1400
+"86",557514,"CIUTAT JARDI","valencia","spain",39.47037,-0.34425,"Apartment","Private room",2,1,2,45,1,1125,29,"2020-05-31",45
+"87",558480,"LA SEU","valencia","spain",39.47656,-0.37791,"Apartment","Entire home/apt",4,1,2,49,1,1125,28,"2020-05-31",98
+"88",558778,"RUSSAFA","valencia","spain",39.46321,-0.36776,"Apartment","Entire home/apt",6,3,4,122,2,15,22,"2020-05-31",976
+"89",559966,"EL MERCAT","valencia","spain",39.47427,-0.37864,"Apartment","Entire home/apt",4,2,3,65,4,1125,0,"2020-05-31",1950
+"90",579273,"SANT FRANCESC","valencia","spain",39.4708,-0.38262,"Loft","Entire home/apt",3,1,2,48,2,365,30,"2020-05-31",0
+"91",587429,"MONT-OLIVET","valencia","spain",39.45958,-0.36478,"Apartment","Entire home/apt",2,1,2,40,3,40,0,"2020-05-31",1200
+"92",588848,"LA ROQUETA","valencia","spain",39.46619,-0.37963,"Apartment","Entire home/apt",2,1,2,50,2,1125,30,"2020-05-31",0
+"93",589007,"RUSSAFA","valencia","spain",39.46316,-0.37492,"Apartment","Entire home/apt",5,2,4,100,2,1125,30,"2020-05-31",0
+"94",595233,"SANT PAU","valencia","spain",39.4743,-0.40862,"Condominium","Entire home/apt",3,1,1,39,2,1125,30,"2020-05-31",0
+"95",607073,"CABANYAL-CANYAMELAR","valencia","spain",39.47274,-0.32932,"Apartment","Private room",5,1,1,120,5,30,30,"2020-05-31",0
+"96",612457,"LA ROQUETA","valencia","spain",39.46773,-0.37844,"Apartment","Entire home/apt",4,1,1,35,1,1125,30,"2020-05-31",0
+"97",620433,"EL CARME","valencia","spain",39.47812,-0.38213,"Apartment","Entire home/apt",4,2,5,60,2,1125,0,"2020-05-31",1800
+"98",633762,"LA SEU","valencia","spain",39.4787,-0.37599,"Loft","Entire home/apt",4,0,2,95,2,180,30,"2020-05-31",0
+"99",641695,"RUSSAFA","valencia","spain",39.46349,-0.37538,"Apartment","Private room",2,1,1,60,31,31,0,"2020-05-31",1800
+"100",643644,"RUSSAFA","valencia","spain",39.46227,-0.37798,"Apartment","Entire home/apt",3,1,1,69,1,30,0,"2020-05-31",2070
+"101",657566,"EL MERCAT","valencia","spain",39.47608,-0.3792,"Apartment","Entire home/apt",6,2,5,15,1,1125,25,"2020-05-31",75
+"102",657794,"EN CORTS","valencia","spain",39.45643,-0.37432,"Apartment","Entire home/apt",6,3,4,61,2,365,30,"2020-05-31",0
+"103",658275,"SANT FRANCESC","valencia","spain",39.47107,-0.37297,"Apartment","Private room",2,1,2,34,2,700,29,"2020-05-31",34
+"104",662934,"LA ROQUETA","valencia","spain",39.46983,-0.38299,"Apartment","Entire home/apt",8,4,5,120,5,30,0,"2020-05-31",3600
+"105",663047,"CAMI FONDO","valencia","spain",39.46565,-0.35466,"Apartment","Entire home/apt",4,2,2,85,3,1125,24,"2020-05-31",510
+"106",665208,"CABANYAL-CANYAMELAR","valencia","spain",39.46721,-0.32721,"Loft","Entire home/apt",2,1,4,59,6,30,28,"2020-05-31",118
+"107",666386,"LA CREU DEL GRAU","valencia","spain",39.46389,-0.34643,"Apartment","Entire home/apt",4,1,4,31,5,1125,16,"2020-05-31",434
+"108",666994,"ARRANCAPINS","valencia","spain",39.46739,-0.38957,"Apartment","Entire home/apt",7,3,7,50,2,1125,0,"2020-05-31",1500
+"109",671096,"RUSSAFA","valencia","spain",39.46206,-0.37578,"Apartment","Private room",1,1,1,40,2,3,28,"2020-05-31",80
+"110",672212,"EL GRAU","valencia","spain",39.4586,-0.33802,"Bungalow","Entire home/apt",4,2,3,120,6,30,23,"2020-05-31",840
+"111",672551,"EL BOTANIC","valencia","spain",39.47404,-0.38558,"Loft","Entire home/apt",10,5,9,195,2,1125,29,"2020-05-31",195
+"112",676386,"LES TENDETES","valencia","spain",39.48311,-0.38521,"House","Entire home/apt",4,1,2,150,4,30,0,"2020-05-31",4500
+"113",681002,"CIUTAT DE LES ARTS I DE LES CIENCIES","valencia","spain",39.45911,-0.35788,"Apartment","Private room",2,1,1,37,3,330,30,"2020-05-31",0
+"114",681925,"EL MERCAT","valencia","spain",39.47321,-0.38044,"Loft","Entire home/apt",2,1,2,100,2,10,21,"2020-05-31",900
+"115",682219,"SANT ANTONI","valencia","spain",39.48763,-0.37592,"Apartment","Entire home/apt",4,1,2,55,3,25,0,"2020-05-31",1650
+"116",684439,"EL MERCAT","valencia","spain",39.47531,-0.37852,"Apartment","Entire home/apt",7,3,5,60,1,1125,28,"2020-05-31",120
+"117",685153,"EN CORTS","valencia","spain",39.4553,-0.37444,"Apartment","Entire home/apt",6,4,5,125,4,200,29,"2020-05-31",125
+"118",688130,"L'AMISTAT","valencia","spain",39.47246,-0.3535,"Apartment","Entire home/apt",7,4,7,115,4,150,29,"2020-05-31",115
+"119",698472,"EL GRAU","valencia","spain",39.46204,-0.33498,"Apartment","Entire home/apt",5,3,3,48,3,1125,30,"2020-05-31",0
+"120",698779,"RUSSAFA","valencia","spain",39.45971,-0.37143,"House","Private room",4,2,2,35,1,10,30,"2020-05-31",0
+"121",714886,"EL PERELLONET","valencia","spain",39.30509,-0.29351,"Apartment","Entire home/apt",5,3,4,90,1,1125,30,"2020-05-31",0
+"122",716081,"RUSSAFA","valencia","spain",39.4607,-0.37628,"Apartment","Entire home/apt",5,3,4,95,31,1125,29,"2020-05-31",95
+"123",717770,"SANT FRANCESC","valencia","spain",39.47029,-0.37473,"Apartment","Entire home/apt",4,2,3,120,2,365,0,"2020-05-31",3600
+"124",719547,"CABANYAL-CANYAMELAR","valencia","spain",39.47416,-0.32857,"Apartment","Entire home/apt",6,3,4,70,2,90,29,"2020-05-31",70
+"125",720307,"EL BOTANIC","valencia","spain",39.47572,-0.38478,"Apartment","Entire home/apt",2,1,1,30,2,300,29,"2020-05-31",30
+"126",724380,"EL MERCAT","valencia","spain",39.4742,-0.3807,"Apartment","Entire home/apt",5,2,3,55,1,1125,30,"2020-05-31",0
+"127",730074,"SANT FRANCESC","valencia","spain",39.4712,-0.3785,"Apartment","Entire home/apt",6,2,5,125,2,365,30,"2020-05-31",0
+"128",733452,"EL MERCAT","valencia","spain",39.4746,-0.37827,"Apartment","Entire home/apt",6,3,7,60,1,1125,25,"2020-05-31",300
+"129",737684,"MONT-OLIVET","valencia","spain",39.45811,-0.36828,"Apartment","Entire home/apt",6,3,4,55,2,1001,29,"2020-05-31",55
+"130",739558,"MONT-OLIVET","valencia","spain",39.45781,-0.36583,"Apartment","Entire home/apt",5,3,4,55,3,1125,30,"2020-05-31",0
+"131",739981,"LA MALVA-ROSA","valencia","spain",39.47956,-0.32654,"House","Entire home/apt",16,5,16,NA,2,1125,30,"2020-05-31",0
+"132",747069,"RUSSAFA","valencia","spain",39.46027,-0.37166,"Apartment","Private room",2,1,3,25,2,14,30,"2020-05-31",0
+"133",747076,"RUSSAFA","valencia","spain",39.46088,-0.37291,"Apartment","Private room",2,1,3,25,1,21,30,"2020-05-31",0
+"134",754961,"LA ROQUETA","valencia","spain",39.46662,-0.38124,"Apartment","Entire home/apt",4,2,4,125,2,365,12,"2020-05-31",2250
+"135",756434,"EL CARME","valencia","spain",39.478,-0.379,"Apartment","Entire home/apt",2,1,1,110,2,365,0,"2020-05-31",3300
+"136",756440,"SANT FRANCESC","valencia","spain",39.46949,-0.37918,"Apartment","Entire home/apt",10,5,9,180,2,365,27,"2020-05-31",540
+"137",760857,"EL MERCAT","valencia","spain",39.47305,-0.38039,"Apartment","Entire home/apt",4,1,2,75,14,365,22,"2020-05-31",600
+"138",762006,"EL SALER","valencia","spain",39.35806,-0.32068,"Apartment","Entire home/apt",4,2,4,40,2,90,20,"2020-05-31",400
+"139",770166,"ARRANCAPINS","valencia","spain",39.46177,-0.37978,"Apartment","Private room",2,1,1,16,20,1125,30,"2020-05-31",0
+"140",772085,"EXPOSICIO","valencia","spain",39.47663,-0.3652,"Apartment","Private room",2,1,1,30,1,1125,0,"2020-05-31",900
+"141",772380,"EL MERCAT","valencia","spain",39.47391,-0.37675,"Loft","Entire home/apt",2,1,1,69,3,365,26,"2020-05-31",276
+"142",776819,"EL CARME","valencia","spain",39.47668,-0.37992,"Loft","Entire home/apt",4,1,2,59,2,1125,29,"2020-05-31",59
+"143",779542,"ELS ORRIOLS","valencia","spain",39.49438,-0.37139,"Apartment","Entire home/apt",6,2,0,26,10,1125,0,"2020-05-31",780
+"144",782199,"EL GRAU","valencia","spain",39.45912,-0.33459,"Apartment","Entire home/apt",10,5,8,140,3,30,28,"2020-05-31",280
+"145",782942,"EL MERCAT","valencia","spain",39.47384,-0.37677,"Loft","Entire home/apt",2,1,1,69,3,365,20,"2020-05-31",690
+"146",790900,"CABANYAL-CANYAMELAR","valencia","spain",39.46682,-0.32584,"Apartment","Entire home/apt",16,6,10,470,2,365,27,"2020-05-31",1410
+"147",793674,"LA MALVA-ROSA","valencia","spain",39.47685,-0.32738,"Apartment","Private room",2,1,1,29,3,1125,29,"2020-05-31",29
+"148",796840,"CABANYAL-CANYAMELAR","valencia","spain",39.46957,-0.32641,"Apartment","Entire home/apt",8,3,5,250,3,365,30,"2020-05-31",0
+"149",796848,"CABANYAL-CANYAMELAR","valencia","spain",39.46969,-0.32592,"Apartment","Entire home/apt",8,3,5,250,3,365,27,"2020-05-31",750
+"150",802383,"LA MALVA-ROSA","valencia","spain",39.48216,-0.32816,"Apartment","Entire home/apt",4,2,3,33,7,1124,0,"2020-05-31",990
+"151",824917,"EL MERCAT","valencia","spain",39.47608,-0.37965,"Apartment","Entire home/apt",5,2,4,15,1,1125,24,"2020-05-31",90
+"152",832274,"SANT FRANCESC","valencia","spain",39.47119,-0.37211,"Condominium","Entire home/apt",3,1,2,67,3,180,1,"2020-05-31",1943
+"153",846465,"LA MALVA-ROSA","valencia","spain",39.48333,-0.32833,"Apartment","Entire home/apt",4,3,4,65,2,150,0,"2020-05-31",1950
+"154",852911,"RUSSAFA","valencia","spain",39.45832,-0.37453,"Apartment","Private room",4,1,3,25,16,150,11,"2020-05-31",475
+"155",853840,"LA SEU","valencia","spain",39.47385,-0.37554,"Loft","Entire home/apt",4,1,2,50,2,1125,0,"2020-05-31",1500
+"156",868370,"ARRANCAPINS","valencia","spain",39.46772,-0.38593,"Apartment","Entire home/apt",8,3,7,240,2,365,15,"2020-05-31",3600
+"157",868554,"EL BOTANIC","valencia","spain",39.47738,-0.38448,"Apartment","Entire home/apt",4,2,2,60,20,1125,0,"2020-05-31",1800
+"158",868779,"ARRANCAPINS","valencia","spain",39.46858,-0.38441,"Apartment","Entire home/apt",6,3,5,131,2,365,0,"2020-05-31",3930
+"159",870369,"ARRANCAPINS","valencia","spain",39.4674,-0.38398,"Apartment","Entire home/apt",8,3,5,130,3,1125,0,"2020-05-31",3900
+"160",880307,"LA RAIOSA","valencia","spain",39.45987,-0.38732,"Apartment","Entire home/apt",3,2,2,45,3,365,28,"2020-05-31",90
+"161",887909,"EL MERCAT","valencia","spain",39.47384,-0.38108,"Apartment","Entire home/apt",4,1,2,49,1,1125,29,"2020-05-31",49
+"162",888045,"EL MERCAT","valencia","spain",39.47418,-0.38099,"Apartment","Entire home/apt",4,1,2,49,1,1125,20,"2020-05-31",490
+"163",888048,"EL PILAR","valencia","spain",39.47549,-0.38281,"Apartment","Entire home/apt",4,1,2,69,1,1125,30,"2020-05-31",0
+"164",891288,"LA PETXINA","valencia","spain",39.47531,-0.38849,"Apartment","Private room",1,1,0,30,1,30,30,"2020-05-31",0
+"165",896304,"EL PERELLONET","valencia","spain",39.29705,-0.28734,"Loft","Entire home/apt",4,2,3,60,2,90,29,"2020-05-31",60
+"166",899254,"EL PILAR","valencia","spain",39.47551,-0.38168,"Apartment","Entire home/apt",5,2,3,69,1,1125,30,"2020-05-31",0
+"167",904675,"ALBORS","valencia","spain",39.46814,-0.35562,"Apartment","Entire home/apt",3,1,1,75,3,1125,29,"2020-05-31",75
+"168",905591,"EL PILAR","valencia","spain",39.47245,-0.38346,"Apartment","Entire home/apt",3,2,2,150,2,1125,29,"2020-05-31",150
+"169",906357,"RUSSAFA","valencia","spain",39.46262,-0.37099,"Apartment","Entire home/apt",4,2,3,75,2,90,30,"2020-05-31",0
+"170",909244,"TRINITAT","valencia","spain",39.48534,-0.36717,"Apartment","Entire home/apt",2,2,2,90,30,365,30,"2020-05-31",0
+"171",909291,"LA PETXINA","valencia","spain",39.46981,-0.38881,"Apartment","Entire home/apt",3,2,2,60,4,30,26,"2020-05-31",240
+"172",909800,"EL GRAU","valencia","spain",39.46012,-0.33179,"Apartment","Entire home/apt",6,4,1,40,360,1125,30,"2020-05-31",0
+"173",920406,"RUSSAFA","valencia","spain",39.46042,-0.36814,"Apartment","Entire home/apt",7,2,3,50,1,1125,19,"2020-05-31",550
+"174",923390,"SANT FRANCESC","valencia","spain",39.46913,-0.37511,"Apartment","Entire home/apt",6,2,3,68,3,60,29,"2020-05-31",68
+"175",927457,"SANT FRANCESC","valencia","spain",39.46859,-0.37392,"Condominium","Entire home/apt",3,1,2,67,3,180,29,"2020-05-31",67
+"176",929005,"RUSSAFA","valencia","spain",39.4618,-0.37343,"Apartment","Private room",2,1,2,30,1,1125,1,"2020-05-31",870
+"177",933927,"SANT FRANCESC","valencia","spain",39.46774,-0.37434,"Apartment","Entire home/apt",3,1,2,55,2,1124,0,"2020-05-31",1650
+"178",938734,"EL MERCAT","valencia","spain",39.4749,-0.37743,"Apartment","Entire home/apt",4,1,2,49,1,1125,29,"2020-05-31",49
+"179",940297,"EL MERCAT","valencia","spain",39.47326,-0.37719,"Apartment","Entire home/apt",4,1,2,80,1,1125,30,"2020-05-31",0
+"180",943191,"RUSSAFA","valencia","spain",39.46259,-0.36997,"Apartment","Entire home/apt",4,2,4,30,2,365,28,"2020-05-31",60
+"181",949370,"ALBORS","valencia","spain",39.4663,-0.3514,"Apartment","Entire home/apt",5,2,3,84,2,1125,0,"2020-05-31",2520
+"182",953223,"RUSSAFA","valencia","spain",39.46393,-0.37324,"Apartment","Entire home/apt",5,2,5,75,1,1125,30,"2020-05-31",0
+"183",955937,"SANT PAU","valencia","spain",39.47747,-0.40027,"Loft","Entire home/apt",2,1,1,59,2,90,30,"2020-05-31",0
+"184",960147,"EL MERCAT","valencia","spain",39.47577,-0.38067,"Condominium","Entire home/apt",2,1,1,60,2,1125,30,"2020-05-31",0
+"185",969359,"NATZARET","valencia","spain",39.44945,-0.33332,"Apartment","Entire home/apt",6,3,5,32,2,180,0,"2020-05-31",960
+"186",970809,"LA SEU","valencia","spain",39.47557,-0.37743,"Apartment","Entire home/apt",3,1,1,55,3,120,25,"2020-05-31",275
+"187",971144,"LA CREU DEL GRAU","valencia","spain",39.46209,-0.34315,"Apartment","Entire home/apt",5,2,2,50,3,1125,30,"2020-05-31",0
+"188",972805,"EL PLA DEL REMEI","valencia","spain",39.46834,-0.3715,"Apartment","Entire home/apt",6,2,4,160,7,1125,29,"2020-05-31",160
+"189",975505,"BENICALAP","valencia","spain",39.49476,-0.38251,"Apartment","Private room",2,1,1,30,2,30,28,"2020-05-31",60
+"190",978387,"BENICALAP","valencia","spain",39.49504,-0.39239,"Guesthouse","Shared room",9,1,7,35,1,1125,30,"2020-05-31",0
+"191",979214,"CIUTAT FALLERA","valencia","spain",39.4969,-0.39445,"Guesthouse","Private room",9,2,7,38,1,1125,30,"2020-05-31",0
+"192",980183,"LA CREU DEL GRAU","valencia","spain",39.46051,-0.34093,"Apartment","Private room",2,1,2,20,2,7,28,"2020-05-31",40
+"193",983548,"LA ROQUETA","valencia","spain",39.46688,-0.3793,"Apartment","Entire home/apt",4,1,2,110,2,1125,4,"2020-05-31",2860
+"194",993282,"LA ROQUETA","valencia","spain",39.46469,-0.37927,"Apartment","Entire home/apt",2,1,1,45,3,1125,30,"2020-05-31",0
+"195",995182,"SANT FRANCESC","valencia","spain",39.47062,-0.37194,"Apartment","Entire home/apt",8,3,6,140,3,365,26,"2020-05-31",560
+"196",1015597,"RUSSAFA","valencia","spain",39.46368,-0.37,"Apartment","Private room",1,1,1,27,2,15,29,"2020-05-31",27
+"197",1040499,"RUSSAFA","valencia","spain",39.46034,-0.3742,"Apartment","Entire home/apt",5,3,4,91,5,1124,17,"2020-05-31",1183
+"198",1043431,"EL MERCAT","valencia","spain",39.47194,-0.3789,"Apartment","Entire home/apt",4,2,3,78,3,180,29,"2020-05-31",78
+"199",1044279,"NOU MOLES","valencia","spain",39.46908,-0.39406,"Apartment","Private room",2,1,1,37,2,60,29,"2020-05-31",37
+"200",1048051,"SANT FRANCESC","valencia","spain",39.46942,-0.37335,"Apartment","Entire home/apt",2,1,1,55,2,1125,1,"2020-05-31",1595
+"201",1075422,"SAFRANAR","valencia","spain",39.46145,-0.39847,"Apartment","Entire home/apt",2,1,1,30,1,1125,13,"2020-05-31",510
+"202",1076404,"ARRANCAPINS","valencia","spain",39.46807,-0.38445,"Apartment","Entire home/apt",2,1,1,69,2,1125,29,"2020-05-31",69
+"203",1093395,"AIORA","valencia","spain",39.46876,-0.34864,"Apartment","Entire home/apt",4,1,2,76,2,1125,30,"2020-05-31",0
+"204",1094583,"EL PILAR","valencia","spain",39.47398,-0.38285,"Condominium","Entire home/apt",2,1,2,45,2,1125,0,"2020-05-31",1350
+"205",1103471,"JAUME ROIG","valencia","spain",39.48418,-0.36353,"Apartment","Entire home/apt",5,2,4,55,2,28,18,"2020-05-31",660
+"206",1105407,"RUSSAFA","valencia","spain",39.46275,-0.36985,"House","Entire home/apt",4,2,5,69,2,10,17,"2020-05-31",897
+"207",1114098,"EL MERCAT","valencia","spain",39.47357,-0.37888,"Apartment","Entire home/apt",4,1,1,69,2,180,30,"2020-05-31",0
+"208",1115934,"PATRAIX","valencia","spain",39.4646,-0.39126,"Apartment","Entire home/apt",5,3,3,40,2,1125,0,"2020-05-31",1200
+"209",1123711,"EL MERCAT","valencia","spain",39.47448,-0.37896,"Apartment","Entire home/apt",2,1,1,40,1,1125,27,"2020-05-31",120
+"210",1133635,"CABANYAL-CANYAMELAR","valencia","spain",39.47028,-0.32718,"Townhouse","Entire home/apt",10,4,6,90,2,365,29,"2020-05-31",90
+"211",1145001,"RUSSAFA","valencia","spain",39.45886,-0.37324,"Apartment","Entire home/apt",5,3,4,43,1,1125,30,"2020-05-31",0
+"212",1147656,"SANT PAU","valencia","spain",39.48899,-0.40509,"Apartment","Entire home/apt",6,3,6,75,3,90,30,"2020-05-31",0
+"213",1151087,"LA XEREA","valencia","spain",39.4757,-0.37249,"Apartment","Entire home/apt",3,1,2,38,3,365,30,"2020-05-31",0
+"214",1161362,"CABANYAL-CANYAMELAR","valencia","spain",39.47061,-0.33059,"Apartment","Entire home/apt",4,2,2,60,2,1125,0,"2020-05-31",1800
+"215",1162150,"EL MERCAT","valencia","spain",39.47456,-0.37949,"Apartment","Entire home/apt",2,1,1,59,7,1125,0,"2020-05-31",1770
+"216",1170770,"CIUTAT JARDI","valencia","spain",39.47496,-0.34581,"Apartment","Entire home/apt",6,3,3,96,5,90,30,"2020-05-31",0
+"217",1174149,"MORVEDRE","valencia","spain",39.48241,-0.37625,"Apartment","Entire home/apt",5,2,4,70,5,1125,28,"2020-05-31",140
+"218",1191980,"RUSSAFA","valencia","spain",39.45931,-0.37675,"Apartment","Private room",2,1,1,35,1,1125,30,"2020-05-31",0
+"219",1196931,"RUSSAFA","valencia","spain",39.46021,-0.37816,"Apartment","Entire home/apt",4,1,2,40,7,1125,30,"2020-05-31",0
+"220",1198293,"EL PLA DEL REMEI","valencia","spain",39.47113,-0.36706,"Condominium","Entire home/apt",5,3,3,75,4,365,29,"2020-05-31",75
+"221",1213185,"BETERO","valencia","spain",39.46996,-0.33686,"Apartment","Entire home/apt",4,2,2,60,2,1125,0,"2020-05-31",1800
+"222",1220708,"ELS ORRIOLS","valencia","spain",39.49299,-0.37297,"Apartment","Entire home/apt",6,2,4,44,5,1125,28,"2020-05-31",88
+"223",1231911,"BETERO","valencia","spain",39.47459,-0.3351,"Apartment","Entire home/apt",3,2,3,70,6,270,1,"2020-05-31",2030
+"224",1232560,"RUSSAFA","valencia","spain",39.46169,-0.37812,"Apartment","Entire home/apt",4,2,2,55,1,1125,30,"2020-05-31",0
+"225",1245001,"EL MERCAT","valencia","spain",39.47472,-0.37742,"Apartment","Private room",2,1,2,26,2,15,23,"2020-05-31",182
+"226",1254536,"EL CARME","valencia","spain",39.47894,-0.38161,"Apartment","Entire home/apt",4,1,2,45,3,30,30,"2020-05-31",0
+"227",1255912,"PENYA-ROJA","valencia","spain",39.46287,-0.35668,"Apartment","Entire home/apt",2,1,1,60,30,60,0,"2020-05-31",1800
+"228",1257817,"ARRANCAPINS","valencia","spain",39.46771,-0.38968,"Apartment","Entire home/apt",2,1,1,70,2,1125,29,"2020-05-31",70
+"229",1257844,"LA ROQUETA","valencia","spain",39.4674,-0.38164,"Apartment","Entire home/apt",5,2,2,83,2,120,30,"2020-05-31",0
+"230",1263619,"EL PILAR","valencia","spain",39.47109,-0.38169,"Loft","Entire home/apt",4,2,2,58,3,365,29,"2020-05-31",58
+"231",1263720,"AIORA","valencia","spain",39.46416,-0.33763,"Apartment","Entire home/apt",4,2,3,55,4,1125,0,"2020-05-31",1650
+"232",1284226,"LA RAIOSA","valencia","spain",39.45604,-0.38652,"Apartment","Entire home/apt",4,2,3,90,3,365,26,"2020-05-31",360
+"233",1294249,"LA MALVA-ROSA","valencia","spain",39.47837,-0.33261,"Apartment","Entire home/apt",4,1,2,75,2,15,27,"2020-05-31",225
+"234",1302133,"LA MALVA-ROSA","valencia","spain",39.4762,-0.32556,"Townhouse","Entire home/apt",6,3,8,100,2,1125,0,"2020-05-31",3000
+"235",1304316,"EL BOTANIC","valencia","spain",39.47124,-0.38502,"Apartment","Entire home/apt",6,3,5,110,7,30,30,"2020-05-31",0
+"236",1308898,"EL CARME","valencia","spain",39.48004,-0.38199,"Apartment","Entire home/apt",5,2,3,68,2,365,11,"2020-05-31",1292
+"237",1315661,"RUSSAFA","valencia","spain",39.46229,-0.37252,"Apartment","Entire home/apt",5,2,4,49,30,1125,0,"2020-05-31",1470
+"238",1315882,"LA XEREA","valencia","spain",39.47217,-0.37257,"Apartment","Entire home/apt",2,1,1,105,2,365,0,"2020-05-31",3150
+"239",1325227,"PENYA-ROJA","valencia","spain",39.45928,-0.34506,"Apartment","Private room",2,1,2,36,3,1125,30,"2020-05-31",0
+"240",1329697,"BENIMACLET","valencia","spain",39.48641,-0.36082,"Apartment","Entire home/apt",4,2,2,55,2,1125,30,"2020-05-31",0
+"241",1331704,"RUSSAFA","valencia","spain",39.46081,-0.37696,"Apartment","Entire home/apt",3,1,2,44,2,1125,11,"2020-05-31",836
+"242",1364772,"RUSSAFA","valencia","spain",39.46176,-0.37323,"Apartment","Entire home/apt",4,2,2,59,2,1125,0,"2020-05-31",1770
+"243",1376260,"EL MERCAT","valencia","spain",39.47425,-0.37776,"Apartment","Private room",1,1,1,37,1,5,0,"2020-05-31",1110
+"244",1381562,"EL CARME","valencia","spain",39.48087,-0.38148,"Apartment","Entire home/apt",4,2,4,89,3,1125,0,"2020-05-31",2670
+"245",1381987,"EL CARME","valencia","spain",39.47845,-0.37901,"Apartment","Private room",1,1,1,25,2,60,0,"2020-05-31",750
+"246",1384462,"PENYA-ROJA","valencia","spain",39.45668,-0.34178,"Apartment","Private room",2,1,1,30,2,32,10,"2020-05-31",600
+"247",1387010,"BENICALAP","valencia","spain",39.49283,-0.38856,"Apartment","Private room",2,1,1,25,2,1125,27,"2020-05-31",75
+"248",1391621,"ARRANCAPINS","valencia","spain",39.46648,-0.38486,"Apartment","Entire home/apt",2,1,1,42,5,1125,1,"2020-05-31",1218
+"249",1398900,"CABANYAL-CANYAMELAR","valencia","spain",39.46927,-0.32838,"House","Entire home/apt",6,3,6,110,1,1125,0,"2020-05-31",3300
+"250",1400077,"LA SEU","valencia","spain",39.47723,-0.37505,"Apartment","Entire home/apt",4,2,3,55,7,1125,20,"2020-05-31",550
+"251",1419294,"EL PILAR","valencia","spain",39.47364,-0.3826,"Apartment","Entire home/apt",4,1,2,54,1,1125,30,"2020-05-31",0
+"252",1432634,"LA MALVA-ROSA","valencia","spain",39.48156,-0.33036,"Apartment","Entire home/apt",6,2,4,60,2,1125,30,"2020-05-31",0
+"253",1443990,"EL BOTANIC","valencia","spain",39.4794,-0.38493,"Apartment","Entire home/apt",2,1,1,51,2,1125,16,"2020-05-31",714
+"254",1460051,"LA GRAN VIA","valencia","spain",39.46438,-0.36599,"Apartment","Entire home/apt",4,2,3,99,2,1125,0,"2020-05-31",2970
+"255",1470620,"LA RAIOSA","valencia","spain",39.45694,-0.38575,"Apartment","Entire home/apt",5,3,4,39,6,21,29,"2020-05-31",39
+"256",1481749,"LA MALVA-ROSA","valencia","spain",39.47655,-0.32865,"Apartment","Entire home/apt",4,2,3,60,3,1125,0,"2020-05-31",1800
+"257",1499012,"LA MALVA-ROSA","valencia","spain",39.47894,-0.3275,"Apartment","Entire home/apt",4,2,3,40,2,1125,30,"2020-05-31",0
+"258",1499734,"EL PERELLONET","valencia","spain",39.28184,-0.27967,"Apartment","Entire home/apt",4,2,3,60,1,1125,0,"2020-05-31",1800
+"259",1500525,"TRINITAT","valencia","spain",39.48431,-0.36762,"Apartment","Entire home/apt",4,2,4,65,3,1125,30,"2020-05-31",0
+"260",1505174,"LA MALVA-ROSA","valencia","spain",39.47539,-0.32532,"Loft","Entire home/apt",2,1,1,100,3,15,0,"2020-05-31",3000
+"261",1534950,"CIUTAT JARDI","valencia","spain",39.47072,-0.34757,"Apartment","Private room",2,1,1,45,1,1125,30,"2020-05-31",0
+"262",1538774,"LA SEU","valencia","spain",39.47757,-0.37657,"Loft","Entire home/apt",4,1,2,79,3,1125,30,"2020-05-31",0
+"263",1546144,"SANT LLORENS","valencia","spain",39.49071,-0.36649,"Condominium","Entire home/apt",4,2,2,115,2,16,29,"2020-05-31",115
+"264",1553914,"BETERO","valencia","spain",39.47009,-0.33599,"Apartment","Private room",2,1,2,14,28,1125,30,"2020-05-31",0
+"265",1586721,"LA XEREA","valencia","spain",39.473,-0.3731,"Apartment","Entire home/apt",2,1,1,100,2,365,27,"2020-05-31",300
+"266",1587310,"BENIMACLET","valencia","spain",39.48643,-0.36135,"Apartment","Private room",1,1,1,20,1,21,29,"2020-05-31",20
+"267",1595021,"EL MERCAT","valencia","spain",39.47308,-0.37676,"Apartment","Entire home/apt",4,2,2,125,2,1125,8,"2020-05-31",2750
+"268",1595154,"SANT FRANCESC","valencia","spain",39.47166,-0.3761,"Apartment","Entire home/apt",4,2,2,125,2,1125,0,"2020-05-31",3750
+"269",1595568,"CIUTAT JARDI","valencia","spain",39.47224,-0.34614,"Other","Private room",3,1,1,45,1,1125,30,"2020-05-31",0
+"270",1622286,"AIORA","valencia","spain",39.46527,-0.35008,"Apartment","Entire home/apt",4,2,3,48,60,1090,22,"2020-05-31",384
+"271",1639276,"LA ROQUETA","valencia","spain",39.46704,-0.3789,"Apartment","Entire home/apt",8,3,4,69,3,101,29,"2020-05-31",69
+"272",1642677,"SANT ANTONI","valencia","spain",39.48686,-0.37399,"Apartment","Private room",2,1,1,55,1,1125,30,"2020-05-31",0
+"273",1644186,"ARRANCAPINS","valencia","spain",39.4679,-0.38582,"Apartment","Entire home/apt",6,3,5,170,2,1125,0,"2020-05-31",5100
+"274",1644259,"ARRANCAPINS","valencia","spain",39.46878,-0.38466,"Apartment","Entire home/apt",6,3,5,170,2,1125,0,"2020-05-31",5100
+"275",1658018,"CABANYAL-CANYAMELAR","valencia","spain",39.46949,-0.33276,"Apartment","Private room",1,1,1,18,2,60,29,"2020-05-31",18
+"276",1689978,"LA SEU","valencia","spain",39.47648,-0.37873,"Loft","Entire home/apt",2,1,1,50,5,1125,22,"2020-05-31",400
+"277",1702630,"CABANYAL-CANYAMELAR","valencia","spain",39.46774,-0.33179,"Loft","Entire home/apt",4,1,2,40,3,30,0,"2020-05-31",1200
+"278",1713200,"CABANYAL-CANYAMELAR","valencia","spain",39.46768,-0.33158,"Townhouse","Entire home/apt",4,2,3,100,3,30,28,"2020-05-31",200
+"279",1715466,"CABANYAL-CANYAMELAR","valencia","spain",39.47026,-0.32986,"Apartment","Entire home/apt",4,1,2,48,3,1125,29,"2020-05-31",48
+"280",1718650,"EN CORTS","valencia","spain",39.45614,-0.37299,"Apartment","Entire home/apt",5,2,2,65,2,180,29,"2020-05-31",65
+"281",1729975,"LA CREU DEL GRAU","valencia","spain",39.46086,-0.34623,"Apartment","Entire home/apt",8,3,5,50,1,1125,0,"2020-05-31",1500
+"282",1731293,"EL CARME","valencia","spain",39.4771,-0.38107,"Apartment","Entire home/apt",8,3,5,100,1,1125,0,"2020-05-31",3000
+"283",1740732,"NOU MOLES","valencia","spain",39.47065,-0.40331,"Apartment","Entire home/apt",4,2,3,59,2,90,0,"2020-05-31",1770
+"284",1740954,"RUSSAFA","valencia","spain",39.4606,-0.37714,"Apartment","Entire home/apt",5,3,4,95,31,365,28,"2020-05-31",190
+"285",1758184,"RUSSAFA","valencia","spain",39.46325,-0.36881,"Apartment","Entire home/apt",2,1,1,60,2,1125,30,"2020-05-31",0
+"286",1761869,"EL BOTANIC","valencia","spain",39.47527,-0.38471,"Apartment","Entire home/apt",3,1,1,52,4,90,30,"2020-05-31",0
+"287",1772555,"AIORA","valencia","spain",39.4632,-0.3375,"Apartment","Private room",2,1,2,33,2,120,27,"2020-05-31",99
+"288",1810684,"RUSSAFA","valencia","spain",39.45792,-0.37508,"Apartment","Entire home/apt",4,1,2,39,3,365,30,"2020-05-31",0
+"289",1814602,"MESTALLA","valencia","spain",39.47583,-0.35477,"Apartment","Private room",2,1,2,20,2,1124,0,"2020-05-31",600
+"290",1819645,"LA RAIOSA","valencia","spain",39.45653,-0.38345,"Apartment","Private room",1,1,1,20,2,1125,28,"2020-05-31",40
+"291",1830872,"CABANYAL-CANYAMELAR","valencia","spain",39.46353,-0.32807,"House","Entire home/apt",7,3,5,80,2,1125,29,"2020-05-31",80
+"292",1838698,"TRES FORQUES","valencia","spain",39.46744,-0.40261,"Apartment","Entire home/apt",6,3,0,44,5,30,4,"2020-05-31",1144
+"293",1842000,"PENYA-ROJA","valencia","spain",39.45744,-0.34978,"Apartment","Entire home/apt",6,3,6,115,3,1125,29,"2020-05-31",115
+"294",1842193,"RUSSAFA","valencia","spain",39.46289,-0.36797,"Loft","Entire home/apt",2,0,1,50,2,1125,30,"2020-05-31",0
+"295",1855456,"L'ILLA PERDUDA","valencia","spain",39.47146,-0.34196,"Apartment","Entire home/apt",5,4,4,79,6,365,0,"2020-05-31",2370
+"296",1858198,"EL MERCAT","valencia","spain",39.4721,-0.37863,"Apartment","Entire home/apt",3,1,1,62,3,20,30,"2020-05-31",0
+"297",1885971,"ARRANCAPINS","valencia","spain",39.46682,-0.38913,"Apartment","Entire home/apt",6,4,5,75,2,365,0,"2020-05-31",2250
+"298",1928730,"EL PLA DEL REMEI","valencia","spain",39.46958,-0.36518,"Apartment","Private room",1,1,1,26,5,1125,30,"2020-05-31",0
+"299",1970631,"SOTERNES","valencia","spain",39.47164,-0.40734,"Apartment","Private room",2,1,1,25,2,1125,30,"2020-05-31",0
+"300",1974387,"LA RAIOSA","valencia","spain",39.46195,-0.38718,"Apartment","Entire home/apt",5,3,3,53,5,180,29,"2020-05-31",53
+"301",1975517,"EL MERCAT","valencia","spain",39.47463,-0.37958,"Apartment","Entire home/apt",6,2,6,43,1,15,28,"2020-05-31",86
+"302",1983092,"EL PILAR","valencia","spain",39.47254,-0.3829,"Apartment","Entire home/apt",2,1,1,60,30,1125,12,"2020-05-31",1080
+"303",1989772,"CABANYAL-CANYAMELAR","valencia","spain",39.4676,-0.33,"Apartment","Entire home/apt",6,3,3,55,7,1124,30,"2020-05-31",0
+"304",1991246,"CABANYAL-CANYAMELAR","valencia","spain",39.46723,-0.33219,"Apartment","Private room",2,1,2,28,2,90,0,"2020-05-31",840
+"305",2020562,"LA MALVA-ROSA","valencia","spain",39.47808,-0.32449,"Chalet","Private room",1,1,1,28,2,1125,30,"2020-05-31",0
+"306",2020871,"LA MALVA-ROSA","valencia","spain",39.4778,-0.32469,"House","Private room",1,1,1,25,1,1125,29,"2020-05-31",25
+"307",2020919,"LA MALVA-ROSA","valencia","spain",39.47993,-0.32543,"House","Private room",1,1,1,35,1,1125,30,"2020-05-31",0
+"308",2053439,"LA XEREA","valencia","spain",39.47672,-0.37191,"Loft","Entire home/apt",3,1,3,75,3,1125,1,"2020-05-31",2175
+"309",2060444,"EL GRAU","valencia","spain",39.46277,-0.32975,"Boat","Entire home/apt",8,2,2,60,1,30,0,"2020-05-31",1800
+"310",2060665,"SANT FRANCESC","valencia","spain",39.46836,-0.37417,"Boat","Entire home/apt",8,2,2,45,1,30,0,"2020-05-31",1350
+"311",2095264,"SANT ISIDRE","valencia","spain",39.45379,-0.40359,"Apartment","Entire home/apt",5,3,4,35,2,1125,0,"2020-05-31",1050
+"312",2095326,"RUSSAFA","valencia","spain",39.46194,-0.37451,"Loft","Entire home/apt",2,1,1,50,3,180,28,"2020-05-31",100
+"313",2103536,"AIORA","valencia","spain",39.46336,-0.33761,"Apartment","Entire home/apt",6,3,3,80,4,60,20,"2020-05-31",800
+"314",2120457,"BENIMACLET","valencia","spain",39.485,-0.36117,"Apartment","Private room",2,1,1,25,3,15,10,"2020-05-31",500
+"315",2121416,"EL BOTANIC","valencia","spain",39.47781,-0.38594,"Apartment","Entire home/apt",4,2,2,50,6,365,30,"2020-05-31",0
+"316",2146923,"EL MERCAT","valencia","spain",39.47603,-0.38095,"Apartment","Entire home/apt",5,3,4,89,2,21,30,"2020-05-31",0
+"317",2162050,"LA MALVA-ROSA","valencia","spain",39.47608,-0.32768,"Apartment","Private room",1,1,1,19,3,1125,18,"2020-05-31",228
+"318",2202572,"BENICALAP","valencia","spain",39.49266,-0.39232,"Apartment","Entire home/apt",8,4,5,60,365,1125,30,"2020-05-31",0
+"319",2207816,"SANT FRANCESC","valencia","spain",39.47024,-0.37866,"Apartment","Entire home/apt",5,2,4,120,2,365,27,"2020-05-31",360
+"320",2207962,"SANT FRANCESC","valencia","spain",39.47107,-0.37636,"Apartment","Entire home/apt",6,2,5,160,2,365,22,"2020-05-31",1280
+"321",2211787,"ARRANCAPINS","valencia","spain",39.46507,-0.38347,"Apartment","Entire home/apt",4,1,3,42,3,1125,22,"2020-05-31",336
+"322",2226162,"RUSSAFA","valencia","spain",39.46458,-0.37546,"Apartment","Entire home/apt",5,2,3,55,5,1125,29,"2020-05-31",55
+"323",2231169,"EL PILAR","valencia","spain",39.47187,-0.38326,"Apartment","Entire home/apt",4,2,2,70,2,365,30,"2020-05-31",0
+"324",2241175,"EL CARME","valencia","spain",39.479,-0.37606,"Apartment","Entire home/apt",5,3,3,100,3,84,0,"2020-05-31",3000
+"325",2261192,"TORREFIEL","valencia","spain",39.49523,-0.37825,"Apartment","Entire home/apt",5,2,2,50,3,365,0,"2020-05-31",1500
+"326",2292748,"NOU MOLES","valencia","spain",39.4702,-0.40243,"Apartment","Entire home/apt",4,1,2,50,2,1125,30,"2020-05-31",0
+"327",2301696,"CABANYAL-CANYAMELAR","valencia","spain",39.4663,-0.33401,"House","Entire home/apt",10,4,6,250,5,90,13,"2020-05-31",4250
+"328",2312381,"EL PLA DEL REMEI","valencia","spain",39.47045,-0.36618,"Bed and breakfast","Private room",2,1,1,61,2,1125,28,"2020-05-31",122
+"329",2340272,"SAFRANAR","valencia","spain",39.45873,-0.39649,"Apartment","Private room",1,1,1,16,2,14,29,"2020-05-31",16
+"330",2347622,"EL CARME","valencia","spain",39.479,-0.37749,"Apartment","Entire home/apt",3,2,2,60,6,1125,0,"2020-05-31",1800
+"331",2353221,"RUSSAFA","valencia","spain",39.46223,-0.37119,"Apartment","Private room",2,1,2,25,2,365,30,"2020-05-31",0
+"332",2360229,"NOU MOLES","valencia","spain",39.4698,-0.40487,"Apartment","Private room",2,1,1,38,30,120,30,"2020-05-31",0
+"333",2364778,"LA GRAN VIA","valencia","spain",39.46802,-0.36545,"Apartment","Entire home/apt",3,2,3,63,3,1125,29,"2020-05-31",63
+"334",2389620,"EL MERCAT","valencia","spain",39.47478,-0.37973,"Apartment","Entire home/apt",4,2,3,65,2,1125,27,"2020-05-31",195
+"335",2424805,"MONT-OLIVET","valencia","spain",39.458,-0.36795,"Apartment","Entire home/apt",5,2,3,53,7,1125,13,"2020-05-31",901
+"336",2433179,"EL GRAU","valencia","spain",39.45908,-0.33468,"Apartment","Entire home/apt",6,2,2,50,3,30,30,"2020-05-31",0
+"337",2445550,"LA SEU","valencia","spain",39.47394,-0.37679,"Loft","Entire home/apt",4,1,0,42,4,1125,0,"2020-05-31",1260
+"338",2449474,"SANT FRANCESC","valencia","spain",39.47065,-0.38311,"Apartment","Entire home/apt",5,2,3,50,2,365,28,"2020-05-31",100
+"339",2452337,"CABANYAL-CANYAMELAR","valencia","spain",39.46731,-0.33045,"Apartment","Entire home/apt",2,0,0,55,3,30,30,"2020-05-31",0
+"340",2459637,"RUSSAFA","valencia","spain",39.46073,-0.37304,"Apartment","Private room",2,1,2,25,2,365,30,"2020-05-31",0
+"341",2463290,"MESTALLA","valencia","spain",39.47382,-0.35496,"Apartment","Private room",3,1,3,20,2,14,29,"2020-05-31",20
+"342",2469039,"CIUTAT JARDI","valencia","spain",39.4725,-0.3465,"Apartment","Entire home/apt",4,3,3,50,2,1125,20,"2020-05-31",500
+"343",2486462,"LA SEU","valencia","spain",39.47657,-0.37609,"Apartment","Entire home/apt",4,2,3,59,3,60,27,"2020-05-31",177
+"344",2488639,"BENIMAMET","valencia","spain",39.50435,-0.42531,"Apartment","Entire home/apt",4,2,4,89,2,1125,24,"2020-05-31",534
+"345",2490695,"CABANYAL-CANYAMELAR","valencia","spain",39.46661,-0.32513,"Apartment","Entire home/apt",4,2,0,59,5,45,29,"2020-05-31",59
+"346",2491006,"EL CARME","valencia","spain",39.47908,-0.38093,"Apartment","Entire home/apt",4,1,2,100,3,1125,29,"2020-05-31",100
+"347",2522473,"LA MALVA-ROSA","valencia","spain",39.47843,-0.32587,"Apartment","Entire home/apt",4,2,3,74,7,1125,30,"2020-05-31",0
+"348",2530233,"EL CARME","valencia","spain",39.47895,-0.37916,"Apartment","Private room",2,1,0,28,1,1125,29,"2020-05-31",28
+"349",2533554,"CABANYAL-CANYAMELAR","valencia","spain",39.46348,-0.33252,"Apartment","Private room",2,1,1,26,2,1125,30,"2020-05-31",0
+"350",2534892,"CABANYAL-CANYAMELAR","valencia","spain",39.46502,-0.33252,"Apartment","Entire home/apt",6,2,4,52,3,100,0,"2020-05-31",1560
+"351",2535466,"LA ROQUETA","valencia","spain",39.46623,-0.38087,"Apartment","Entire home/apt",2,1,1,75,3,1125,30,"2020-05-31",0
+"352",2537271,"MESTALLA","valencia","spain",39.47527,-0.35696,"Apartment","Private room",1,1,1,27,1,1125,30,"2020-05-31",0
+"353",2548197,"LA CREU DEL GRAU","valencia","spain",39.46056,-0.34225,"Apartment","Entire home/apt",3,2,2,60,1,1125,30,"2020-05-31",0
+"354",2593462,"RUSSAFA","valencia","spain",39.46235,-0.37078,"Apartment","Entire home/apt",3,2,2,40,5,1125,0,"2020-05-31",1200
+"355",2603437,"EL MERCAT","valencia","spain",39.47348,-0.38065,"Apartment","Entire home/apt",2,0,1,49,1,1125,29,"2020-05-31",49
+"356",2606300,"RUSSAFA","valencia","spain",39.46099,-0.37212,"Apartment","Entire home/apt",6,3,3,40,2,1125,30,"2020-05-31",0
+"357",2620431,"LA PETXINA","valencia","spain",39.47323,-0.39121,"Apartment","Private room",3,1,3,25,1,28,17,"2020-05-31",325
+"358",2628166,"MARXALENES","valencia","spain",39.48457,-0.38353,"Apartment","Entire home/apt",1,0,5,70,4,600,30,"2020-05-31",0
+"359",2641112,"MORVEDRE","valencia","spain",39.48583,-0.37568,"Apartment","Private room",2,1,1,22,1,1125,1,"2020-05-31",638
+"360",2646820,"MORVEDRE","valencia","spain",39.48639,-0.37577,"Apartment","Entire home/apt",5,2,2,69,3,90,26,"2020-05-31",276
+"361",2683251,"EXPOSICIO","valencia","spain",39.47479,-0.36283,"Apartment","Entire home/apt",8,5,7,69,1,1125,0,"2020-05-31",2070
+"362",2690646,"LA GRAN VIA","valencia","spain",39.46455,-0.36598,"Apartment","Private room",2,1,4,39,2,7,21,"2020-05-31",351
+"363",2697546,"MORVEDRE","valencia","spain",39.48331,-0.37487,"Apartment","Entire home/apt",8,4,8,120,4,1125,0,"2020-05-31",3600
+"364",2699479,"EL MERCAT","valencia","spain",39.47376,-0.38048,"Apartment","Entire home/apt",3,1,1,60,2,90,0,"2020-05-31",1800
+"365",2704860,"LA GRAN VIA","valencia","spain",39.46535,-0.36178,"Apartment","Entire home/apt",5,3,5,125,2,1125,30,"2020-05-31",0
+"366",2706156,"EL CARME","valencia","spain",39.47859,-0.38024,"Loft","Entire home/apt",3,0,2,45,2,31,29,"2020-05-31",45
+"367",2707734,"EN CORTS","valencia","spain",39.45428,-0.37,"Loft","Entire home/apt",6,2,2,38,6,1125,29,"2020-05-31",38
+"368",2725241,"ARRANCAPINS","valencia","spain",39.46129,-0.38056,"Apartment","Entire home/apt",4,1,3,62,2,365,26,"2020-05-31",248
+"369",2743692,"RUSSAFA","valencia","spain",39.46398,-0.37456,"Apartment","Entire home/apt",5,2,2,105,2,89,0,"2020-05-31",3150
+"370",2773236,"PENYA-ROJA","valencia","spain",39.4606,-0.35187,"Apartment","Entire home/apt",6,3,5,65,1,1125,30,"2020-05-31",0
+"371",2782334,"EL SALER","valencia","spain",39.35275,-0.32157,"Apartment","Entire home/apt",7,4,5,80,1,1125,30,"2020-05-31",0
+"372",2796700,"RUSSAFA","valencia","spain",39.46133,-0.36915,"Apartment","Private room",3,2,2,45,1,1125,30,"2020-05-31",0
+"373",2821086,"LA XEREA","valencia","spain",39.47265,-0.37508,"Apartment","Entire home/apt",4,1,1,50,7,1125,29,"2020-05-31",50
+"374",2851410,"ARRANCAPINS","valencia","spain",39.46619,-0.38799,"Apartment","Entire home/apt",5,2,2,69,3,90,29,"2020-05-31",69
+"375",2855311,"EL PILAR","valencia","spain",39.47351,-0.38112,"Apartment","Entire home/apt",4,2,2,55,4,1125,2,"2020-05-31",1540
+"376",2868831,"LA VEGA BAIXA","valencia","spain",39.47619,-0.34909,"Apartment","Entire home/apt",6,4,4,120,2,100,3,"2020-05-31",3240
+"377",2911858,"LA GRAN VIA","valencia","spain",39.46529,-0.36896,"Apartment","Entire home/apt",4,2,3,80,2,30,28,"2020-05-31",160
+"378",2962380,"CABANYAL-CANYAMELAR","valencia","spain",39.46474,-0.33022,"House","Entire home/apt",6,2,4,85,2,200,0,"2020-05-31",2550
+"379",2972825,"LA CREU DEL GRAU","valencia","spain",39.46429,-0.34875,"Apartment","Entire home/apt",3,2,2,150,1,1,27,"2020-05-31",450
+"380",3017494,"EL BOTANIC","valencia","spain",39.47332,-0.38594,"Apartment","Entire home/apt",3,2,3,46,2,1125,29,"2020-05-31",46
+"381",3025891,"LA MALVA-ROSA","valencia","spain",39.47993,-0.32687,"Apartment","Private room",2,1,1,35,1,1125,0,"2020-05-31",1050
+"382",3029468,"SANT FRANCESC","valencia","spain",39.46751,-0.37554,"Apartment","Entire home/apt",4,1,1,65,2,1124,30,"2020-05-31",0
+"383",3051687,"CABANYAL-CANYAMELAR","valencia","spain",39.47016,-0.32366,"Apartment","Entire home/apt",5,3,4,119,1,1125,29,"2020-05-31",119
+"384",3070240,"LA SEU","valencia","spain",39.4785,-0.37601,"Apartment","Entire home/apt",4,2,3,109,4,180,23,"2020-05-31",763
+"385",3073544,"BENIMACLET","valencia","spain",39.48082,-0.35834,"Apartment","Private room",1,1,1,30,3,15,28,"2020-05-31",60
+"386",3079779,"LA PETXINA","valencia","spain",39.47452,-0.38952,"Apartment","Entire home/apt",4,1,2,49,3,30,8,"2020-05-31",1078
+"387",3092913,"SANT FRANCESC","valencia","spain",39.47144,-0.37666,"Apartment","Entire home/apt",6,3,5,78,2,1125,30,"2020-05-31",0
+"388",3097721,"PENYA-ROJA","valencia","spain",39.45632,-0.34564,"Condominium","Entire home/apt",6,2,4,120,4,365,29,"2020-05-31",120
+"389",3117996,"NOU MOLES","valencia","spain",39.46966,-0.39562,"Apartment","Entire home/apt",5,2,4,77,6,1125,28,"2020-05-31",154
+"390",3161188,"RUSSAFA","valencia","spain",39.45886,-0.37769,"Apartment","Private room",2,1,1,25,1,1125,30,"2020-05-31",0
+"391",3162539,"CIUTAT JARDI","valencia","spain",39.47218,-0.3446,"Apartment","Entire home/apt",8,4,5,80,5,60,0,"2020-05-31",2400
+"392",3163260,"AIORA","valencia","spain",39.46736,-0.34447,"Apartment","Entire home/apt",8,4,7,90,5,1125,0,"2020-05-31",2700
+"393",3163700,"CIUTAT JARDI","valencia","spain",39.47208,-0.34093,"Apartment","Entire home/apt",8,4,6,90,5,60,0,"2020-05-31",2700
+"394",3164157,"L'ILLA PERDUDA","valencia","spain",39.47026,-0.34177,"Apartment","Entire home/apt",8,4,6,91,5,1125,0,"2020-05-31",2730
+"395",3164430,"L'ILLA PERDUDA","valencia","spain",39.47169,-0.34212,"Apartment","Entire home/apt",7,4,7,91,5,1125,0,"2020-05-31",2730
+"396",3164949,"LA MALVA-ROSA","valencia","spain",39.47641,-0.32681,"Apartment","Entire home/apt",2,1,1,63,1,1125,30,"2020-05-31",0
+"397",3165717,"CIUTAT JARDI","valencia","spain",39.47193,-0.34545,"Apartment","Entire home/apt",8,4,6,80,5,1125,0,"2020-05-31",2400
+"398",3175070,"EL CARME","valencia","spain",39.48002,-0.37985,"Loft","Entire home/apt",3,0,0,39,2,90,0,"2020-05-31",1170
+"399",3212375,"EL MERCAT","valencia","spain",39.47262,-0.38001,"Apartment","Entire home/apt",6,2,3,120,1,1125,29,"2020-05-31",120
+"400",3227493,"CAMPANAR","valencia","spain",39.48083,-0.3879,"Apartment","Entire home/apt",8,3,7,80,1,1125,24,"2020-05-31",480
+"401",3245618,"PATRAIX","valencia","spain",39.46424,-0.39248,"Apartment","Entire home/apt",8,4,8,60,30,1125,1,"2020-05-31",1740
+"402",3268249,"EL GRAU","valencia","spain",39.46312,-0.33577,"Loft","Entire home/apt",5,2,3,50,7,1125,30,"2020-05-31",0
+"403",3271460,"ALBORS","valencia","spain",39.46709,-0.35065,"Apartment","Private room",2,1,1,18,1,4,29,"2020-05-31",18
+"404",3275634,"EL CARME","valencia","spain",39.47646,-0.38091,"House","Entire home/apt",10,5,10,725,1,1125,30,"2020-05-31",0
+"405",3279232,"EL PERELLONET","valencia","spain",39.29995,-0.28924,"Apartment","Entire home/apt",5,3,4,125,3,1125,12,"2020-05-31",2250
+"406",3284182,"LA SEU","valencia","spain",39.47582,-0.37709,"Apartment","Private room",2,1,0,35,2,1125,29,"2020-05-31",35
+"407",3294861,"CABANYAL-CANYAMELAR","valencia","spain",39.46698,-0.32919,"Apartment","Entire home/apt",2,1,1,50,1,1125,0,"2020-05-31",1500
+"408",3295585,"RUSSAFA","valencia","spain",39.45925,-0.37504,"Apartment","Entire home/apt",4,2,0,87,6,1125,29,"2020-05-31",87
+"409",3304952,"EL CARME","valencia","spain",39.47707,-0.3827,"Apartment","Private room",2,4,1,20,2,1125,30,"2020-05-31",0
+"410",3331996,"CABANYAL-CANYAMELAR","valencia","spain",39.467,-0.33186,"Loft","Entire home/apt",4,2,4,70,6,90,27,"2020-05-31",210
+"411",3340429,"LA MALVA-ROSA","valencia","spain",39.48406,-0.32716,"Apartment","Entire home/apt",4,2,3,80,2,365,30,"2020-05-31",0
+"412",3361477,"LA SEU","valencia","spain",39.47435,-0.37639,"Apartment","Entire home/apt",4,1,0,42,2,1125,30,"2020-05-31",0
+"413",3363106,"SANT FRANCESC","valencia","spain",39.46899,-0.37739,"Apartment","Entire home/apt",3,1,1,61,2,1124,30,"2020-05-31",0
+"414",3371131,"SANT FRANCESC","valencia","spain",39.46744,-0.37665,"Apartment","Entire home/apt",3,1,2,60,2,1124,30,"2020-05-31",0
+"415",3371388,"SANT FRANCESC","valencia","spain",39.46824,-0.37541,"Apartment","Entire home/apt",4,1,2,59,2,1124,30,"2020-05-31",0
+"416",3397548,"EL PLA DEL REMEI","valencia","spain",39.46623,-0.37234,"Apartment","Entire home/apt",8,5,6,110,2,1125,0,"2020-05-31",3300
+"417",3423702,"LA SEU","valencia","spain",39.4775,-0.37562,"Apartment","Entire home/apt",6,3,4,80,5,90,30,"2020-05-31",0
+"418",3426665,"EL GRAU","valencia","spain",39.46271,-0.33162,"Apartment","Entire home/apt",5,2,2,75,4,120,17,"2020-05-31",975
+"419",3428145,"LA MALVA-ROSA","valencia","spain",39.47658,-0.32763,"Apartment","Entire home/apt",4,2,3,70,3,1125,21,"2020-05-31",630
+"420",3451197,"EL MERCAT","valencia","spain",39.47535,-0.3777,"Apartment","Entire home/apt",1,4,6,NA,89,90,0,"2020-05-31",0
+"421",3459023,"EL PILAR","valencia","spain",39.47387,-0.38122,"Apartment","Entire home/apt",3,1,2,85,14,365,25,"2020-05-31",425
+"422",3459543,"LA MALVA-ROSA","valencia","spain",39.48389,-0.32774,"Apartment","Entire home/apt",4,1,2,80,5,240,24,"2020-05-31",480
+"423",3472484,"LA ROQUETA","valencia","spain",39.46917,-0.3823,"Apartment","Entire home/apt",4,1,2,49,2,1125,30,"2020-05-31",0
+"424",3477744,"EL CARME","valencia","spain",39.48105,-0.38138,"Loft","Entire home/apt",3,0,0,46,2,90,0,"2020-05-31",1380
+"425",3496182,"CIUTAT DE LES ARTS I DE LES CIENCIES","valencia","spain",39.45619,-0.35918,"Apartment","Private room",1,1,1,26,1,1125,0,"2020-05-31",780
+"426",3508441,"EL GRAU","valencia","spain",39.46095,-0.33783,"Apartment","Entire home/apt",5,2,3,70,3,30,8,"2020-05-31",1540
+"427",3517823,"ARRANCAPINS","valencia","spain",39.46782,-0.38589,"Apartment","Private room",2,1,1,20,3,32,1,"2020-05-31",580
+"428",3524575,"PENYA-ROJA","valencia","spain",39.46263,-0.35614,"Apartment","Entire home/apt",6,2,4,65,1,1125,26,"2020-05-31",260
+"429",3527806,"RUSSAFA","valencia","spain",39.4617,-0.37584,"Apartment","Entire home/apt",4,2,3,63,3,1125,29,"2020-05-31",63
+"430",3537090,"EL MERCAT","valencia","spain",39.47323,-0.37839,"Apartment","Entire home/apt",10,2,8,180,2,1125,24,"2020-05-31",1080
+"431",3538887,"LA SEU","valencia","spain",39.47465,-0.37688,"Apartment","Entire home/apt",4,2,3,120,2,1125,26,"2020-05-31",480
+"432",3539486,"EL MERCAT","valencia","spain",39.47403,-0.37735,"Apartment","Entire home/apt",4,2,3,110,2,1125,22,"2020-05-31",880
+"433",3545352,"LA XEREA","valencia","spain",39.47328,-0.37401,"Apartment","Entire home/apt",3,2,2,67,2,90,30,"2020-05-31",0
+"434",3547112,"MALILLA","valencia","spain",39.45088,-0.37323,"Apartment","Private room",2,1,1,30,2,1125,0,"2020-05-31",900
+"435",3550616,"MALILLA","valencia","spain",39.45052,-0.37215,"Apartment","Entire home/apt",8,3,5,55,2,1125,30,"2020-05-31",0
+"436",3554160,"EL MERCAT","valencia","spain",39.47398,-0.37744,"Apartment","Entire home/apt",3,1,1,63,2,29,30,"2020-05-31",0
+"437",3567941,"RUSSAFA","valencia","spain",39.46233,-0.37635,"Apartment","Entire home/apt",2,0,1,125,15,15,30,"2020-05-31",0
+"438",3582685,"SANT FRANCESC","valencia","spain",39.46857,-0.378,"Apartment","Entire home/apt",4,0,2,50,1,30,30,"2020-05-31",0
+"439",3603433,"BETERO","valencia","spain",39.46995,-0.33983,"Apartment","Entire home/apt",7,4,4,125,7,45,0,"2020-05-31",3750
+"440",3643077,"RUSSAFA","valencia","spain",39.46198,-0.37483,"Apartment","Entire home/apt",2,1,2,65,3,1125,0,"2020-05-31",1950
+"441",3651294,"LA SEU","valencia","spain",39.47455,-0.37685,"Loft","Entire home/apt",2,1,1,68,1,1125,30,"2020-05-31",0
+"442",3651642,"PENYA-ROJA","valencia","spain",39.46133,-0.35557,"Apartment","Entire home/apt",6,2,4,65,1,1125,0,"2020-05-31",1950
+"443",3675253,"EL MERCAT","valencia","spain",39.47483,-0.37713,"Apartment","Entire home/apt",2,0,1,58,1,1125,2,"2020-05-31",1624
+"444",3684986,"LA SEU","valencia","spain",39.47625,-0.37622,"Apartment","Entire home/apt",4,2,3,88,1,1125,2,"2020-05-31",2464
+"445",3700158,"LA MALVA-ROSA","valencia","spain",39.47732,-0.32602,"Townhouse","Entire home/apt",8,5,8,500,2,1125,2,"2020-05-31",14000
+"446",3702631,"EL PLA DEL REMEI","valencia","spain",39.46542,-0.374,"Apartment","Entire home/apt",10,5,9,200,2,1125,24,"2020-05-31",1200
+"447",3719698,"RUSSAFA","valencia","spain",39.46197,-0.37344,"Apartment","Entire home/apt",6,2,4,95,3,1125,1,"2020-05-31",2755
+"448",3736295,"CABANYAL-CANYAMELAR","valencia","spain",39.47296,-0.32794,"Apartment","Entire home/apt",6,3,4,150,2,90,25,"2020-05-31",750
+"449",3759310,"LA SEU","valencia","spain",39.47488,-0.37698,"Apartment","Private room",1,1,1,27,2,1125,0,"2020-05-31",810
+"450",3761664,"BENICALAP","valencia","spain",39.49333,-0.38984,"Apartment","Private room",2,1,1,26,1,1125,30,"2020-05-31",0
+"451",3765336,"LA SEU","valencia","spain",39.47595,-0.37898,"Apartment","Entire home/apt",4,2,3,60,2,1125,30,"2020-05-31",0
+"452",3773519,"EL MERCAT","valencia","spain",39.47359,-0.38091,"Apartment","Entire home/apt",4,2,3,70,14,1125,0,"2020-05-31",2100
+"453",3798923,"LA CREU DEL GRAU","valencia","spain",39.46247,-0.3474,"Apartment","Entire home/apt",4,1,1,75,2,1125,9,"2020-05-31",1575
+"454",3800639,"LA MALVA-ROSA","valencia","spain",39.48444,-0.32917,"Apartment","Entire home/apt",4,3,3,29,1,1125,28,"2020-05-31",58
+"455",3818922,"MALILLA","valencia","spain",39.45082,-0.37311,"Apartment","Private room",2,1,2,30,2,1125,0,"2020-05-31",900
+"456",3823309,"SANT FRANCESC","valencia","spain",39.47123,-0.37339,"Apartment","Entire home/apt",3,1,1,45,2,1125,24,"2020-05-31",270
+"457",3839285,"LA SEU","valencia","spain",39.47873,-0.37595,"Apartment","Private room",2,1,1,26,2,5,29,"2020-05-31",26
+"458",3855160,"CABANYAL-CANYAMELAR","valencia","spain",39.46769,-0.32962,"Apartment","Entire home/apt",4,3,2,45,7,1124,0,"2020-05-31",1350
+"459",3857334,"CABANYAL-CANYAMELAR","valencia","spain",39.4658,-0.32853,"Apartment","Entire home/apt",6,2,4,60,1,1125,30,"2020-05-31",0
+"460",3858901,"LA SEU","valencia","spain",39.47582,-0.37759,"Loft","Entire home/apt",3,1,2,70,1,1125,20,"2020-05-31",700
+"461",3873970,"BENIMACLET","valencia","spain",39.48667,-0.3633,"Apartment","Private room",2,1,1,30,1,365,30,"2020-05-31",0
+"462",3885779,"BENIMACLET","valencia","spain",39.48622,-0.36242,"Apartment","Private room",2,1,1,30,1,1125,30,"2020-05-31",0
+"463",3910499,"LA CARRASCA","valencia","spain",39.47265,-0.33906,"Apartment","Entire home/apt",3,1,1,61,5,30,29,"2020-05-31",61
+"464",3917859,"RUSSAFA","valencia","spain",39.45975,-0.37112,"Apartment","Entire home/apt",2,1,1,60,2,120,28,"2020-05-31",120
+"465",3934931,"EL MERCAT","valencia","spain",39.47388,-0.38051,"Apartment","Entire home/apt",4,2,2,100,5,40,0,"2020-05-31",3000
+"466",3937711,"LA CREU DEL GRAU","valencia","spain",39.46162,-0.34282,"Apartment","Entire home/apt",4,1,2,40,2,1125,30,"2020-05-31",0
+"467",3965544,"EL PERELLONET","valencia","spain",39.29849,-0.28754,"Apartment","Entire home/apt",8,4,6,59,5,1125,29,"2020-05-31",59
+"468",3984631,"SANT FRANCESC","valencia","spain",39.47107,-0.37755,"Apartment","Entire home/apt",4,2,2,50,2,190,30,"2020-05-31",0
+"469",3985043,"EL MERCAT","valencia","spain",39.47386,-0.37751,"Apartment","Entire home/apt",2,0,1,39,2,1125,0,"2020-05-31",1170
+"470",3995313,"EL CARME","valencia","spain",39.47955,-0.38111,"Apartment","Entire home/apt",6,2,0,80,2,600,29,"2020-05-31",80
+"471",3997953,"EL BOTANIC","valencia","spain",39.47718,-0.38758,"Apartment","Entire home/apt",5,2,3,65,3,90,30,"2020-05-31",0
+"472",4006678,"CABANYAL-CANYAMELAR","valencia","spain",39.47082,-0.32707,"Apartment","Entire home/apt",6,3,5,49,5,45,24,"2020-05-31",294
+"473",4039768,"EL PILAR","valencia","spain",39.4718,-0.38077,"Apartment","Private room",1,1,1,27,5,120,28,"2020-05-31",54
+"474",4042419,"LA MALVA-ROSA","valencia","spain",39.47741,-0.32857,"Apartment","Entire home/apt",4,2,3,55,3,90,30,"2020-05-31",0
+"475",4056160,"SANT FRANCESC","valencia","spain",39.46973,-0.37556,"Apartment","Entire home/apt",4,2,3,60,2,1125,0,"2020-05-31",1800
+"476",4057758,"LA MALVA-ROSA","valencia","spain",39.48021,-0.32831,"Apartment","Private room",2,1,1,32,59,159,29,"2020-05-31",32
+"477",4059332,"LA SEU","valencia","spain",39.47522,-0.37667,"Loft","Entire home/apt",3,1,1,68,1,1125,28,"2020-05-31",136
+"478",4082223,"RUSSAFA","valencia","spain",39.46035,-0.37746,"Apartment","Shared room",2,1,1,100,1,5,30,"2020-05-31",0
+"479",4114609,"SANT FRANCESC","valencia","spain",39.46752,-0.37637,"Apartment","Entire home/apt",3,1,1,60,2,1124,30,"2020-05-31",0
+"480",4119114,"SANT FRANCESC","valencia","spain",39.46947,-0.37776,"Apartment","Entire home/apt",4,2,2,50,1,1125,0,"2020-05-31",1500
+"481",4140461,"RUSSAFA","valencia","spain",39.45971,-0.37583,"Loft","Entire home/apt",4,2,2,80,2,1125,30,"2020-05-31",0
+"482",4162821,"LA SEU","valencia","spain",39.476,-0.3759,"Loft","Entire home/apt",2,0,1,68,1,200,30,"2020-05-31",0
+"483",4173579,"RUSSAFA","valencia","spain",39.46147,-0.37549,"Apartment","Entire home/apt",4,2,3,40,3,1125,30,"2020-05-31",0
+"484",4186859,"CAMPANAR","valencia","spain",39.47876,-0.39413,"Apartment","Entire home/apt",4,3,2,90,2,30,0,"2020-05-31",2700
+"485",4209336,"MORVEDRE","valencia","spain",39.48313,-0.37853,"Apartment","Entire home/apt",6,3,6,90,2,31,30,"2020-05-31",0
+"486",4209753,"EL SALER","valencia","spain",39.35455,-0.3224,"Apartment","Entire home/apt",8,4,8,180,2,1125,30,"2020-05-31",0
+"487",4216011,"EL MERCAT","valencia","spain",39.47335,-0.37927,"Apartment","Entire home/apt",5,2,4,85,2,1125,30,"2020-05-31",0
+"488",4216116,"LA SEU","valencia","spain",39.47439,-0.37555,"Loft","Entire home/apt",4,1,2,55,2,1125,0,"2020-05-31",1650
+"489",4230255,"CIUTAT DE LES ARTS I DE LES CIENCIES","valencia","spain",39.45491,-0.35987,"Apartment","Entire home/apt",4,2,3,40,2,364,26,"2020-05-31",160
+"490",4230875,"MESTALLA","valencia","spain",39.46954,-0.35818,"Apartment","Entire home/apt",6,3,4,66,7,1125,8,"2020-05-31",1452
+"491",4252632,"MALILLA","valencia","spain",39.45673,-0.37573,"Apartment","Entire home/apt",6,3,4,78,4,29,0,"2020-05-31",2340
+"492",4274077,"SANT FRANCESC","valencia","spain",39.47027,-0.3822,"Apartment","Private room",2,1,1,35,3,1125,0,"2020-05-31",1050
+"493",4276019,"EL CARME","valencia","spain",39.47697,-0.38191,"Apartment","Entire home/apt",8,2,6,70,14,1124,30,"2020-05-31",0
+"494",4284379,"SANT ANTONI","valencia","spain",39.488,-0.37159,"Apartment","Private room",2,1,1,18,1,10,30,"2020-05-31",0
+"495",4294721,"EL MERCAT","valencia","spain",39.47344,-0.37658,"Apartment","Entire home/apt",4,1,1,75,1,1125,0,"2020-05-31",2250
+"496",4320914,"EL PERELLONET","valencia","spain",39.29596,-0.28613,"Apartment","Entire home/apt",10,4,10,95,4,150,30,"2020-05-31",0
+"497",4345628,"ARRANCAPINS","valencia","spain",39.46718,-0.38626,"Apartment","Entire home/apt",8,3,5,130,2,999,0,"2020-05-31",3900
+"498",4364282,"AIORA","valencia","spain",39.46339,-0.33955,"Apartment","Entire home/apt",4,2,3,35,1,1125,30,"2020-05-31",0
+"499",4367197,"LA SEU","valencia","spain",39.47414,-0.37641,"Apartment","Entire home/apt",4,0,2,88,1,1125,30,"2020-05-31",0
+"500",4367961,"EN CORTS","valencia","spain",39.45455,-0.37185,"Loft","Entire home/apt",2,1,1,40,6,1125,29,"2020-05-31",40
+"501",4386338,"RUSSAFA","valencia","spain",39.46299,-0.37691,"Apartment","Entire home/apt",5,2,4,55,2,1125,0,"2020-05-31",1650
+"502",4395740,"LA GRAN VIA","valencia","spain",39.46344,-0.36358,"Apartment","Private room",2,1,1,50,3,90,29,"2020-05-31",50
+"503",4408675,"LA ROQUETA","valencia","spain",39.46575,-0.37971,"Apartment","Entire home/apt",6,3,5,70,2,1125,27,"2020-05-31",210
+"504",4415498,"LA XEREA","valencia","spain",39.47323,-0.37079,"Apartment","Entire home/apt",4,2,3,60,2,1125,26,"2020-05-31",240
+"505",4415655,"PATRAIX","valencia","spain",39.46231,-0.39187,"Apartment","Entire home/apt",8,4,8,95,30,1125,0,"2020-05-31",2850
+"506",4436662,"LA PETXINA","valencia","spain",39.47197,-0.39215,"Apartment","Entire home/apt",8,4,5,120,2,1125,0,"2020-05-31",3600
+"507",4452251,"EL MERCAT","valencia","spain",39.47479,-0.37769,"Apartment","Entire home/apt",7,3,5,220,2,1125,13,"2020-05-31",3740
+"508",4468928,"RUSSAFA","valencia","spain",39.46143,-0.37656,"Apartment","Entire home/apt",2,1,2,50,4,45,29,"2020-05-31",50
+"509",4468939,"ARRANCAPINS","valencia","spain",39.4631,-0.38437,"Apartment","Entire home/apt",4,3,4,95,3,1125,30,"2020-05-31",0
+"510",4472588,"MESTALLA","valencia","spain",39.47337,-0.35451,"Other","Entire home/apt",4,2,4,70,6,20,2,"2020-05-31",1960
+"511",4489050,"RUSSAFA","valencia","spain",39.46393,-0.37329,"Apartment","Entire home/apt",6,3,4,70,1,1125,30,"2020-05-31",0
+"512",4493282,"ARRANCAPINS","valencia","spain",39.46864,-0.39007,"Apartment","Entire home/apt",6,2,3,100,2,1125,0,"2020-05-31",3000
+"513",4510287,"SANT FRANCESC","valencia","spain",39.47038,-0.37304,"Apartment","Entire home/apt",3,1,2,80,4,365,27,"2020-05-31",240
+"514",4516377,"SANT FRANCESC","valencia","spain",39.4699,-0.37156,"Apartment","Entire home/apt",4,2,3,60,2,1125,14,"2020-05-31",960
+"515",4522161,"EL MERCAT","valencia","spain",39.47267,-0.37817,"Apartment","Entire home/apt",14,4,11,290,2,1125,24,"2020-05-31",1740
+"516",4569871,"CIUTAT JARDI","valencia","spain",39.47003,-0.34402,"Apartment","Private room",2,1,2,45,1,30,0,"2020-05-31",1350
+"517",4571583,"EL PILAR","valencia","spain",39.47313,-0.38317,"Apartment","Entire home/apt",8,4,5,65,1,1125,22,"2020-05-31",520
+"518",4574235,"MESTALLA","valencia","spain",39.46636,-0.35711,"Apartment","Entire home/apt",6,3,0,80,1,1125,29,"2020-05-31",80
+"519",4586824,"RUSSAFA","valencia","spain",39.46303,-0.37256,"Apartment","Entire home/apt",4,2,2,30,30,365,28,"2020-05-31",60
+"520",4595165,"EL MERCAT","valencia","spain",39.47317,-0.37671,"Apartment","Entire home/apt",4,2,3,130,2,1124,26,"2020-05-31",520
+"521",4615257,"BENIFERRI","valencia","spain",39.49586,-0.39857,"Apartment","Entire home/apt",2,1,1,40,3,1125,30,"2020-05-31",0
+"522",4619405,"LES TENDETES","valencia","spain",39.48256,-0.3833,"Apartment","Entire home/apt",4,2,2,80,2,30,26,"2020-05-31",320
+"523",4619484,"LA RAIOSA","valencia","spain",39.45788,-0.38864,"Apartment","Entire home/apt",6,2,5,75,2,1125,30,"2020-05-31",0
+"524",4621516,"LA XEREA","valencia","spain",39.47227,-0.37233,"Apartment","Entire home/apt",4,2,3,60,2,1125,28,"2020-05-31",120
+"525",4700434,"EL CARME","valencia","spain",39.48046,-0.38268,"Apartment","Entire home/apt",3,2,3,50,3,1125,2,"2020-05-31",1400
+"526",4712557,"SANT FRANCESC","valencia","spain",39.46882,-0.37497,"Apartment","Entire home/apt",4,1,1,60,2,1124,30,"2020-05-31",0
+"527",4712774,"SANT FRANCESC","valencia","spain",39.46841,-0.3771,"Apartment","Entire home/apt",4,1,1,65,2,1124,30,"2020-05-31",0
+"528",4714648,"EN CORTS","valencia","spain",39.45771,-0.3686,"Loft","Entire home/apt",4,0,2,25,3,300,30,"2020-05-31",0
+"529",4721231,"MESTALLA","valencia","spain",39.47418,-0.35949,"House","Private room",3,1,1,25,1,1125,30,"2020-05-31",0
+"530",4734115,"CABANYAL-CANYAMELAR","valencia","spain",39.47164,-0.33302,"Loft","Entire home/apt",2,1,1,70,2,1124,18,"2020-05-31",840
+"531",4746249,"EL MERCAT","valencia","spain",39.47467,-0.37785,"Apartment","Entire home/apt",4,1,3,66,3,1125,29,"2020-05-31",66
+"532",4754303,"EL MERCAT","valencia","spain",39.47589,-0.3797,"Apartment","Entire home/apt",4,1,3,70,3,1125,26,"2020-05-31",280
+"533",4817712,"SANT FRANCESC","valencia","spain",39.47117,-0.37672,"Apartment","Entire home/apt",4,3,3,31,5,20,0,"2020-05-31",930
+"534",4828291,"LA XEREA","valencia","spain",39.47289,-0.37319,"Apartment","Entire home/apt",10,3,8,370,2,1125,11,"2020-05-31",7030
+"535",4851657,"LA SEU","valencia","spain",39.4739,-0.37512,"Condominium","Entire home/apt",2,1,1,45,3,20,30,"2020-05-31",0
+"536",4855882,"LA PETXINA","valencia","spain",39.47664,-0.39089,"Condominium","Private room",2,1,1,22,4,45,30,"2020-05-31",0
+"537",4870863,"EL BOTANIC","valencia","spain",39.47722,-0.38623,"Apartment","Entire home/apt",6,3,4,55,2,1125,30,"2020-05-31",0
+"538",4914505,"CIUTAT DE LES ARTS I DE LES CIENCIES","valencia","spain",39.45491,-0.35595,"Condominium","Entire home/apt",6,3,3,70,14,30,23,"2020-05-31",490
+"539",4946496,"CABANYAL-CANYAMELAR","valencia","spain",39.46748,-0.32966,"Loft","Entire home/apt",2,1,2,65,3,1125,1,"2020-05-31",1885
+"540",5000236,"TORREFIEL","valencia","spain",39.49622,-0.38068,"Apartment","Private room",1,1,1,10,2,1125,29,"2020-05-31",10
+"541",5003768,"EL MERCAT","valencia","spain",39.47597,-0.38062,"Apartment","Entire home/apt",4,1,2,45,7,1125,29,"2020-05-31",45
+"542",5016339,"NOU MOLES","valencia","spain",39.46847,-0.39359,"Apartment","Private room",1,1,1,20,2,1125,1,"2020-05-31",580
+"543",5020240,"MONT-OLIVET","valencia","spain",39.45922,-0.36554,"Apartment","Private room",4,4,5,15,2,1125,30,"2020-05-31",0
+"544",5020746,"MONT-OLIVET","valencia","spain",39.45927,-0.36772,"Apartment","Entire home/apt",5,3,3,50,3,1125,30,"2020-05-31",0
+"545",5044395,"LA SEU","valencia","spain",39.4751,-0.37693,"Loft","Entire home/apt",2,1,1,50,2,1095,0,"2020-05-31",1500
+"546",5046728,"NOU MOLES","valencia","spain",39.47192,-0.39479,"Apartment","Entire home/apt",5,2,3,150,2,1125,29,"2020-05-31",150
+"547",5074586,"RUSSAFA","valencia","spain",39.46319,-0.37628,"Apartment","Entire home/apt",6,3,3,300,2,1125,30,"2020-05-31",0
+"548",5080809,"LA CARRASCA","valencia","spain",39.47552,-0.34702,"Apartment","Entire home/apt",4,3,3,50,2,1125,28,"2020-05-31",100
+"549",5080912,"RUSSAFA","valencia","spain",39.46371,-0.37738,"Apartment","Entire home/apt",6,4,5,90,2,1125,23,"2020-05-31",630
+"550",5081227,"EL CARME","valencia","spain",39.47571,-0.38417,"Apartment","Entire home/apt",6,2,2,200,2,8,29,"2020-05-31",200
+"551",5092506,"EL GRAU","valencia","spain",39.45935,-0.33765,"Apartment","Private room",2,1,1,40,1,6,30,"2020-05-31",0
+"552",5092574,"SANT FRANCESC","valencia","spain",39.46874,-0.38125,"Apartment","Entire home/apt",2,1,1,45,3,31,0,"2020-05-31",1350
+"553",5131751,"LA PUNTA","valencia","spain",39.44189,-0.34407,"Apartment","Entire home/apt",8,3,5,45,2,1125,2,"2020-05-31",1260
+"554",5142115,"LA SEU","valencia","spain",39.47677,-0.37582,"Apartment","Entire home/apt",4,1,1,58,3,99999,30,"2020-05-31",0
+"555",5144502,"SANT FRANCESC","valencia","spain",39.47322,-0.37451,"Apartment","Entire home/apt",4,1,2,125,1,1125,0,"2020-05-31",3750
+"556",5155481,"LA XEREA","valencia","spain",39.47568,-0.37303,"Apartment","Entire home/apt",2,1,2,72,3,1125,30,"2020-05-31",0
+"557",5191760,"EL MERCAT","valencia","spain",39.47387,-0.37678,"Loft","Entire home/apt",2,1,1,59,3,365,15,"2020-05-31",885
+"558",5229002,"RUSSAFA","valencia","spain",39.46001,-0.37532,"Apartment","Entire home/apt",5,3,4,100,4,1125,21,"2020-05-31",900
+"559",5234792,"SANT FRANCESC","valencia","spain",39.47307,-0.37619,"Apartment","Entire home/apt",4,2,2,75,2,1125,24,"2020-05-31",450
+"560",5239369,"LA SEU","valencia","spain",39.47747,-0.37533,"Apartment","Entire home/apt",3,1,1,82,3,1125,30,"2020-05-31",0
+"561",5240096,"RUSSAFA","valencia","spain",39.4619,-0.37242,"Apartment","Entire home/apt",4,2,2,88,3,1125,30,"2020-05-31",0
+"562",5257446,"TRINITAT","valencia","spain",39.48516,-0.36815,"Apartment","Entire home/apt",6,2,3,55,3,1125,0,"2020-05-31",1650
+"563",5257874,"LA MALVA-ROSA","valencia","spain",39.48393,-0.32691,"Townhouse","Entire home/apt",14,7,0,400,3,1125,29,"2020-05-31",400
+"564",5264483,"SANT LLORENS","valencia","spain",39.49344,-0.36077,"Apartment","Entire home/apt",3,1,2,52,7,1125,30,"2020-05-31",0
+"565",5283997,"LA XEREA","valencia","spain",39.47288,-0.3737,"Apartment","Entire home/apt",5,2,2,99,3,1125,22,"2020-05-31",792
+"566",5300816,"EL MERCAT","valencia","spain",39.47134,-0.37805,"Apartment","Entire home/apt",5,2,3,90,2,1125,25,"2020-05-31",450
+"567",5325288,"LA PETXINA","valencia","spain",39.47254,-0.39024,"Apartment","Private room",2,1,1,27,2,1125,29,"2020-05-31",27
+"568",5332392,"MORVEDRE","valencia","spain",39.48324,-0.37707,"Apartment","Private room",2,1,2,70,3,7,29,"2020-05-31",70
+"569",5352043,"MORVEDRE","valencia","spain",39.48352,-0.37746,"Apartment","Private room",1,1,1,23,2,25,30,"2020-05-31",0
+"570",5360076,"LA PETXINA","valencia","spain",39.47076,-0.3892,"Apartment","Private room",1,1,1,35,1,1125,29,"2020-05-31",35
+"571",5367206,"EL CARME","valencia","spain",39.47827,-0.38056,"Apartment","Private room",3,1,2,35,2,1125,0,"2020-05-31",1050
+"572",5376811,"AIORA","valencia","spain",39.46729,-0.34193,"Apartment","Private room",2,1,1,30,2,1125,0,"2020-05-31",900
+"573",5378513,"EL MERCAT","valencia","spain",39.47604,-0.37941,"Apartment","Private room",2,1,1,60,1,1125,30,"2020-05-31",0
+"574",5401943,"EL PILAR","valencia","spain",39.47278,-0.38161,"Apartment","Entire home/apt",6,2,3,59,2,92,30,"2020-05-31",0
+"575",5404234,"CABANYAL-CANYAMELAR","valencia","spain",39.47324,-0.3283,"Apartment","Entire home/apt",6,3,5,75,3,10000,29,"2020-05-31",75
+"576",5408174,"LA MALVA-ROSA","valencia","spain",39.47706,-0.32873,"Apartment","Entire home/apt",6,4,4,70,7,1125,0,"2020-05-31",2100
+"577",5425641,"TRES FORQUES","valencia","spain",39.46967,-0.40541,"Apartment","Entire home/apt",5,2,4,30,2,60,0,"2020-05-31",900
+"578",5431062,"EL MERCAT","valencia","spain",39.47192,-0.37835,"Apartment","Entire home/apt",4,1,2,50,2,1124,30,"2020-05-31",0
+"579",5432423,"NOU MOLES","valencia","spain",39.47185,-0.403,"Apartment","Entire home/apt",4,3,3,29,28,1125,0,"2020-05-31",870
+"580",5432823,"EL CARME","valencia","spain",39.48015,-0.38121,"Loft","Entire home/apt",3,0,0,66,2,90,0,"2020-05-31",1980
+"581",5502004,"EL SALER","valencia","spain",39.35907,-0.32083,"Apartment","Entire home/apt",4,2,3,85,2,1125,29,"2020-05-31",85
+"582",5506779,"MONT-OLIVET","valencia","spain",39.46085,-0.36331,"Apartment","Private room",1,1,1,22,1,1125,29,"2020-05-31",22
+"583",5506912,"SANT FRANCESC","valencia","spain",39.47247,-0.37587,"Loft","Entire home/apt",3,0,1,39,2,1125,0,"2020-05-31",1170
+"584",5507860,"SANT ANTONI","valencia","spain",39.48844,-0.36922,"Apartment","Entire home/apt",4,3,3,66,5,90,15,"2020-05-31",990
+"585",5507897,"BENIMACLET","valencia","spain",39.48753,-0.36245,"Apartment","Entire home/apt",7,4,7,140,3,1125,1,"2020-05-31",4060
+"586",5509407,"NA ROVELLA","valencia","spain",39.45644,-0.36096,"Apartment","Entire home/apt",4,2,2,69,2,1125,18,"2020-05-31",828
+"587",5514651,"RUSSAFA","valencia","spain",39.45955,-0.3769,"Loft","Entire home/apt",2,0,1,49,1,1125,30,"2020-05-31",0
+"588",5529063,"LA PETXINA","valencia","spain",39.4754,-0.39269,"Apartment","Entire home/apt",4,2,2,65,3,1125,29,"2020-05-31",65
+"589",5536781,"EL CARME","valencia","spain",39.48019,-0.3802,"Apartment","Entire home/apt",2,1,1,60,2,1125,0,"2020-05-31",1800
+"590",5546078,"EL PILAR","valencia","spain",39.47183,-0.38288,"Apartment","Entire home/apt",3,1,2,55,2,1125,30,"2020-05-31",0
+"591",5560396,"CABANYAL-CANYAMELAR","valencia","spain",39.46536,-0.32941,"Apartment","Entire home/apt",4,2,3,59,3,100,26,"2020-05-31",236
+"592",5561073,"LA SEU","valencia","spain",39.47423,-0.37635,"Loft","Entire home/apt",2,0,1,68,1,1125,25,"2020-05-31",340
+"593",5561557,"CABANYAL-CANYAMELAR","valencia","spain",39.4646,-0.3297,"Apartment","Entire home/apt",4,2,3,59,3,1124,30,"2020-05-31",0
+"594",5578177,"LA XEREA","valencia","spain",39.4741,-0.37044,"Apartment","Entire home/apt",5,2,3,90,2,1125,21,"2020-05-31",810
+"595",5588671,"RUSSAFA","valencia","spain",39.45984,-0.37758,"Apartment","Entire home/apt",4,2,3,40,1,28,30,"2020-05-31",0
+"596",5592556,"SANT FRANCESC","valencia","spain",39.47086,-0.37799,"Apartment","Entire home/apt",4,1,3,95,2,1125,28,"2020-05-31",190
+"597",5605844,"SANT FRANCESC","valencia","spain",39.46822,-0.37612,"Apartment","Entire home/apt",6,2,2,95,1,1125,30,"2020-05-31",0
+"598",5640363,"CABANYAL-CANYAMELAR","valencia","spain",39.47173,-0.32991,"House","Entire home/apt",4,1,2,45,3,1125,0,"2020-05-31",1350
+"599",5651645,"ELS ORRIOLS","valencia","spain",39.49174,-0.37301,"Apartment","Entire home/apt",6,2,5,60,2,1125,0,"2020-05-31",1800
+"600",5655948,"EL GRAU","valencia","spain",39.45953,-0.33563,"Apartment","Private room",2,1,0,25,1,5,29,"2020-05-31",25
+"601",5656043,"EL GRAU","valencia","spain",39.46011,-0.33593,"Apartment","Private room",2,1,0,25,1,5,30,"2020-05-31",0
+"602",5656384,"AIORA","valencia","spain",39.46464,-0.33606,"Apartment","Private room",2,1,1,12,28,1125,0,"2020-05-31",360
+"603",5657631,"RUSSAFA","valencia","spain",39.46206,-0.36647,"Apartment","Entire home/apt",4,2,2,55,2,120,29,"2020-05-31",55
+"604",5680938,"NA ROVELLA","valencia","spain",39.44977,-0.37001,"Apartment","Entire home/apt",7,4,6,88,3,1125,30,"2020-05-31",0
+"605",5681457,"CIUTAT DE LES ARTS I DE LES CIENCIES","valencia","spain",39.45574,-0.35907,"Apartment","Entire home/apt",7,3,5,88,3,1125,21,"2020-05-31",792
+"606",5738060,"EN CORTS","valencia","spain",39.45807,-0.37124,"Apartment","Private room",2,1,1,25,1,7,1,"2020-05-31",725
+"607",5744385,"TRINITAT","valencia","spain",39.48452,-0.3676,"Apartment","Private room",1,1,1,20,3,90,29,"2020-05-31",20
+"608",5754905,"EL CARME","valencia","spain",39.47955,-0.37759,"Apartment","Entire home/apt",4,1,1,60,3,300,30,"2020-05-31",0
+"609",5756202,"RUSSAFA","valencia","spain",39.46011,-0.3743,"Loft","Entire home/apt",3,1,2,50,3,1125,0,"2020-05-31",1500
+"610",5777419,"SANT ANTONI","valencia","spain",39.48906,-0.37524,"Apartment","Entire home/apt",3,2,2,23,29,1125,1,"2020-05-31",667
+"611",5788039,"RUSSAFA","valencia","spain",39.46729,-0.37611,"Apartment","Entire home/apt",6,2,3,96,1,1125,30,"2020-05-31",0
+"612",5788831,"ALBORS","valencia","spain",39.46778,-0.35578,"Apartment","Entire home/apt",4,2,4,95,2,1125,18,"2020-05-31",1140
+"613",5790057,"SANT FRANCESC","valencia","spain",39.46866,-0.37465,"Apartment","Entire home/apt",6,2,5,96,1,1125,30,"2020-05-31",0
+"614",5794235,"EL BOTANIC","valencia","spain",39.47555,-0.38489,"Apartment","Entire home/apt",3,2,4,48,2,60,30,"2020-05-31",0
+"615",5794688,"LA GRAN VIA","valencia","spain",39.46672,-0.36661,"Apartment","Private room",2,1,1,28,2,6,28,"2020-05-31",56
+"616",5801842,"EL GRAU","valencia","spain",39.4617,-0.33745,"Apartment","Private room",1,1,1,18,3,90,0,"2020-05-31",540
+"617",5811183,"LES TENDETES","valencia","spain",39.48288,-0.38404,"Apartment","Entire home/apt",3,2,2,90,2,1125,0,"2020-05-31",2700
+"618",5819753,"EL CARME","valencia","spain",39.48057,-0.38152,"Apartment","Entire home/apt",4,2,3,39,2,10,29,"2020-05-31",39
+"619",5857631,"RUSSAFA","valencia","spain",39.46371,-0.37484,"Apartment","Entire home/apt",4,1,2,66,5,180,30,"2020-05-31",0
+"620",5879631,"LA PETXINA","valencia","spain",39.47009,-0.38858,"Apartment","Entire home/apt",6,2,4,65,1,1124,0,"2020-05-31",1950
+"621",5922708,"RUSSAFA","valencia","spain",39.45934,-0.3731,"Apartment","Private room",2,1,2,30,2,1125,29,"2020-05-31",30
+"622",5923875,"RUSSAFA","valencia","spain",39.46048,-0.37714,"Apartment","Entire home/apt",3,1,1,50,1,60,0,"2020-05-31",1500
+"623",5955158,"ALBORS","valencia","spain",39.46959,-0.35392,"Apartment","Entire home/apt",2,1,1,70,2,365,30,"2020-05-31",0
+"624",5955816,"ALBORS","valencia","spain",39.46958,-0.35392,"Apartment","Entire home/apt",2,1,1,70,2,365,10,"2020-05-31",1400
+"625",5956116,"ALBORS","valencia","spain",39.4696,-0.35387,"Apartment","Entire home/apt",6,3,5,110,2,365,30,"2020-05-31",0
+"626",5956427,"ALBORS","valencia","spain",39.4696,-0.35387,"Apartment","Entire home/apt",6,3,5,110,2,365,30,"2020-05-31",0
+"627",5956789,"ALBORS","valencia","spain",39.4696,-0.35387,"Apartment","Entire home/apt",6,3,5,110,2,365,23,"2020-05-31",770
+"628",5956901,"MESTALLA","valencia","spain",39.47374,-0.35985,"Apartment","Entire home/apt",6,3,5,80,2,365,28,"2020-05-31",160
+"629",5957076,"MESTALLA","valencia","spain",39.47375,-0.35985,"Apartment","Entire home/apt",6,3,5,80,2,365,28,"2020-05-31",160
+"630",5957142,"MESTALLA","valencia","spain",39.47375,-0.35985,"Apartment","Entire home/apt",6,3,5,80,2,365,30,"2020-05-31",0
+"631",5957190,"MESTALLA","valencia","spain",39.47387,-0.35978,"Apartment","Entire home/apt",6,3,5,80,2,365,30,"2020-05-31",0
+"632",5957237,"MESTALLA","valencia","spain",39.47387,-0.35978,"Apartment","Entire home/apt",6,3,5,80,2,365,30,"2020-05-31",0
+"633",5987516,"EL GRAU","valencia","spain",39.46013,-0.3382,"House","Private room",2,1,1,25,1,1125,0,"2020-05-31",750
+"634",5988649,"CIUTAT DE LES ARTS I DE LES CIENCIES","valencia","spain",39.45517,-0.36001,"Apartment","Entire home/apt",5,3,4,70,1,30,19,"2020-05-31",770
+"635",6028994,"LA MALVA-ROSA","valencia","spain",39.47631,-0.32679,"Apartment","Entire home/apt",5,2,4,69,1,1125,16,"2020-05-31",966
+"636",6028995,"LA MALVA-ROSA","valencia","spain",39.47769,-0.32842,"Apartment","Entire home/apt",5,2,3,55,1,1125,16,"2020-05-31",770
+"637",6036966,"LA SEU","valencia","spain",39.47424,-0.37672,"Apartment","Entire home/apt",4,1,1,62,3,1124,29,"2020-05-31",62
+"638",6073436,"RUSSAFA","valencia","spain",39.4609,-0.37782,"Apartment","Entire home/apt",2,1,1,59,6,1125,30,"2020-05-31",0
+"639",6074045,"RUSSAFA","valencia","spain",39.46137,-0.37135,"Loft","Entire home/apt",2,1,0,65,5,1125,9,"2020-05-31",1365
+"640",6076389,"LA PUNTA","valencia","spain",39.44981,-0.34706,"Cottage","Entire home/apt",5,3,3,30,2,1125,28,"2020-05-31",60
+"641",6081762,"LA VEGA BAIXA","valencia","spain",39.47585,-0.34864,"Apartment","Private room",2,1,1,25,1,1125,28,"2020-05-31",50
+"642",6082888,"LA MALVA-ROSA","valencia","spain",39.48085,-0.3286,"Apartment","Entire home/apt",2,1,1,50,4,1125,10,"2020-05-31",1000
+"643",6100234,"LA SEU","valencia","spain",39.47402,-0.37648,"Apartment","Entire home/apt",4,2,3,80,2,1125,0,"2020-05-31",2400
+"644",6102773,"EL CARME","valencia","spain",39.48033,-0.38152,"Loft","Entire home/apt",3,0,2,66,2,90,29,"2020-05-31",66
+"645",6111355,"SANT FRANCESC","valencia","spain",39.47202,-0.37645,"Apartment","Entire home/apt",3,1,1,80,2,1125,27,"2020-05-31",240
+"646",6111377,"MESTALLA","valencia","spain",39.46792,-0.35927,"Apartment","Entire home/apt",4,1,2,54,3,1125,0,"2020-05-31",1620
+"647",6152021,"LA SEU","valencia","spain",39.47531,-0.37577,"Apartment","Private room",1,1,1,26,2,1125,1,"2020-05-31",754
+"648",6178191,"RUSSAFA","valencia","spain",39.46265,-0.37326,"Apartment","Entire home/apt",7,4,4,99,3,1125,30,"2020-05-31",0
+"649",6180240,"BENICALAP","valencia","spain",39.49028,-0.39366,"Apartment","Entire home/apt",4,2,2,55,2,1125,10,"2020-05-31",1100
+"650",6204924,"EL SALER","valencia","spain",39.35515,-0.32394,"Apartment","Entire home/apt",5,3,5,46,3,125,29,"2020-05-31",46
+"651",6209759,"LA MALVA-ROSA","valencia","spain",39.48293,-0.32633,"Apartment","Entire home/apt",5,2,2,124,5,1125,6,"2020-05-31",2976
+"652",6258634,"CABANYAL-CANYAMELAR","valencia","spain",39.47152,-0.32664,"Loft","Entire home/apt",4,2,2,100,3,60,22,"2020-05-31",800
+"653",6265008,"CABANYAL-CANYAMELAR","valencia","spain",39.46577,-0.3306,"Apartment","Entire home/apt",4,3,3,50,7,25,29,"2020-05-31",50
+"654",6272168,"RUSSAFA","valencia","spain",39.46037,-0.3778,"Apartment","Private room",1,1,1,28,3,1125,0,"2020-05-31",840
+"655",6272554,"MORVEDRE","valencia","spain",39.48523,-0.37447,"Apartment","Entire home/apt",4,2,2,60,10,1125,29,"2020-05-31",60
+"656",6298661,"EL SALER","valencia","spain",39.35381,-0.32127,"Condominium","Entire home/apt",5,3,4,60,2,100,26,"2020-05-31",240
+"657",6308174,"MONT-OLIVET","valencia","spain",39.45795,-0.36324,"Apartment","Entire home/apt",4,2,2,55,3,1125,30,"2020-05-31",0
+"658",6309654,"CABANYAL-CANYAMELAR","valencia","spain",39.46797,-0.3254,"Loft","Entire home/apt",4,2,2,90,3,1125,2,"2020-05-31",2520
+"659",6313191,"SANT FRANCESC","valencia","spain",39.46807,-0.37597,"Apartment","Entire home/apt",6,2,2,96,1,1125,30,"2020-05-31",0
+"660",6333124,"AIORA","valencia","spain",39.46751,-0.34518,"Apartment","Entire home/apt",5,2,2,39,7,1124,0,"2020-05-31",1170
+"661",6339285,"LA XEREA","valencia","spain",39.47208,-0.37524,"Apartment","Entire home/apt",4,1,2,75,3,1125,30,"2020-05-31",0
+"662",6343819,"EL SALER","valencia","spain",39.35192,-0.32112,"Apartment","Entire home/apt",4,2,3,60,7,30,30,"2020-05-31",0
+"663",6346924,"LA CREU DEL GRAU","valencia","spain",39.46202,-0.34458,"Apartment","Entire home/apt",5,2,3,50,3,1125,0,"2020-05-31",1500
+"664",6351179,"CIUTAT DE LES ARTS I DE LES CIENCIES","valencia","spain",39.45568,-0.35388,"Apartment","Entire home/apt",4,2,2,131,2,1125,0,"2020-05-31",3930
+"665",6360226,"LA RAIOSA","valencia","spain",39.45793,-0.38791,"Apartment","Entire home/apt",6,3,3,47,2,1125,28,"2020-05-31",94
+"666",6384558,"TRINITAT","valencia","spain",39.48604,-0.36443,"Apartment","Private room",1,1,1,20,1,1125,0,"2020-05-31",600
+"667",6396198,"MONT-OLIVET","valencia","spain",39.45916,-0.36486,"Tiny house","Private room",2,1,1,15,2,20,0,"2020-05-31",450
+"668",6405990,"CABANYAL-CANYAMELAR","valencia","spain",39.47191,-0.32932,"Apartment","Entire home/apt",5,3,5,120,5,90,29,"2020-05-31",120
+"669",6406953,"EL PILAR","valencia","spain",39.47555,-0.38249,"Apartment","Entire home/apt",5,3,3,59,2,1125,30,"2020-05-31",0
+"670",6407832,"RUSSAFA","valencia","spain",39.46474,-0.37481,"Apartment","Entire home/apt",6,3,4,70,4,1125,9,"2020-05-31",1470
+"671",6422011,"EL PILAR","valencia","spain",39.47567,-0.38299,"Apartment","Entire home/apt",4,1,2,70,4,1125,29,"2020-05-31",70
+"672",6427986,"SANT FRANCESC","valencia","spain",39.46885,-0.3764,"Bed and breakfast","Private room",1,1,1,33,1,80,30,"2020-05-31",0
+"673",6435944,"MARXALENES","valencia","spain",39.48884,-0.38763,"Apartment","Private room",1,3,1,12,28,1125,30,"2020-05-31",0
+"674",6446418,"NOU MOLES","valencia","spain",39.47283,-0.39969,"Apartment","Entire home/apt",4,2,2,100,2,1125,0,"2020-05-31",3000
+"675",6446878,"BENICALAP","valencia","spain",39.48957,-0.38941,"Apartment","Entire home/apt",8,3,5,50,1,1125,30,"2020-05-31",0
+"676",6447081,"RUSSAFA","valencia","spain",39.46177,-0.37091,"Apartment","Entire home/apt",4,2,2,50,2,1125,26,"2020-05-31",200
+"677",6448659,"BENIMACLET","valencia","spain",39.48303,-0.35747,"Apartment","Entire home/apt",4,1,4,39,1,1125,30,"2020-05-31",0
+"678",6459520,"CABANYAL-CANYAMELAR","valencia","spain",39.46462,-0.33132,"Loft","Entire home/apt",4,1,2,69,2,1125,29,"2020-05-31",69
+"679",6459691,"PENYA-ROJA","valencia","spain",39.4616,-0.35231,"Apartment","Entire home/apt",6,3,5,80,1,1125,0,"2020-05-31",2400
+"680",6459803,"CABANYAL-CANYAMELAR","valencia","spain",39.46497,-0.32845,"Apartment","Private room",2,1,1,28,2,1125,29,"2020-05-31",28
+"681",6459872,"EN CORTS","valencia","spain",39.45759,-0.37344,"Apartment","Entire home/apt",4,2,2,40,1,10,26,"2020-05-31",160
+"682",6470502,"SANT FRANCESC","valencia","spain",39.46888,-0.37736,"Apartment","Entire home/apt",5,2,3,75,2,1124,30,"2020-05-31",0
+"683",6470569,"EL MERCAT","valencia","spain",39.47445,-0.37732,"Apartment","Entire home/apt",2,0,1,49,1,1125,30,"2020-05-31",0
+"684",6478998,"CABANYAL-CANYAMELAR","valencia","spain",39.46821,-0.33021,"Loft","Entire home/apt",2,0,1,45,3,30,19,"2020-05-31",495
+"685",6507457,"RUSSAFA","valencia","spain",39.46506,-0.37664,"Apartment","Entire home/apt",6,4,4,89,7,1125,0,"2020-05-31",2670
+"686",6547220,"LA SEU","valencia","spain",39.47448,-0.37669,"Apartment","Entire home/apt",2,1,1,65,28,1124,0,"2020-05-31",1950
+"687",6550334,"LA MALVA-ROSA","valencia","spain",39.47791,-0.32783,"Apartment","Entire home/apt",8,4,6,249,2,160,29,"2020-05-31",249
+"688",6564544,"RUSSAFA","valencia","spain",39.46082,-0.37485,"Apartment","Private room",2,1,1,30,2,1125,0,"2020-05-31",900
+"689",6565122,"ARRANCAPINS","valencia","spain",39.46793,-0.38402,"Apartment","Entire home/apt",4,3,4,56,60,1125,0,"2020-05-31",1680
+"690",6589082,"RUSSAFA","valencia","spain",39.46193,-0.37122,"Apartment","Entire home/apt",6,3,3,98,2,60,30,"2020-05-31",0
+"691",6595378,"RUSSAFA","valencia","spain",39.4644,-0.37557,"Apartment","Entire home/apt",8,5,8,85,3,1125,0,"2020-05-31",2550
+"692",6616626,"TORREFIEL","valencia","spain",39.49487,-0.37927,"Apartment","Entire home/apt",8,3,7,40,2,1125,0,"2020-05-31",1200
+"693",6622656,"CABANYAL-CANYAMELAR","valencia","spain",39.47425,-0.32997,"Loft","Entire home/apt",2,0,1,50,6,1125,22,"2020-05-31",400
+"694",6633807,"RUSSAFA","valencia","spain",39.45807,-0.37303,"Apartment","Private room",1,1,1,170,90,1125,30,"2020-05-31",0
+"695",6635365,"EL MERCAT","valencia","spain",39.47336,-0.37884,"Apartment","Entire home/apt",6,2,3,69,3,1125,29,"2020-05-31",69
+"696",6656626,"SANT FRANCESC","valencia","spain",39.473,-0.3758,"Apartment","Entire home/apt",4,1,1,50,3,365,30,"2020-05-31",0
+"697",6666308,"EL GRAU","valencia","spain",39.45946,-0.33485,"Apartment","Entire home/apt",5,2,3,40,7,80,4,"2020-05-31",1040
+"698",6676061,"CABANYAL-CANYAMELAR","valencia","spain",39.47136,-0.33051,"Apartment","Entire home/apt",4,2,2,60,2,90,29,"2020-05-31",60
+"699",6681444,"CIUTAT UNIVERSITARIA","valencia","spain",39.47608,-0.35418,"Apartment","Private room",1,1,1,20,2,14,30,"2020-05-31",0
+"700",6683134,"ARRANCAPINS","valencia","spain",39.46412,-0.38398,"Apartment","Private room",2,1,2,40,2,1125,30,"2020-05-31",0
+"701",6698664,"FAVARA","valencia","spain",39.45485,-0.39376,"Apartment","Entire home/apt",3,2,2,35,2,70,0,"2020-05-31",1050
+"702",6699034,"LA CREU DEL GRAU","valencia","spain",39.46312,-0.34554,"Apartment","Entire home/apt",4,2,3,80,7,31,26,"2020-05-31",320
+"703",6702598,"LA MALVA-ROSA","valencia","spain",39.48088,-0.32957,"Apartment","Entire home/apt",4,2,3,60,2,1125,28,"2020-05-31",120
+"704",6711124,"NATZARET","valencia","spain",39.44722,-0.33457,"Apartment","Entire home/apt",4,3,5,46,3,1125,0,"2020-05-31",1380
+"705",6734047,"BENIMACLET","valencia","spain",39.48381,-0.35824,"Condominium","Shared room",2,1,2,25,3,28,30,"2020-05-31",0
+"706",6793315,"CABANYAL-CANYAMELAR","valencia","spain",39.46335,-0.32326,"Apartment","Entire home/apt",4,1,2,90,2,1125,20,"2020-05-31",900
+"707",6806651,"BENIMACLET","valencia","spain",39.48481,-0.35803,"Apartment","Private room",4,1,4,23,1,7,30,"2020-05-31",0
+"708",6843824,"MONT-OLIVET","valencia","spain",39.46028,-0.36344,"Apartment","Private room",2,1,1,29,1,1125,29,"2020-05-31",29
+"709",6844755,"LA CREU DEL GRAU","valencia","spain",39.46189,-0.34844,"Apartment","Private room",2,1,1,45,3,1125,30,"2020-05-31",0
+"710",6862232,"BETERO","valencia","spain",39.47323,-0.33431,"Apartment","Entire home/apt",4,3,4,35,7,1125,0,"2020-05-31",1050
+"711",6872011,"NOU MOLES","valencia","spain",39.46949,-0.39897,"House","Private room",2,1,2,40,1,1125,30,"2020-05-31",0
+"712",6873258,"LA ROQUETA","valencia","spain",39.46711,-0.37804,"Loft","Entire home/apt",2,0,1,65,2,1125,4,"2020-05-31",1690
+"713",6873422,"LA ROQUETA","valencia","spain",39.46707,-0.37687,"Loft","Entire home/apt",2,0,1,65,2,1125,23,"2020-05-31",455
+"714",6877620,"CABANYAL-CANYAMELAR","valencia","spain",39.46676,-0.33197,"Apartment","Entire home/apt",4,1,0,50,3,30,29,"2020-05-31",50
+"715",6923443,"RUSSAFA","valencia","spain",39.467,-0.37642,"Apartment","Private room",2,1,1,70,365,1125,30,"2020-05-31",0
+"716",6950734,"CABANYAL-CANYAMELAR","valencia","spain",39.46585,-0.33151,"Apartment","Entire home/apt",4,2,2,74,3,500,29,"2020-05-31",74
+"717",6956498,"EL CARME","valencia","spain",39.47864,-0.3774,"Apartment","Entire home/apt",2,1,1,59,3,1125,0,"2020-05-31",1770
+"718",6965896,"AIORA","valencia","spain",39.46831,-0.34978,"Apartment","Entire home/apt",4,3,3,60,3,1125,0,"2020-05-31",1800
+"719",6969395,"ARRANCAPINS","valencia","spain",39.46125,-0.38009,"Apartment","Private room",2,1,1,22,4,1125,29,"2020-05-31",22
+"720",6981054,"RUSSAFA","valencia","spain",39.4657,-0.37625,"Apartment","Entire home/apt",8,4,6,135,2,1124,30,"2020-05-31",0
+"721",6981613,"MORVEDRE","valencia","spain",39.48558,-0.37256,"Apartment","Entire home/apt",6,3,3,71,3,1125,0,"2020-05-31",2130
+"722",6981655,"L'ILLA PERDUDA","valencia","spain",39.46841,-0.34083,"Apartment","Entire home/apt",8,4,5,94,5,1125,0,"2020-05-31",2820
+"723",6986017,"CIUTAT JARDI","valencia","spain",39.47251,-0.34435,"Apartment","Entire home/apt",7,4,5,100,5,60,0,"2020-05-31",3000
+"724",6996624,"LA MALVA-ROSA","valencia","spain",39.47688,-0.32581,"Townhouse","Entire home/apt",4,3,4,80,3,1125,28,"2020-05-31",160
+"725",7000120,"CABANYAL-CANYAMELAR","valencia","spain",39.46892,-0.32552,"Apartment","Entire home/apt",7,3,5,80,2,1125,27,"2020-05-31",240
+"726",7018456,"EL GRAU","valencia","spain",39.46044,-0.33938,"Apartment","Private room",2,1,1,30,3,1125,30,"2020-05-31",0
+"727",7058282,"CABANYAL-CANYAMELAR","valencia","spain",39.4653,-0.33166,"House","Entire home/apt",4,1,2,85,1,1125,29,"2020-05-31",85
+"728",7082345,"EL PILAR","valencia","spain",39.47574,-0.38332,"Apartment","Entire home/apt",2,1,2,51,2,1125,30,"2020-05-31",0
+"729",7096025,"EL MERCAT","valencia","spain",39.47345,-0.37739,"Apartment","Entire home/apt",6,2,4,81,2,1125,30,"2020-05-31",0
+"730",7098442,"EL CALVARI","valencia","spain",39.48666,-0.388,"Apartment","Private room",1,3,1,14,10,1125,30,"2020-05-31",0
+"731",7123394,"ARRANCAPINS","valencia","spain",39.46766,-0.38439,"Apartment","Entire home/apt",8,5,9,69,1,1125,18,"2020-05-31",828
+"732",7124143,"ARRANCAPINS","valencia","spain",39.46915,-0.38401,"Apartment","Entire home/apt",8,4,7,69,1,1125,0,"2020-05-31",2070
+"733",7132132,"BENIMACLET","valencia","spain",39.48644,-0.36315,"Apartment","Entire home/apt",3,1,2,25,5,30,0,"2020-05-31",750
+"734",7135548,"EL CARME","valencia","spain",39.47891,-0.38215,"Apartment","Entire home/apt",4,2,4,120,1,90,1,"2020-05-31",3480
+"735",7140747,"CIUTAT JARDI","valencia","spain",39.4747,-0.3456,"Apartment","Entire home/apt",6,4,4,165,4,1125,30,"2020-05-31",0
+"736",7151261,"EL CARME","valencia","spain",39.4805,-0.38082,"Apartment","Entire home/apt",5,2,3,95,3,1125,29,"2020-05-31",95
+"737",7153206,"SAFRANAR","valencia","spain",39.45623,-0.39653,"Condominium","Entire home/apt",8,4,6,65,1,1125,0,"2020-05-31",1950
+"738",7159626,"EL BOTANIC","valencia","spain",39.47428,-0.38762,"Loft","Entire home/apt",2,0,1,35,7,365,29,"2020-05-31",35
+"739",7169549,"MORVEDRE","valencia","spain",39.48372,-0.37373,"Apartment","Entire home/apt",5,3,3,52,4,1125,30,"2020-05-31",0
+"740",7186295,"MARXALENES","valencia","spain",39.48418,-0.38309,"Apartment","Entire home/apt",4,2,3,40,5,30,29,"2020-05-31",40
+"741",7188599,"LA GRAN VIA","valencia","spain",39.4636,-0.36675,"Apartment","Entire home/apt",2,1,3,75,1,1125,0,"2020-05-31",2250
+"742",7197287,"CAMI REAL","valencia","spain",39.43911,-0.38957,"Apartment","Entire home/apt",8,3,5,65,2,1125,28,"2020-05-31",130
+"743",7209862,"RUSSAFA","valencia","spain",39.46253,-0.36771,"Apartment","Entire home/apt",4,2,4,125,3,1125,24,"2020-05-31",750
+"744",7213312,"LA SEU","valencia","spain",39.47773,-0.3766,"Apartment","Entire home/apt",3,1,2,55,3,1125,29,"2020-05-31",55
+"745",7231878,"MARXALENES","valencia","spain",39.48264,-0.38162,"Apartment","Entire home/apt",4,2,3,110,2,1125,17,"2020-05-31",1430
+"746",7232532,"CABANYAL-CANYAMELAR","valencia","spain",39.47379,-0.33296,"Condominium","Entire home/apt",5,4,4,75,1,1125,1,"2020-05-31",2175
+"747",7233689,"CABANYAL-CANYAMELAR","valencia","spain",39.46869,-0.32883,"Apartment","Entire home/apt",4,2,5,68,5,90,0,"2020-05-31",2040
+"748",7238705,"LA SEU","valencia","spain",39.47494,-0.37571,"Apartment","Entire home/apt",2,0,1,65,3,1125,30,"2020-05-31",0
+"749",7254820,"ARRANCAPINS","valencia","spain",39.46473,-0.3825,"Apartment","Entire home/apt",4,2,2,60,3,1125,0,"2020-05-31",1800
+"750",7258797,"BENICALAP","valencia","spain",39.49358,-0.40057,"Apartment","Private room",2,1,1,49,3,1125,29,"2020-05-31",49
+"751",7269783,"EL CALVARI","valencia","spain",39.48787,-0.38878,"Apartment","Private room",2,3,1,16,10,1125,1,"2020-05-31",464
+"752",7299329,"LA RAIOSA","valencia","spain",39.45815,-0.38368,"Apartment","Private room",1,2,2,35,3,1125,30,"2020-05-31",0
+"753",7307408,"CABANYAL-CANYAMELAR","valencia","spain",39.47216,-0.33135,"Apartment","Entire home/apt",4,2,3,50,3,30,29,"2020-05-31",50
+"754",7319665,"EN CORTS","valencia","spain",39.4562,-0.37245,"Apartment","Entire home/apt",4,2,2,55,2,10,0,"2020-05-31",1650
+"755",7321783,"TORREFIEL","valencia","spain",39.49514,-0.3795,"Apartment","Private room",2,1,1,12,2,90,14,"2020-05-31",192
+"756",7327075,"ELS ORRIOLS","valencia","spain",39.49318,-0.37175,"Apartment","Entire home/apt",4,2,3,45,2,30,30,"2020-05-31",0
+"757",7379080,"CABANYAL-CANYAMELAR","valencia","spain",39.46794,-0.33275,"Apartment","Private room",1,1,1,18,1,1125,29,"2020-05-31",18
+"758",7382978,"ARRANCAPINS","valencia","spain",39.46844,-0.38776,"Apartment","Private room",2,1,1,28,1,365,30,"2020-05-31",0
+"759",7425177,"PINEDO","valencia","spain",39.42149,-0.33882,"Apartment","Entire home/apt",7,3,6,100,3,1125,0,"2020-05-31",3000
+"760",7445800,"LA SEU","valencia","spain",39.47687,-0.37375,"Apartment","Private room",2,1,1,39,2,15,30,"2020-05-31",0
+"761",7448657,"MONT-OLIVET","valencia","spain",39.46241,-0.3616,"Apartment","Entire home/apt",6,3,5,85,2,1125,19,"2020-05-31",935
+"762",7450754,"ARRANCAPINS","valencia","spain",39.46901,-0.3883,"Apartment","Private room",2,1,1,33,1,365,30,"2020-05-31",0
+"763",7451249,"EL MERCAT","valencia","spain",39.47407,-0.37871,"Apartment","Entire home/apt",4,2,2,98,90,1125,29,"2020-05-31",98
+"764",7454007,"MESTALLA","valencia","spain",39.47317,-0.35421,"Apartment","Entire home/apt",7,4,5,80,5,60,1,"2020-05-31",2320
+"765",7485605,"CABANYAL-CANYAMELAR","valencia","spain",39.4741,-0.32806,"Apartment","Entire home/apt",5,3,4,74,2,1125,27,"2020-05-31",222
+"766",7487222,"EL PERELLONET","valencia","spain",39.29503,-0.28765,"Condominium","Entire home/apt",6,3,6,110,5,1125,27,"2020-05-31",330
+"767",7488823,"EL CARME","valencia","spain",39.47915,-0.3797,"Apartment","Entire home/apt",6,3,5,60,2,1125,30,"2020-05-31",0
+"768",7506788,"L'ILLA PERDUDA","valencia","spain",39.47011,-0.34261,"Apartment","Entire home/apt",4,3,4,75,4,1125,0,"2020-05-31",2250
+"769",7520948,"CABANYAL-CANYAMELAR","valencia","spain",39.4676,-0.33358,"Condominium","Entire home/apt",6,1,5,100,1,30,29,"2020-05-31",100
+"770",7534415,"EL CARME","valencia","spain",39.47844,-0.38159,"Apartment","Entire home/apt",4,2,2,41,1,90,29,"2020-05-31",41
+"771",7539552,"CABANYAL-CANYAMELAR","valencia","spain",39.4688,-0.33405,"Condominium","Entire home/apt",6,3,5,100,1,30,29,"2020-05-31",100
+"772",7553881,"LA RAIOSA","valencia","spain",39.45635,-0.38373,"Apartment","Entire home/apt",6,2,3,56,2,300,30,"2020-05-31",0
+"773",7577576,"EL MERCAT","valencia","spain",39.47551,-0.37902,"Loft","Entire home/apt",3,1,2,120,3,1125,0,"2020-05-31",3600
+"774",7578968,"EL PERELLONET","valencia","spain",39.29658,-0.29002,"Apartment","Entire home/apt",4,2,3,40,2,1125,30,"2020-05-31",0
+"775",7591826,"FAITANAR","valencia","spain",39.42851,-0.39496,"House","Private room",5,1,2,95,1,90,30,"2020-05-31",0
+"776",7593391,"FAITANAR","valencia","spain",39.42786,-0.39426,"House","Private room",5,1,3,100,1,1125,30,"2020-05-31",0
+"777",7600872,"ARRANCAPINS","valencia","spain",39.4669,-0.38243,"Loft","Entire home/apt",6,2,3,60,3,1125,30,"2020-05-31",0
+"778",7612099,"RUSSAFA","valencia","spain",39.4616,-0.37605,"Apartment","Entire home/apt",3,2,2,60,7,1125,30,"2020-05-31",0
+"779",7612543,"EN CORTS","valencia","spain",39.45762,-0.36863,"Loft","Entire home/apt",4,0,2,25,3,300,29,"2020-05-31",25
+"780",7634577,"LA PETXINA","valencia","spain",39.47156,-0.39067,"Apartment","Entire home/apt",5,2,3,59,2,60,0,"2020-05-31",1770
+"781",7644274,"SANT FRANCESC","valencia","spain",39.47169,-0.37147,"Loft","Entire home/apt",4,2,4,90,1,1125,21,"2020-05-31",810
+"782",7660891,"EL GRAU","valencia","spain",39.46027,-0.33953,"Apartment","Private room",2,1,1,40,3,1125,30,"2020-05-31",0
+"783",7662513,"EN CORTS","valencia","spain",39.45822,-0.36939,"Apartment","Entire home/apt",7,3,5,62,2,360,4,"2020-05-31",1612
+"784",7663476,"TRES FORQUES","valencia","spain",39.46407,-0.39665,"Apartment","Entire home/apt",5,3,3,60,2,1125,0,"2020-05-31",1800
+"785",7673763,"SANT FRANCESC","valencia","spain",39.47123,-0.37731,"Loft","Entire home/apt",2,1,1,48,2,90,6,"2020-05-31",1152
+"786",7676437,"MORVEDRE","valencia","spain",39.48278,-0.37809,"Apartment","Private room",2,1,1,31,2,25,30,"2020-05-31",0
+"787",7692792,"L'ILLA PERDUDA","valencia","spain",39.46818,-0.33706,"Apartment","Private room",1,1,1,13,1,1125,0,"2020-05-31",390
+"788",7707737,"EL PILAR","valencia","spain",39.47379,-0.38126,"Apartment","Entire home/apt",2,1,1,60,12,400,0,"2020-05-31",1800
+"789",7744644,"SANT FRANCESC","valencia","spain",39.47203,-0.37149,"Apartment","Entire home/apt",4,1,3,115,2,1125,24,"2020-05-31",690
+"790",7745506,"LA RAIOSA","valencia","spain",39.45971,-0.38372,"Apartment","Entire home/apt",4,2,3,95,2,1125,16,"2020-05-31",1330
+"791",7774138,"MESTALLA","valencia","spain",39.46851,-0.35601,"Apartment","Entire home/apt",4,3,3,54,3,1125,30,"2020-05-31",0
+"792",7777582,"CABANYAL-CANYAMELAR","valencia","spain",39.46747,-0.33102,"Loft","Entire home/apt",4,1,2,69,2,1125,20,"2020-05-31",690
+"793",7804856,"CABANYAL-CANYAMELAR","valencia","spain",39.46442,-0.33031,"Apartment","Entire home/apt",4,2,2,58,3,1125,30,"2020-05-31",0
+"794",7857917,"LA SEU","valencia","spain",39.47594,-0.37651,"Apartment","Entire home/apt",5,3,3,80,2,90,29,"2020-05-31",80
+"795",7893810,"SANT FRANCESC","valencia","spain",39.47114,-0.37449,"Condominium","Private room",2,1,1,35,2,1125,28,"2020-05-31",70
+"796",7914221,"BETERO","valencia","spain",39.46978,-0.33687,"Apartment","Private room",1,1,1,13,1,1125,0,"2020-05-31",390
+"797",7915038,"LA XEREA","valencia","spain",39.47581,-0.37079,"Apartment","Entire home/apt",3,1,1,70,3,1125,0,"2020-05-31",2100
+"798",7932629,"EL MERCAT","valencia","spain",39.47142,-0.37745,"Apartment","Entire home/apt",6,3,4,280,3,330,28,"2020-05-31",560
+"799",7933821,"MONT-OLIVET","valencia","spain",39.45878,-0.36347,"Apartment","Entire home/apt",3,2,2,45,5,1125,0,"2020-05-31",1350
+"800",7933900,"MORVEDRE","valencia","spain",39.48467,-0.37637,"Apartment","Entire home/apt",4,2,4,59,5,40,0,"2020-05-31",1770
+"801",7940622,"AIORA","valencia","spain",39.46496,-0.3362,"Apartment","Private room",2,1,1,13,28,1125,30,"2020-05-31",0
+"802",7968094,"EL PILAR","valencia","spain",39.4759,-0.3822,"Apartment","Private room",2,1,1,35,1,30,20,"2020-05-31",350
+"803",7974734,"LA SEU","valencia","spain",39.47725,-0.37699,"Apartment","Entire home/apt",5,2,3,100,2,1125,30,"2020-05-31",0
+"804",7981012,"EL CARME","valencia","spain",39.47925,-0.37919,"Apartment","Private room",2,2,3,48,4,1125,16,"2020-05-31",672
+"805",8007645,"LA PETXINA","valencia","spain",39.47432,-0.39126,"Apartment","Entire home/apt",3,1,2,75,2,15,30,"2020-05-31",0
+"806",8021499,"EN CORTS","valencia","spain",39.45675,-0.37242,"Apartment","Entire home/apt",4,2,4,90,14,100,0,"2020-05-31",2700
+"807",8021634,"EL CARME","valencia","spain",39.47646,-0.38271,"Apartment","Private room",2,1,1,28,1,30,20,"2020-05-31",280
+"808",8028186,"LA RAIOSA","valencia","spain",39.45579,-0.38344,"Apartment","Entire home/apt",5,3,4,50,7,1125,0,"2020-05-31",1500
+"809",8038456,"EN CORTS","valencia","spain",39.4588,-0.36907,"Apartment","Entire home/apt",4,2,2,73,180,356,27,"2020-05-31",219
+"810",8038850,"RUSSAFA","valencia","spain",39.46218,-0.37437,"Apartment","Private room",2,1,1,35,5,1125,0,"2020-05-31",1050
+"811",8081848,"SANT FRANCESC","valencia","spain",39.4701,-0.38009,"Apartment","Entire home/apt",6,2,3,75,1,1125,30,"2020-05-31",0
+"812",8127790,"SANT FRANCESC","valencia","spain",39.46797,-0.37778,"Apartment","Entire home/apt",4,1,1,76,2,1125,30,"2020-05-31",0
+"813",8131212,"CABANYAL-CANYAMELAR","valencia","spain",39.47029,-0.33073,"Apartment","Entire home/apt",2,1,1,130,2,1125,30,"2020-05-31",0
+"814",8166401,"RUSSAFA","valencia","spain",39.45952,-0.37527,"Apartment","Private room",3,1,2,120,2,15,30,"2020-05-31",0
+"815",8168768,"MORVEDRE","valencia","spain",39.48367,-0.37197,"Apartment","Entire home/apt",6,3,3,120,3,365,30,"2020-05-31",0
+"816",8176722,"EL PILAR","valencia","spain",39.47493,-0.3838,"Apartment","Private room",2,2,2,30,15,1125,11,"2020-05-31",570
+"817",8178275,"RUSSAFA","valencia","spain",39.46357,-0.37377,"Apartment","Entire home/apt",6,2,3,60,2,112,0,"2020-05-31",1800
+"818",8198657,"MARXALENES","valencia","spain",39.48273,-0.37943,"Apartment","Entire home/apt",6,3,4,90,5,1125,29,"2020-05-31",90
+"819",8217456,"EL CARME","valencia","spain",39.47774,-0.37746,"Apartment","Entire home/apt",3,1,2,60,2,40,27,"2020-05-31",180
+"820",8222260,"BENICALAP","valencia","spain",39.49195,-0.38777,"Apartment","Private room",2,1,1,11,1,60,30,"2020-05-31",0
+"821",8222774,"BENICALAP","valencia","spain",39.49194,-0.38847,"Apartment","Private room",2,1,2,10,1,60,30,"2020-05-31",0
+"822",8243039,"LA MALVA-ROSA","valencia","spain",39.48192,-0.32609,"Apartment","Entire home/apt",4,3,3,80,6,1125,0,"2020-05-31",2400
+"823",8267698,"RUSSAFA","valencia","spain",39.4614,-0.37423,"Apartment","Entire home/apt",4,1,3,70,3,1125,1,"2020-05-31",2030
+"824",8268757,"EL CARME","valencia","spain",39.47853,-0.37749,"Apartment","Entire home/apt",4,1,2,60,2,40,0,"2020-05-31",1800
+"825",8338336,"LA SEU","valencia","spain",39.47665,-0.37844,"Apartment","Entire home/apt",4,2,3,79,6,300,29,"2020-05-31",79
+"826",8358151,"EL CARME","valencia","spain",39.47689,-0.38042,"Apartment","Entire home/apt",8,4,6,320,3,1125,0,"2020-05-31",9600
+"827",8369646,"RUSSAFA","valencia","spain",39.46337,-0.3743,"Apartment","Private room",2,1,1,25,5,1125,27,"2020-05-31",75
+"828",8380683,"EL MERCAT","valencia","spain",39.47274,-0.37682,"Apartment","Private room",1,1,1,20,2,1125,30,"2020-05-31",0
+"829",8399312,"MESTALLA","valencia","spain",39.47389,-0.35984,"Apartment","Entire home/apt",6,3,5,80,2,365,0,"2020-05-31",2400
+"830",8399670,"MESTALLA","valencia","spain",39.47361,-0.35991,"Apartment","Entire home/apt",6,3,5,80,2,365,0,"2020-05-31",2400
+"831",8399843,"MESTALLA","valencia","spain",39.47361,-0.35991,"Apartment","Entire home/apt",6,3,5,80,2,365,2,"2020-05-31",2240
+"832",8399967,"CABANYAL-CANYAMELAR","valencia","spain",39.46689,-0.33136,"Townhouse","Entire home/apt",6,1,1,67,2,30,0,"2020-05-31",2010
+"833",8399979,"MESTALLA","valencia","spain",39.47361,-0.35991,"Apartment","Entire home/apt",6,3,5,80,2,365,30,"2020-05-31",0
+"834",8400164,"MESTALLA","valencia","spain",39.47361,-0.35991,"Apartment","Entire home/apt",6,3,5,80,2,365,2,"2020-05-31",2240
+"835",8424816,"LA XEREA","valencia","spain",39.4758,-0.37247,"Apartment","Entire home/apt",4,2,2,96,2,60,29,"2020-05-31",96
+"836",8425717,"LA MALVA-ROSA","valencia","spain",39.47775,-0.32699,"House","Entire home/apt",14,5,13,400,4,1125,0,"2020-05-31",12000
+"837",8453540,"EL GRAU","valencia","spain",39.45614,-0.32956,"Apartment","Entire home/apt",4,2,2,34,2,1125,27,"2020-05-31",102
+"838",8516796,"SANT PAU","valencia","spain",39.48001,-0.40102,"Apartment","Private room",1,1,1,27,1,1125,27,"2020-05-31",81
+"839",8540056,"CIUTAT DE LES ARTS I DE LES CIENCIES","valencia","spain",39.45812,-0.35826,"Other","Entire home/apt",2,1,1,50,2,1125,0,"2020-05-31",1500
+"840",8568900,"ARRANCAPINS","valencia","spain",39.46692,-0.38623,"Apartment","Entire home/apt",8,3,6,95,2,21,19,"2020-05-31",1045
+"841",8588882,"TORMOS","valencia","spain",39.48779,-0.37829,"Apartment","Entire home/apt",6,2,3,51,2,1125,15,"2020-05-31",765
+"842",8605344,"LA SEU","valencia","spain",39.47743,-0.37542,"Apartment","Private room",2,1,1,39,2,1125,29,"2020-05-31",39
+"843",8606569,"RUSSAFA","valencia","spain",39.45983,-0.37545,"Apartment","Private room",1,1,1,25,2,2,28,"2020-05-31",50
+"844",8618220,"CABANYAL-CANYAMELAR","valencia","spain",39.4722,-0.33293,"Apartment","Entire home/apt",5,3,4,59,7,150,0,"2020-05-31",1770
+"845",8641405,"MESTALLA","valencia","spain",39.47297,-0.35507,"House","Private room",1,1,1,20,1,30,29,"2020-05-31",20
+"846",8646109,"AIORA","valencia","spain",39.46728,-0.34691,"Apartment","Entire home/apt",5,3,4,30,2,180,24,"2020-05-31",180
+"847",8667146,"ARRANCAPINS","valencia","spain",39.4605,-0.38436,"Apartment","Entire home/apt",5,3,4,55,1,1125,29,"2020-05-31",55
+"848",8676313,"NOU MOLES","valencia","spain",39.46949,-0.39897,"Townhouse","Private room",2,1,2,25,1,1125,0,"2020-05-31",750
+"849",8686731,"EL SALER","valencia","spain",39.35634,-0.32088,"Apartment","Entire home/apt",5,2,4,85,3,1125,27,"2020-05-31",255
+"850",8687367,"EN CORTS","valencia","spain",39.45773,-0.36856,"Loft","Entire home/apt",4,2,2,25,3,300,1,"2020-05-31",725
+"851",8748815,"EL PILAR","valencia","spain",39.4735,-0.3816,"Apartment","Entire home/apt",4,2,3,105,3,30,0,"2020-05-31",3150
+"852",8773457,"LA PETXINA","valencia","spain",39.47349,-0.39285,"Apartment","Entire home/apt",3,1,2,48,2,90,29,"2020-05-31",48
+"853",8785070,"TRES FORQUES","valencia","spain",39.46766,-0.40324,"Apartment","Entire home/apt",4,1,2,30,2,1125,0,"2020-05-31",900
+"854",8787230,"LA ROQUETA","valencia","spain",39.46898,-0.38351,"Apartment","Entire home/apt",4,2,3,200,2,20,29,"2020-05-31",200
+"855",8828662,"NOU MOLES","valencia","spain",39.46853,-0.39424,"Apartment","Entire home/apt",6,4,5,45,1,60,0,"2020-05-31",1350
+"856",8843067,"CABANYAL-CANYAMELAR","valencia","spain",39.47205,-0.32896,"Loft","Entire home/apt",4,1,2,70,2,365,26,"2020-05-31",280
+"857",8875445,"LA PETXINA","valencia","spain",39.47718,-0.39101,"Apartment","Entire home/apt",10,4,0,70,20,1125,29,"2020-05-31",70
+"858",8893111,"RUSSAFA","valencia","spain",39.45918,-0.3721,"Apartment","Entire home/apt",8,3,8,195,2,1124,0,"2020-05-31",5850
+"859",8921730,"AIORA","valencia","spain",39.46459,-0.34675,"Apartment","Entire home/apt",5,3,3,50,2,1124,29,"2020-05-31",50
+"860",8935541,"PENYA-ROJA","valencia","spain",39.45894,-0.34969,"Apartment","Entire home/apt",6,4,4,90,2,1125,28,"2020-05-31",180
+"861",8949971,"EL PERELLONET","valencia","spain",39.28458,-0.28118,"Condominium","Entire home/apt",6,3,4,50,1,1125,0,"2020-05-31",1500
+"862",8950726,"MONT-OLIVET","valencia","spain",39.45969,-0.36861,"Apartment","Entire home/apt",4,2,3,45,2,1125,19,"2020-05-31",495
+"863",8959659,"LA XEREA","valencia","spain",39.47291,-0.3723,"Apartment","Entire home/apt",2,1,1,88,3,30,8,"2020-05-31",1936
+"864",8977764,"EL CARME","valencia","spain",39.47626,-0.3817,"Apartment","Entire home/apt",9,5,6,580,3,1125,0,"2020-05-31",17400
+"865",8980423,"EL PILAR","valencia","spain",39.47125,-0.38267,"Apartment","Entire home/apt",6,2,3,120,2,1125,30,"2020-05-31",0
+"866",8981688,"MALILLA","valencia","spain",39.45655,-0.37665,"Apartment","Private room",2,2,2,27,32,1125,30,"2020-05-31",0
+"867",8989379,"LA ROQUETA","valencia","spain",39.46523,-0.37872,"Apartment","Entire home/apt",6,3,3,97,2,1125,29,"2020-05-31",97
+"868",8998817,"EL CARME","valencia","spain",39.47693,-0.38203,"Apartment","Entire home/apt",8,4,8,600,2,1125,30,"2020-05-31",0
+"869",9010360,"AIORA","valencia","spain",39.46504,-0.3425,"Apartment","Entire home/apt",6,2,4,35,2,1124,0,"2020-05-31",1050
+"870",9018130,"RUSSAFA","valencia","spain",39.4613,-0.36726,"Loft","Entire home/apt",2,0,2,55,2,1125,30,"2020-05-31",0
+"871",9036507,"CABANYAL-CANYAMELAR","valencia","spain",39.46705,-0.33043,"Apartment","Private room",1,1,0,18,3,30,30,"2020-05-31",0
+"872",9058624,"LA MALVA-ROSA","valencia","spain",39.48248,-0.32711,"Apartment","Entire home/apt",4,2,3,45,3,90,0,"2020-05-31",1350
+"873",9064172,"AIORA","valencia","spain",39.46723,-0.34059,"Apartment","Private room",1,1,1,25,3,1125,2,"2020-05-31",700
+"874",9101008,"RUSSAFA","valencia","spain",39.46317,-0.37518,"Condominium","Entire home/apt",3,1,1,45,2,1125,30,"2020-05-31",0
+"875",9103409,"RUSSAFA","valencia","spain",39.4626,-0.37519,"Apartment","Entire home/apt",4,2,3,90,2,1125,30,"2020-05-31",0
+"876",9114313,"PENYA-ROJA","valencia","spain",39.45977,-0.35164,"Apartment","Entire home/apt",2,1,1,85,2,1125,1,"2020-05-31",2465
+"877",9123989,"RUSSAFA","valencia","spain",39.46331,-0.37675,"Apartment","Private room",2,1,1,29,2,1125,29,"2020-05-31",29
+"878",9136431,"EL PLA DEL REMEI","valencia","spain",39.47178,-0.36625,"Apartment","Entire home/apt",6,3,4,70,2,1125,29,"2020-05-31",70
+"879",9141970,"CABANYAL-CANYAMELAR","valencia","spain",39.47222,-0.33301,"Apartment","Entire home/apt",5,3,5,37,2,1125,29,"2020-05-31",37
+"880",9143948,"MONT-OLIVET","valencia","spain",39.46151,-0.36354,"Apartment","Entire home/apt",6,4,5,58,3,1125,1,"2020-05-31",1682
+"881",9160588,"LA SEU","valencia","spain",39.47627,-0.3742,"Apartment","Entire home/apt",4,0,1,119,2,365,25,"2020-05-31",595
+"882",9192556,"L'ILLA PERDUDA","valencia","spain",39.46905,-0.34243,"Apartment","Private room",5,3,4,222,1,1125,30,"2020-05-31",0
+"883",9256471,"MARXALENES","valencia","spain",39.48552,-0.37909,"Apartment","Private room",2,1,1,18,1,1125,30,"2020-05-31",0
+"884",9273705,"LA TORRE","valencia","spain",39.4281,-0.39221,"Villa","Private room",14,3,2,250,1,1125,30,"2020-05-31",0
+"885",9274150,"MORVEDRE","valencia","spain",39.4867,-0.37687,"Apartment","Entire home/apt",2,2,2,48,2,1125,0,"2020-05-31",1440
+"886",9286274,"RUSSAFA","valencia","spain",39.46304,-0.37446,"Apartment","Entire home/apt",4,1,1,79,2,1125,30,"2020-05-31",0
+"887",9313815,"RUSSAFA","valencia","spain",39.4599,-0.37457,"Apartment","Entire home/apt",3,2,2,50,2,15,25,"2020-05-31",250
+"888",9321220,"LA XEREA","valencia","spain",39.47356,-0.36999,"Apartment","Entire home/apt",2,1,1,90,4,60,0,"2020-05-31",2700
+"889",9322892,"EL PLA DEL REMEI","valencia","spain",39.46876,-0.36946,"Apartment","Entire home/apt",4,2,3,110,2,360,27,"2020-05-31",330
+"890",9346966,"CIUTAT JARDI","valencia","spain",39.47175,-0.34793,"Apartment","Private room",1,1,1,11,20,90,20,"2020-05-31",110
+"891",9347928,"LES TENDETES","valencia","spain",39.48203,-0.38246,"Apartment","Entire home/apt",6,3,6,39,2,1125,17,"2020-05-31",507
+"892",9359032,"EL BOTANIC","valencia","spain",39.47538,-0.38572,"Apartment","Entire home/apt",3,1,2,37,1,1125,0,"2020-05-31",1110
+"893",9359202,"LA PETXINA","valencia","spain",39.47229,-0.38713,"Apartment","Private room",3,1,2,79,3,1125,27,"2020-05-31",237
+"894",9361605,"LA ROQUETA","valencia","spain",39.46496,-0.37855,"Bed and breakfast","Private room",2,1,1,75,1,1125,9,"2020-05-31",1575
+"895",9361979,"MORVEDRE","valencia","spain",39.48559,-0.37222,"Apartment","Entire home/apt",8,5,7,69,1,1125,0,"2020-05-31",2070
+"896",9417861,"RUSSAFA","valencia","spain",39.46483,-0.37505,"Loft","Entire home/apt",3,1,1,59,2,1125,2,"2020-05-31",1652
+"897",9425027,"RUSSAFA","valencia","spain",39.46082,-0.37393,"Apartment","Entire home/apt",4,2,3,65,3,1125,27,"2020-05-31",195
+"898",9469885,"LA SEU","valencia","spain",39.47747,-0.3747,"Apartment","Entire home/apt",3,1,2,44,2,1125,29,"2020-05-31",44
+"899",9525056,"L'AMISTAT","valencia","spain",39.47112,-0.35036,"Apartment","Entire home/apt",3,2,3,50,2,60,29,"2020-05-31",50
+"900",9537245,"AIORA","valencia","spain",39.46698,-0.34871,"Apartment","Entire home/apt",7,4,4,90,6,45,0,"2020-05-31",2700
+"901",9537678,"LA ROQUETA","valencia","spain",39.46618,-0.3799,"Bed and breakfast","Private room",1,1,1,42,1,1125,0,"2020-05-31",1260
+"902",9569930,"EL CARME","valencia","spain",39.47963,-0.38286,"Loft","Entire home/apt",6,2,3,99,2,365,0,"2020-05-31",2970
+"903",9572135,"BENIMACLET","valencia","spain",39.4862,-0.35705,"Apartment","Entire home/apt",5,3,3,125,2,1125,0,"2020-05-31",3750
+"904",9574432,"CAMI FONDO","valencia","spain",39.46674,-0.35626,"Apartment","Entire home/apt",8,3,5,70,2,1125,0,"2020-05-31",2100
+"905",9600750,"MONT-OLIVET","valencia","spain",39.45752,-0.36753,"Apartment","Entire home/apt",5,2,3,67,7,1125,30,"2020-05-31",0
+"906",9606267,"CIUTAT JARDI","valencia","spain",39.47209,-0.34703,"Apartment","Private room",1,1,1,11,20,90,30,"2020-05-31",0
+"907",9606535,"LA RAIOSA","valencia","spain",39.45718,-0.38957,"Apartment","Private room",1,1,1,12,1,1125,30,"2020-05-31",0
+"908",9631662,"EL GRAU","valencia","spain",39.42856,-0.32742,"Boat","Entire home/apt",8,3,4,750,2,1125,28,"2020-05-31",1500
+"909",9695752,"SANT PAU","valencia","spain",39.48982,-0.40136,"Apartment","Entire home/apt",4,2,2,85,2,15,0,"2020-05-31",2550
+"910",9721303,"CABANYAL-CANYAMELAR","valencia","spain",39.4662,-0.33101,"Apartment","Entire home/apt",4,3,4,60,1,1125,30,"2020-05-31",0
+"911",9740046,"EL CARME","valencia","spain",39.47804,-0.37782,"Apartment","Entire home/apt",2,1,1,45,2,30,29,"2020-05-31",45
+"912",9748166,"LA CREU DEL GRAU","valencia","spain",39.46169,-0.34116,"Apartment","Private room",2,1,1,20,30,360,0,"2020-05-31",600
+"913",9750035,"LA CREU DEL GRAU","valencia","spain",39.46007,-0.34118,"Apartment","Private room",2,1,1,18,30,1125,0,"2020-05-31",540
+"914",9765224,"EL BOTANIC","valencia","spain",39.47558,-0.38641,"Apartment","Entire home/apt",2,0,1,38,4,1125,0,"2020-05-31",1140
+"915",9769977,"CABANYAL-CANYAMELAR","valencia","spain",39.47158,-0.33279,"Apartment","Entire home/apt",4,3,3,52,6,1125,0,"2020-05-31",1560
+"916",9793323,"LA ROQUETA","valencia","spain",39.46785,-0.38152,"Apartment","Entire home/apt",2,1,1,50,2,60,1,"2020-05-31",1450
+"917",9799540,"EL PILAR","valencia","spain",39.47178,-0.38392,"Apartment","Entire home/apt",6,3,4,120,5,1125,28,"2020-05-31",240
+"918",9858604,"SANT FRANCESC","valencia","spain",39.47194,-0.37078,"Apartment","Entire home/apt",4,2,3,52,20,1125,0,"2020-05-31",1560
+"919",9873254,"NOU MOLES","valencia","spain",39.47017,-0.3956,"Apartment","Entire home/apt",5,3,4,35,2,360,30,"2020-05-31",0
+"920",9873323,"LA SEU","valencia","spain",39.47533,-0.37653,"Apartment","Entire home/apt",4,2,2,47,3,365,26,"2020-05-31",188
+"921",9884033,"SAFRANAR","valencia","spain",39.45977,-0.39389,"Apartment","Private room",2,1,1,100,1,3,28,"2020-05-31",200
+"922",9891769,"CABANYAL-CANYAMELAR","valencia","spain",39.46759,-0.33402,"Condominium","Entire home/apt",6,3,4,75,2,1125,30,"2020-05-31",0
+"923",9896283,"LA CREU DEL GRAU","valencia","spain",39.46239,-0.34731,"Apartment","Entire home/apt",6,3,4,56,2,1125,29,"2020-05-31",56
+"924",9936361,"EL CARME","valencia","spain",39.47975,-0.3799,"Apartment","Entire home/apt",7,3,6,80,2,1125,4,"2020-05-31",2080
+"925",9949961,"TRINITAT","valencia","spain",39.48014,-0.36971,"Apartment","Entire home/apt",4,2,2,80,2,1125,30,"2020-05-31",0
+"926",9957508,"SANT LLORENS","valencia","spain",39.49304,-0.36633,"Apartment","Private room",2,1,2,23,28,30,30,"2020-05-31",0
+"927",9974305,"LA MALVA-ROSA","valencia","spain",39.48256,-0.32772,"Apartment","Entire home/apt",6,3,4,49,4,1125,17,"2020-05-31",637
+"928",9991305,"PENYA-ROJA","valencia","spain",39.46138,-0.35215,"Apartment","Entire home/apt",4,3,4,85,3,30,0,"2020-05-31",2550
+"929",10046681,"LA XEREA","valencia","spain",39.47448,-0.37406,"Apartment","Entire home/apt",2,1,2,73,7,1125,30,"2020-05-31",0
+"930",10051673,"PENYA-ROJA","valencia","spain",39.45871,-0.3492,"Serviced apartment","Entire home/apt",4,2,3,95,3,1125,29,"2020-05-31",95
+"931",10064526,"EL PILAR","valencia","spain",39.47603,-0.3821,"Apartment","Entire home/apt",6,2,2,75,3,1125,30,"2020-05-31",0
+"932",10069323,"EL MERCAT","valencia","spain",39.47505,-0.37709,"Apartment","Private room",2,1,1,150,1,1125,29,"2020-05-31",150
+"933",10080009,"SANT FRANCESC","valencia","spain",39.47041,-0.37407,"Apartment","Private room",2,1,1,90,1,50,30,"2020-05-31",0
+"934",10115609,"RUSSAFA","valencia","spain",39.45924,-0.37378,"Apartment","Private room",1,1,1,16,1,1125,0,"2020-05-31",480
+"935",10135406,"MESTALLA","valencia","spain",39.47597,-0.35438,"Apartment","Entire home/apt",4,2,3,50,7,32,10,"2020-05-31",1000
+"936",10163694,"MORVEDRE","valencia","spain",39.48444,-0.37522,"Apartment","Entire home/apt",4,2,2,50,6,300,1,"2020-05-31",1450
+"937",10217735,"MONT-OLIVET","valencia","spain",39.45888,-0.36553,"Apartment","Entire home/apt",4,3,3,45,2,1125,29,"2020-05-31",45
+"938",10258480,"BENICALAP","valencia","spain",39.48777,-0.3939,"Apartment","Entire home/apt",4,2,3,150,2,29,0,"2020-05-31",4500
+"939",10268644,"PATRAIX","valencia","spain",39.46523,-0.39227,"Apartment","Entire home/apt",7,3,3,50,1,25,30,"2020-05-31",0
+"940",10281240,"ALBORS","valencia","spain",39.46981,-0.34898,"Apartment","Entire home/apt",4,3,3,65,7,1125,0,"2020-05-31",1950
+"941",10291570,"EL MERCAT","valencia","spain",39.47457,-0.37729,"Apartment","Entire home/apt",4,2,3,88,1,1125,30,"2020-05-31",0
+"942",10316611,"CABANYAL-CANYAMELAR","valencia","spain",39.4656,-0.33111,"Loft","Entire home/apt",4,1,2,85,2,31,27,"2020-05-31",255
+"943",10337538,"LA MALVA-ROSA","valencia","spain",39.48147,-0.32785,"Apartment","Entire home/apt",4,2,0,43,1,1125,1,"2020-05-31",1247
+"944",10354931,"CIUTAT JARDI","valencia","spain",39.47137,-0.34592,"Apartment","Entire home/apt",4,2,3,51,1,1125,23,"2020-05-31",357
+"945",10377166,"LA SEU","valencia","spain",39.47758,-0.37387,"Apartment","Entire home/apt",12,5,9,250,2,1125,30,"2020-05-31",0
+"946",10425853,"MORVEDRE","valencia","spain",39.48169,-0.37286,"Apartment","Private room",2,2,2,15,1,1125,0,"2020-05-31",450
+"947",10426869,"SANT FRANCESC","valencia","spain",39.46995,-0.37325,"Apartment","Private room",2,1,1,60,1,1125,0,"2020-05-31",1800
+"948",10483362,"CABANYAL-CANYAMELAR","valencia","spain",39.47124,-0.32907,"Loft","Entire home/apt",3,1,4,49,2,1125,30,"2020-05-31",0
+"949",10484211,"CABANYAL-CANYAMELAR","valencia","spain",39.46896,-0.33075,"Loft","Entire home/apt",2,0,1,78,5,21,29,"2020-05-31",78
+"950",10489004,"EL PERELLONET","valencia","spain",39.29939,-0.28857,"Apartment","Entire home/apt",6,3,4,100,1,1125,30,"2020-05-31",0
+"951",10504183,"SANT FRANCESC","valencia","spain",39.4706,-0.38153,"Apartment","Entire home/apt",4,1,2,46,2,1125,30,"2020-05-31",0
+"952",10534488,"LA MALVA-ROSA","valencia","spain",39.48048,-0.32858,"Apartment","Entire home/apt",5,2,3,39,2,1125,30,"2020-05-31",0
+"953",10562287,"CABANYAL-CANYAMELAR","valencia","spain",39.46637,-0.33114,"Loft","Entire home/apt",6,2,0,90,2,1125,29,"2020-05-31",90
+"954",10564915,"EL CARME","valencia","spain",39.47724,-0.38258,"Loft","Entire home/apt",2,0,1,45,2,1125,29,"2020-05-31",45
+"955",10564993,"EN CORTS","valencia","spain",39.45587,-0.36721,"Loft","Entire home/apt",3,0,2,45,2,1125,0,"2020-05-31",1350
+"956",10589845,"EL CARME","valencia","spain",39.47838,-0.38057,"Apartment","Entire home/apt",4,1,3,75,2,30,0,"2020-05-31",2250
+"957",10631319,"NA ROVELLA","valencia","spain",39.45411,-0.36235,"Condominium","Private room",1,1,0,15,2,90,27,"2020-05-31",45
+"958",10631603,"LA VEGA BAIXA","valencia","spain",39.47572,-0.34909,"Apartment","Private room",1,1,1,18,6,365,29,"2020-05-31",18
+"959",10649605,"EL SALER","valencia","spain",39.35977,-0.32098,"Apartment","Entire home/apt",5,3,5,125,1,30,30,"2020-05-31",0
+"960",10650438,"AIORA","valencia","spain",39.46229,-0.33791,"Apartment","Entire home/apt",5,2,3,39,3,1125,0,"2020-05-31",1170
+"961",10655740,"EL MERCAT","valencia","spain",39.473,-0.3786,"Tiny house","Entire home/apt",2,0,1,45,5,1125,0,"2020-05-31",1350
+"962",10662567,"ARRANCAPINS","valencia","spain",39.46729,-0.38665,"Apartment","Entire home/apt",5,2,3,37,3,1125,30,"2020-05-31",0
+"963",10665726,"MORVEDRE","valencia","spain",39.48423,-0.3726,"Apartment","Entire home/apt",5,2,3,75,3,30,29,"2020-05-31",75
+"964",10676741,"SOTERNES","valencia","spain",39.47191,-0.40885,"Apartment","Entire home/apt",4,2,2,60,1,360,30,"2020-05-31",0
+"965",10680701,"EN CORTS","valencia","spain",39.45347,-0.36992,"Apartment","Entire home/apt",4,3,3,40,5,1125,29,"2020-05-31",40
+"966",10697883,"EL CARME","valencia","spain",39.47792,-0.37781,"Apartment","Entire home/apt",6,3,3,80,1,1125,30,"2020-05-31",0
+"967",10700917,"LA SEU","valencia","spain",39.47683,-0.37611,"Apartment","Entire home/apt",4,1,2,110,2,1125,18,"2020-05-31",1320
+"968",10706715,"LA SEU","valencia","spain",39.47792,-0.37658,"Apartment","Entire home/apt",4,0,2,110,2,3000,0,"2020-05-31",3300
+"969",10715754,"LA PETXINA","valencia","spain",39.47514,-0.39001,"Apartment","Entire home/apt",4,2,3,80,2,1125,29,"2020-05-31",80
+"970",10740142,"EL MERCAT","valencia","spain",39.4732,-0.37674,"Apartment","Entire home/apt",4,1,1,100,2,1125,0,"2020-05-31",3000
+"971",10760711,"CIUTAT DE LES ARTS I DE LES CIENCIES","valencia","spain",39.45761,-0.358,"Apartment","Entire home/apt",2,1,1,60,3,1125,29,"2020-05-31",60
+"972",10777130,"BENICALAP","valencia","spain",39.49486,-0.38855,"Apartment","Entire home/apt",5,2,2,59,1,90,30,"2020-05-31",0
+"973",10778141,"LA VEGA BAIXA","valencia","spain",39.47462,-0.34958,"Apartment","Private room",1,1,1,24,60,500,30,"2020-05-31",0
+"974",10789056,"RUSSAFA","valencia","spain",39.46134,-0.37243,"Apartment","Entire home/apt",2,1,1,68,2,31,0,"2020-05-31",2040
+"975",10819078,"EL CARME","valencia","spain",39.47819,-0.38013,"Apartment","Entire home/apt",4,2,6,60,4,30,16,"2020-05-31",840
+"976",10843387,"EL PLA DEL REMEI","valencia","spain",39.47117,-0.36733,"Apartment","Private room",2,1,1,76,2,1125,28,"2020-05-31",152
+"977",10845637,"CIUTAT JARDI","valencia","spain",39.47185,-0.34814,"Apartment","Entire home/apt",4,3,3,65,7,30,29,"2020-05-31",65
+"978",10852107,"ELS ORRIOLS","valencia","spain",39.49289,-0.37103,"Apartment","Private room",2,1,2,14,1,30,22,"2020-05-31",112
+"979",10875968,"MARXALENES","valencia","spain",39.48892,-0.38753,"Apartment","Entire home/apt",4,2,3,50,5,1125,0,"2020-05-31",1500
+"980",10877429,"EL MERCAT","valencia","spain",39.47321,-0.37837,"Apartment","Entire home/apt",4,1,3,58,2,1124,30,"2020-05-31",0
+"981",10893295,"RUSSAFA","valencia","spain",39.46605,-0.37623,"Apartment","Entire home/apt",6,4,6,58,2,360,30,"2020-05-31",0
+"982",10983208,"EN CORTS","valencia","spain",39.45673,-0.37476,"Apartment","Private room",1,1,1,20,2,1125,29,"2020-05-31",20
+"983",10989371,"LA SEU","valencia","spain",39.47616,-0.3767,"Apartment","Private room",2,1,1,32,1,1125,29,"2020-05-31",32
+"984",11006551,"SANT LLORENS","valencia","spain",39.49304,-0.35932,"Apartment","Private room",2,1,2,18,2,1125,0,"2020-05-31",540
+"985",11018408,"LA SEU","valencia","spain",39.47677,-0.37603,"Apartment","Private room",2,1,2,23,2,1125,0,"2020-05-31",690
+"986",11042159,"ARRANCAPINS","valencia","spain",39.46351,-0.3861,"Apartment","Entire home/apt",6,2,2,130,4,1125,0,"2020-05-31",3900
+"987",11054061,"MONT-OLIVET","valencia","spain",39.45962,-0.3607,"Apartment","Private room",2,1,1,17,2,1125,28,"2020-05-31",34
+"988",11057281,"LA SEU","valencia","spain",39.474,-0.3753,"Apartment","Entire home/apt",4,0,1,100,2,1125,24,"2020-05-31",600
+"989",11058162,"CABANYAL-CANYAMELAR","valencia","spain",39.47386,-0.33236,"Apartment","Entire home/apt",6,3,3,90,3,1125,30,"2020-05-31",0
+"990",11058354,"LA XEREA","valencia","spain",39.47245,-0.37526,"Apartment","Entire home/apt",4,0,1,100,2,1125,2,"2020-05-31",2800
+"991",11058729,"EL MERCAT","valencia","spain",39.47448,-0.37709,"Apartment","Entire home/apt",4,1,1,85,2,1125,28,"2020-05-31",170
+"992",11059039,"EL MERCAT","valencia","spain",39.47354,-0.37735,"Apartment","Entire home/apt",7,2,3,110,2,1125,21,"2020-05-31",990
+"993",11076361,"RUSSAFA","valencia","spain",39.46018,-0.37267,"Apartment","Private room",2,1,1,18,1,1125,29,"2020-05-31",18
+"994",11076490,"EL BOTANIC","valencia","spain",39.47411,-0.38572,"Apartment","Entire home/apt",4,2,3,70,3,1125,0,"2020-05-31",2100
+"995",11080793,"LA SEU","valencia","spain",39.47463,-0.37669,"Apartment","Entire home/apt",4,1,1,115,2,365,27,"2020-05-31",345
+"996",11098188,"CABANYAL-CANYAMELAR","valencia","spain",39.46415,-0.32996,"Apartment","Entire home/apt",5,2,3,65,2,1125,30,"2020-05-31",0
+"997",11118197,"EN CORTS","valencia","spain",39.45748,-0.37223,"Apartment","Entire home/apt",7,3,7,100,2,1125,0,"2020-05-31",3000
+"998",11147689,"CABANYAL-CANYAMELAR","valencia","spain",39.47298,-0.33003,"Loft","Entire home/apt",4,0,2,50,1,1125,29,"2020-05-31",50
+"999",11158567,"LA SEU","valencia","spain",39.47597,-0.37758,"Apartment","Entire home/apt",5,2,4,89,2,1125,0,"2020-05-31",2670
+"1000",11158998,"MONT-OLIVET","valencia","spain",39.46032,-0.36063,"Apartment","Entire home/apt",6,2,4,45,4,1125,29,"2020-05-31",45
+"1001",11162850,"EL PILAR","valencia","spain",39.4715,-0.38275,"Apartment","Entire home/apt",4,2,2,110,2,1125,30,"2020-05-31",0
+"1002",11169719,"NOU MOLES","valencia","spain",39.47206,-0.39919,"Apartment","Private room",1,1,1,20,28,1125,26,"2020-05-31",80
+"1003",11182135,"EL PILAR","valencia","spain",39.47529,-0.38198,"Apartment","Entire home/apt",4,1,1,43,1,1125,29,"2020-05-31",43
+"1004",11194846,"LA TORRE","valencia","spain",39.42753,-0.3923,"House","Private room",2,1,1,100,1,1125,30,"2020-05-31",0
+"1005",11196689,"NOU MOLES","valencia","spain",39.47041,-0.39854,"Apartment","Private room",1,1,1,16,28,1125,29,"2020-05-31",16
+"1006",11201247,"BENIMACLET","valencia","spain",39.48792,-0.36771,"Apartment","Entire home/apt",6,3,5,65,3,365,29,"2020-05-31",65
+"1007",11203413,"EL PLA DEL REMEI","valencia","spain",39.4704,-0.36823,"Apartment","Private room",2,1,1,25,1,15,29,"2020-05-31",25
+"1008",11215782,"NOU MOLES","valencia","spain",39.4724,-0.39728,"Apartment","Private room",1,1,1,16,28,1125,28,"2020-05-31",32
+"1009",11258070,"PENYA-ROJA","valencia","spain",39.46058,-0.34759,"Apartment","Entire home/apt",5,3,3,60,2,1124,29,"2020-05-31",60
+"1010",11264023,"EL PERELLONET","valencia","spain",39.30466,-0.29216,"Apartment","Entire home/apt",5,2,3,50,2,1125,27,"2020-05-31",150
+"1011",11270118,"CABANYAL-CANYAMELAR","valencia","spain",39.4741,-0.33139,"Apartment","Entire home/apt",4,1,1,70,1,1125,14,"2020-05-31",1120
+"1012",11277108,"CABANYAL-CANYAMELAR","valencia","spain",39.47007,-0.32813,"Apartment","Entire home/apt",4,2,3,65,2,1125,26,"2020-05-31",260
+"1013",11279479,"MESTALLA","valencia","spain",39.46918,-0.35728,"Loft","Entire home/apt",3,1,1,92,1,1125,30,"2020-05-31",0
+"1014",11285337,"LA XEREA","valencia","spain",39.47582,-0.37169,"Condominium","Entire home/apt",8,4,5,220,2,14,0,"2020-05-31",6600
+"1015",11286023,"CABANYAL-CANYAMELAR","valencia","spain",39.47392,-0.33027,"Loft","Entire home/apt",4,0,2,50,1,1125,0,"2020-05-31",1500
+"1016",11311614,"EL CARME","valencia","spain",39.47783,-0.38154,"Apartment","Entire home/apt",4,2,2,62,4,60,14,"2020-05-31",992
+"1017",11314257,"EL PILAR","valencia","spain",39.47458,-0.38168,"Apartment","Entire home/apt",2,1,0,69,4,1125,29,"2020-05-31",69
+"1018",11317008,"EL MERCAT","valencia","spain",39.47157,-0.37797,"Apartment","Entire home/apt",6,2,0,75,3,120,28,"2020-05-31",150
+"1019",11329398,"NOU MOLES","valencia","spain",39.47146,-0.40401,"House","Private room",2,1,1,40,1,1125,30,"2020-05-31",0
+"1020",11336981,"LA SEU","valencia","spain",39.47559,-0.37582,"Apartment","Entire home/apt",2,1,2,85,4,90,29,"2020-05-31",85
+"1021",11355675,"LA MALVA-ROSA","valencia","spain",39.47653,-0.33025,"Apartment","Entire home/apt",5,2,3,120,2,1125,29,"2020-05-31",120
+"1022",11356250,"EL MERCAT","valencia","spain",39.47171,-0.37731,"Loft","Entire home/apt",3,1,2,60,3,1124,30,"2020-05-31",0
+"1023",11356663,"LA XEREA","valencia","spain",39.47471,-0.37039,"Apartment","Entire home/apt",4,2,3,NA,100,100,29,"2020-05-31",0
+"1024",11359629,"PINEDO","valencia","spain",39.42139,-0.33668,"Apartment","Entire home/apt",8,3,4,30,2,1125,29,"2020-05-31",30
+"1025",11362147,"LA SEU","valencia","spain",39.47688,-0.37712,"Apartment","Entire home/apt",3,2,2,42,2,1125,28,"2020-05-31",84
+"1026",11367872,"ARRANCAPINS","valencia","spain",39.46983,-0.3879,"Apartment","Entire home/apt",2,1,1,44,4,366,28,"2020-05-31",88
+"1027",11368615,"RUSSAFA","valencia","spain",39.46091,-0.37011,"Apartment","Private room",2,1,1,35,1,1125,0,"2020-05-31",1050
+"1028",11373621,"SANT ANTONI","valencia","spain",39.48886,-0.37069,"Bed and breakfast","Private room",2,1,1,40,2,1125,17,"2020-05-31",520
+"1029",11376202,"CIUTAT DE LES ARTS I DE LES CIENCIES","valencia","spain",39.45661,-0.35778,"Apartment","Entire home/apt",8,3,6,110,2,1125,29,"2020-05-31",110
+"1030",11387605,"RUSSAFA","valencia","spain",39.46128,-0.36833,"Apartment","Entire home/apt",4,2,3,50,2,1125,0,"2020-05-31",1500
+"1031",11388313,"EN CORTS","valencia","spain",39.45697,-0.37077,"Apartment","Entire home/apt",3,2,3,65,2,30,29,"2020-05-31",65
+"1032",11404298,"CAMI DE VERA","valencia","spain",39.49248,-0.35789,"Apartment","Private room",2,1,1,18,2,1125,0,"2020-05-31",540
+"1033",11408988,"SANT FRANCESC","valencia","spain",39.47026,-0.37889,"Apartment","Entire home/apt",6,3,4,117,3,30,25,"2020-05-31",585
+"1034",11412764,"LA CREU DEL GRAU","valencia","spain",39.46211,-0.34769,"Apartment","Entire home/apt",4,2,2,45,4,1125,29,"2020-05-31",45
+"1035",11415935,"ARRANCAPINS","valencia","spain",39.4599,-0.38398,"Apartment","Entire home/apt",4,2,3,80,20,1125,1,"2020-05-31",2320
+"1036",11416659,"PATRAIX","valencia","spain",39.45889,-0.38945,"Apartment","Entire home/apt",4,2,2,75,2,12,0,"2020-05-31",2250
+"1037",11430663,"CABANYAL-CANYAMELAR","valencia","spain",39.47189,-0.3276,"Apartment","Entire home/apt",6,3,5,44,2,15,0,"2020-05-31",1320
+"1038",11431537,"PATRAIX","valencia","spain",39.46679,-0.39372,"Apartment","Entire home/apt",5,3,3,40,2,120,0,"2020-05-31",1200
+"1039",11438071,"LA XEREA","valencia","spain",39.47366,-0.36931,"Apartment","Entire home/apt",1,0,1,130,2,15,30,"2020-05-31",0
+"1040",11438571,"EL CARME","valencia","spain",39.47587,-0.38372,"Apartment","Entire home/apt",4,2,3,70,2,1125,26,"2020-05-31",280
+"1041",11447896,"CIUTAT DE LES ARTS I DE LES CIENCIES","valencia","spain",39.45476,-0.3591,"Apartment","Private room",4,3,4,45,1,1125,0,"2020-05-31",1350
+"1042",11448560,"EL PILAR","valencia","spain",39.47243,-0.38226,"Apartment","Entire home/apt",2,0,1,51,1,1125,0,"2020-05-31",1530
+"1043",11451834,"LA SEU","valencia","spain",39.47407,-0.37452,"House","Entire home/apt",14,7,12,280,2,1125,17,"2020-05-31",3640
+"1044",11454603,"ARRANCAPINS","valencia","spain",39.46821,-0.38385,"Loft","Entire home/apt",4,1,2,45,2,1125,28,"2020-05-31",90
+"1045",11456158,"EL PILAR","valencia","spain",39.47349,-0.38159,"Loft","Entire home/apt",4,1,3,65,3,365,29,"2020-05-31",65
+"1046",11457294,"TORREFIEL","valencia","spain",39.4916,-0.38134,"Apartment","Entire home/apt",5,2,6,85,1,1125,30,"2020-05-31",0
+"1047",11457551,"CABANYAL-CANYAMELAR","valencia","spain",39.46586,-0.3345,"Apartment","Entire home/apt",5,3,4,55,3,1125,29,"2020-05-31",55
+"1048",11466580,"LA MALVA-ROSA","valencia","spain",39.47614,-0.32649,"Apartment","Entire home/apt",6,4,4,119,1,20,0,"2020-05-31",3570
+"1049",11471788,"LA PETXINA","valencia","spain",39.47259,-0.38657,"Apartment","Entire home/apt",2,1,1,65,2,1125,0,"2020-05-31",1950
+"1050",11486573,"EL PLA DEL REMEI","valencia","spain",39.4666,-0.37261,"Apartment","Entire home/apt",4,2,2,65,2,1125,28,"2020-05-31",130
+"1051",11496575,"EL GRAU","valencia","spain",39.46094,-0.33664,"Apartment","Entire home/apt",2,0,1,25,2,15,2,"2020-05-31",700
+"1052",11510899,"EN CORTS","valencia","spain",39.45537,-0.3747,"Apartment","Private room",2,3,4,21,365,400,0,"2020-05-31",630
+"1053",11511564,"RUSSAFA","valencia","spain",39.46062,-0.37633,"Loft","Entire home/apt",2,1,0,60,2,1125,26,"2020-05-31",240
+"1054",11518710,"RUSSAFA","valencia","spain",39.46417,-0.37049,"Apartment","Private room",2,1,2,51,2,8,0,"2020-05-31",1530
+"1055",11519240,"RUSSAFA","valencia","spain",39.46383,-0.36998,"Apartment","Private room",1,1,1,44,2,8,0,"2020-05-31",1320
+"1056",11523243,"MALILLA","valencia","spain",39.45499,-0.37485,"Apartment","Private room",2,1,1,18,365,400,0,"2020-05-31",540
+"1057",11528537,"LA ROQUETA","valencia","spain",39.46842,-0.38112,"Apartment","Entire home/apt",6,2,4,56,2,999,30,"2020-05-31",0
+"1058",11529782,"MESTALLA","valencia","spain",39.47127,-0.35703,"Apartment","Entire home/apt",5,2,4,55,2,100,0,"2020-05-31",1650
+"1059",11535966,"EL BOTANIC","valencia","spain",39.47244,-0.38449,"Apartment","Entire home/apt",4,1,2,60,1,1125,30,"2020-05-31",0
+"1060",11537450,"SANT FRANCESC","valencia","spain",39.46963,-0.37197,"Apartment","Private room",2,1,1,80,1,1125,30,"2020-05-31",0
+"1061",11538808,"CABANYAL-CANYAMELAR","valencia","spain",39.47332,-0.32522,"Apartment","Entire home/apt",7,4,5,95,2,1125,28,"2020-05-31",190
+"1062",11540394,"NOU MOLES","valencia","spain",39.4693,-0.40079,"House","Entire home/apt",4,3,3,35,2,1125,23,"2020-05-31",245
+"1063",11540956,"LA SEU","valencia","spain",39.47485,-0.37471,"Apartment","Private room",2,1,1,28,3,1125,29,"2020-05-31",28
+"1064",11548287,"RUSSAFA","valencia","spain",39.46304,-0.36753,"Apartment","Entire home/apt",2,1,1,50,2,60,0,"2020-05-31",1500
+"1065",11560704,"SANT FRANCESC","valencia","spain",39.47054,-0.37425,"Apartment","Entire home/apt",5,3,3,49,1,60,26,"2020-05-31",196
+"1066",11565250,"EN CORTS","valencia","spain",39.45717,-0.37209,"Apartment","Entire home/apt",4,2,3,95,2,1125,30,"2020-05-31",0
+"1067",11566437,"AIORA","valencia","spain",39.46298,-0.33885,"Condominium","Entire home/apt",4,3,3,120,5,1125,16,"2020-05-31",1680
+"1068",11569043,"LA GRAN VIA","valencia","spain",39.46795,-0.36391,"Apartment","Entire home/apt",4,2,2,80,2,1125,30,"2020-05-31",0
+"1069",11570751,"RUSSAFA","valencia","spain",39.46125,-0.37455,"Apartment","Entire home/apt",6,2,4,72,3,1125,1,"2020-05-31",2088
+"1070",11571542,"LES TENDETES","valencia","spain",39.48441,-0.38645,"Apartment","Entire home/apt",6,3,3,80,10,1124,0,"2020-05-31",2400
+"1071",11579006,"EL MERCAT","valencia","spain",39.47514,-0.37699,"Apartment","Private room",2,1,1,39,3,1125,0,"2020-05-31",1170
+"1072",11584871,"ARRANCAPINS","valencia","spain",39.46279,-0.38288,"Apartment","Entire home/apt",5,1,2,69,3,1125,29,"2020-05-31",69
+"1073",11590210,"EL PILAR","valencia","spain",39.47267,-0.38297,"Apartment","Entire home/apt",4,2,3,75,2,7,0,"2020-05-31",2250
+"1074",11597169,"EL PERELLONET","valencia","spain",39.28097,-0.27838,"Apartment","Entire home/apt",6,3,4,74,7,31,27,"2020-05-31",222
+"1075",11614765,"RUSSAFA","valencia","spain",39.46004,-0.37592,"Apartment","Private room",2,1,1,150,2,1125,28,"2020-05-31",300
+"1076",11620710,"POBLE NOU","valencia","spain",39.50833,-0.38851,"Cottage","Entire home/apt",3,2,2,52,2,1125,28,"2020-05-31",104
+"1077",11621079,"MORVEDRE","valencia","spain",39.48494,-0.37296,"Loft","Entire home/apt",3,1,1,46,1,20,29,"2020-05-31",46
+"1078",11625372,"CABANYAL-CANYAMELAR","valencia","spain",39.46553,-0.33046,"Loft","Entire home/apt",3,1,1,48,2,10,29,"2020-05-31",48
+"1079",11627716,"CABANYAL-CANYAMELAR","valencia","spain",39.47147,-0.32981,"House","Entire home/apt",3,2,2,40,1,1125,22,"2020-05-31",320
+"1080",11627946,"EN CORTS","valencia","spain",39.4583,-0.37031,"Apartment","Entire home/apt",5,3,4,59,2,60,23,"2020-05-31",413
+"1081",11629809,"EL CARME","valencia","spain",39.47766,-0.37863,"Apartment","Private room",2,1,1,35,4,1125,0,"2020-05-31",1050
+"1082",11631006,"RUSSAFA","valencia","spain",39.46268,-0.37622,"Apartment","Entire home/apt",4,3,3,250,6,7,29,"2020-05-31",250
+"1083",11636647,"CIUTAT JARDI","valencia","spain",39.4701,-0.34582,"Apartment","Entire home/apt",5,4,4,125,3,1125,0,"2020-05-31",3750
+"1084",11642078,"NOU MOLES","valencia","spain",39.47238,-0.39675,"Apartment","Private room",1,1,1,18,28,1125,29,"2020-05-31",18
+"1085",11646784,"EL CARME","valencia","spain",39.47911,-0.38108,"Loft","Entire home/apt",3,1,1,120,2,1125,30,"2020-05-31",0
+"1086",11649951,"MARXALENES","valencia","spain",39.48743,-0.38445,"Apartment","Private room",1,1,1,11,6,1125,0,"2020-05-31",330
+"1087",11654001,"SAFRANAR","valencia","spain",39.45787,-0.39816,"Apartment","Private room",2,3,2,25,1,1125,30,"2020-05-31",0
+"1088",11661418,"LA RAIOSA","valencia","spain",39.46064,-0.38727,"Apartment","Entire home/apt",6,3,3,50,2,30,28,"2020-05-31",100
+"1089",11670450,"SANT PAU","valencia","spain",39.49022,-0.40452,"Condominium","Entire home/apt",4,2,3,78,1,1125,30,"2020-05-31",0
+"1090",11672473,"EL BOTANIC","valencia","spain",39.47336,-0.38484,"Apartment","Entire home/apt",2,1,1,40,3,1124,0,"2020-05-31",1200
+"1091",11674204,"LA MALVA-ROSA","valencia","spain",39.47993,-0.32728,"Apartment","Entire home/apt",4,3,4,45,1,1125,29,"2020-05-31",45
+"1092",11678559,"EL CARME","valencia","spain",39.47695,-0.37822,"Condominium","Entire home/apt",8,4,5,75,1,1125,30,"2020-05-31",0
+"1093",11682106,"NOU MOLES","valencia","spain",39.474,-0.39547,"Apartment","Entire home/apt",2,1,1,57,5,366,0,"2020-05-31",1710
+"1094",11686162,"MORVEDRE","valencia","spain",39.48292,-0.37403,"Loft","Entire home/apt",3,1,2,46,1,30,30,"2020-05-31",0
+"1095",11689942,"ARRANCAPINS","valencia","spain",39.46189,-0.37952,"Apartment","Private room",2,1,2,29,5,11,0,"2020-05-31",870
+"1096",11695894,"MONT-OLIVET","valencia","spain",39.45923,-0.36796,"Apartment","Entire home/apt",4,2,2,55,2,999,26,"2020-05-31",220
+"1097",11696532,"EL CARME","valencia","spain",39.47749,-0.38143,"Loft","Entire home/apt",2,1,1,59,2,1125,22,"2020-05-31",472
+"1098",11705563,"RUSSAFA","valencia","spain",39.45872,-0.37228,"Apartment","Entire home/apt",6,3,3,40,2,1125,0,"2020-05-31",1200
+"1099",11715525,"RUSSAFA","valencia","spain",39.45925,-0.37057,"Apartment","Entire home/apt",4,2,3,62,2,30,28,"2020-05-31",124
+"1100",11718510,"EL GRAU","valencia","spain",39.46107,-0.33712,"Apartment","Entire home/apt",4,2,3,45,3,60,24,"2020-05-31",270
+"1101",11729352,"CABANYAL-CANYAMELAR","valencia","spain",39.46422,-0.33566,"Apartment","Entire home/apt",4,2,3,36,3,30,0,"2020-05-31",1080
+"1102",11730292,"RUSSAFA","valencia","spain",39.46338,-0.37422,"Apartment","Entire home/apt",5,2,3,80,2,120,30,"2020-05-31",0
+"1103",11743749,"LA MALVA-ROSA","valencia","spain",39.477,-0.32715,"Condominium","Entire home/apt",6,2,3,75,2,1125,14,"2020-05-31",1200
+"1104",11746461,"EL BOTANIC","valencia","spain",39.47603,-0.38418,"Apartment","Private room",1,1,1,32,1,1125,30,"2020-05-31",0
+"1105",11746765,"CAMI DE VERA","valencia","spain",39.49262,-0.35815,"Apartment","Entire home/apt",4,2,3,55,3,30,0,"2020-05-31",1650
+"1106",11749982,"AIORA","valencia","spain",39.46462,-0.34051,"Loft","Entire home/apt",3,1,1,40,2,1125,0,"2020-05-31",1200
+"1107",11751660,"SANT FRANCESC","valencia","spain",39.47027,-0.37752,"Apartment","Entire home/apt",10,5,8,150,2,365,18,"2020-05-31",1800
+"1108",11753175,"EL GRAU","valencia","spain",39.46076,-0.33771,"Apartment","Entire home/apt",4,2,3,58,2,15,0,"2020-05-31",1740
+"1109",11754937,"LA MALVA-ROSA","valencia","spain",39.48249,-0.3275,"Apartment","Entire home/apt",4,3,3,120,2,30,30,"2020-05-31",0
+"1110",11773453,"RUSSAFA","valencia","spain",39.45995,-0.37588,"Apartment","Private room",2,1,1,30,3,1125,1,"2020-05-31",870
+"1111",11781539,"EL PILAR","valencia","spain",39.47511,-0.3821,"Apartment","Entire home/apt",6,2,3,90,2,60,0,"2020-05-31",2700
+"1112",11782339,"EN CORTS","valencia","spain",39.45557,-0.37374,"Apartment","Private room",2,1,2,22,2,4,30,"2020-05-31",0
+"1113",11785289,"VARA DE QUART","valencia","spain",39.4626,-0.39897,"Apartment","Private room",1,1,1,12,1,1125,30,"2020-05-31",0
+"1114",11789039,"LA MALVA-ROSA","valencia","spain",39.48284,-0.32691,"Apartment","Entire home/apt",6,3,3,38,1,1125,30,"2020-05-31",0
+"1115",11796086,"LA MALVA-ROSA","valencia","spain",39.47627,-0.32673,"Apartment","Entire home/apt",4,2,2,120,3,1124,23,"2020-05-31",840
+"1116",11806443,"EL PERELLONET","valencia","spain",39.28065,-0.27892,"Apartment","Entire home/apt",4,2,3,30,2,1125,30,"2020-05-31",0
+"1117",11808286,"BENIMAMET","valencia","spain",39.49765,-0.41625,"Apartment","Entire home/apt",6,3,4,75,1,1125,0,"2020-05-31",2250
+"1118",11810395,"VARA DE QUART","valencia","spain",39.46197,-0.40971,"Apartment","Private room",2,1,1,25,1,1125,30,"2020-05-31",0
+"1119",11811455,"SANT ANTONI","valencia","spain",39.49001,-0.37392,"Condominium","Private room",1,1,1,60,1,1125,30,"2020-05-31",0
+"1120",11812253,"CABANYAL-CANYAMELAR","valencia","spain",39.4709,-0.32993,"House","Entire home/apt",8,5,7,180,6,31,29,"2020-05-31",180
+"1121",11814343,"CABANYAL-CANYAMELAR","valencia","spain",39.47328,-0.32813,"Apartment","Private room",2,1,2,15,2,30,0,"2020-05-31",450
+"1122",11822617,"CABANYAL-CANYAMELAR","valencia","spain",39.46472,-0.32632,"Apartment","Entire home/apt",5,3,3,60,2,75,1,"2020-05-31",1740
+"1123",11832660,"MESTALLA","valencia","spain",39.47399,-0.35347,"Apartment","Private room",1,1,1,20,2,1125,29,"2020-05-31",20
+"1124",11832770,"RUSSAFA","valencia","spain",39.46001,-0.37202,"Apartment","Entire home/apt",6,2,2,80,2,1125,29,"2020-05-31",80
+"1125",11834232,"LA ROQUETA","valencia","spain",39.46432,-0.37825,"Apartment","Private room",3,1,1,32,15,1125,29,"2020-05-31",32
+"1126",11840418,"CABANYAL-CANYAMELAR","valencia","spain",39.47248,-0.32899,"Apartment","Private room",2,1,2,15,2,30,0,"2020-05-31",450
+"1127",11842432,"RUSSAFA","valencia","spain",39.46136,-0.37202,"Apartment","Entire home/apt",2,1,1,45,1,1125,0,"2020-05-31",1350
+"1128",11844099,"MALILLA","valencia","spain",39.45509,-0.37475,"Apartment","Private room",2,1,1,24,365,400,0,"2020-05-31",720
+"1129",11864648,"SANT PAU","valencia","spain",39.47885,-0.40161,"Apartment","Entire home/apt",4,2,2,60,2,1000,30,"2020-05-31",0
+"1130",11878613,"LA ROQUETA","valencia","spain",39.46495,-0.37917,"Apartment","Entire home/apt",4,2,3,70,1,1125,30,"2020-05-31",0
+"1131",11880546,"LA ROQUETA","valencia","spain",39.4654,-0.37932,"Apartment","Entire home/apt",4,2,3,70,1,1125,30,"2020-05-31",0
+"1132",11887252,"EL CARME","valencia","spain",39.4789,-0.37664,"Apartment","Entire home/apt",4,2,3,101,4,112,30,"2020-05-31",0
+"1133",11890936,"LA CARRASCA","valencia","spain",39.47277,-0.33878,"Apartment","Private room",2,1,1,31,2,30,29,"2020-05-31",31
+"1134",11891213,"EL BOTANIC","valencia","spain",39.47378,-0.38412,"Apartment","Entire home/apt",3,1,1,44,30,9999,0,"2020-05-31",1320
+"1135",11898160,"CASTELLAR-L'OLIVERAL","valencia","spain",39.42216,-0.36318,"Apartment","Private room",3,1,2,18,2,1001,30,"2020-05-31",0
+"1136",11919974,"LA MALVA-ROSA","valencia","spain",39.48141,-0.32778,"Apartment","Private room",2,1,1,20,2,1125,24,"2020-05-31",120
+"1137",11969346,"CABANYAL-CANYAMELAR","valencia","spain",39.46524,-0.32635,"Apartment","Entire home/apt",8,3,3,95,2,1125,27,"2020-05-31",285
+"1138",11989301,"SANT FRANCESC","valencia","spain",39.47303,-0.37589,"Apartment","Entire home/apt",4,1,1,55,3,365,30,"2020-05-31",0
+"1139",12015270,"ARRANCAPINS","valencia","spain",39.46096,-0.38072,"Apartment","Entire home/apt",10,5,5,158,2,1125,0,"2020-05-31",4740
+"1140",12021116,"RUSSAFA","valencia","spain",39.4614,-0.37228,"Apartment","Entire home/apt",2,1,1,55,2,15,0,"2020-05-31",1650
+"1141",12025840,"NOU MOLES","valencia","spain",39.47095,-0.39895,"Apartment","Private room",2,1,2,23,2,1125,0,"2020-05-31",690
+"1142",12042069,"EL MERCAT","valencia","spain",39.47302,-0.37914,"Apartment","Entire home/apt",3,1,1,43,1,1125,30,"2020-05-31",0
+"1143",12064403,"EL MERCAT","valencia","spain",39.47254,-0.37839,"Loft","Entire home/apt",3,1,2,64,2,1124,29,"2020-05-31",64
+"1144",12071233,"L'ILLA PERDUDA","valencia","spain",39.46918,-0.34318,"Apartment","Entire home/apt",5,4,4,105,4,61,0,"2020-05-31",3150
+"1145",12075007,"ARRANCAPINS","valencia","spain",39.47022,-0.38486,"Apartment","Entire home/apt",6,3,5,100,2,1125,1,"2020-05-31",2900
+"1146",12098765,"SANT FRANCESC","valencia","spain",39.46953,-0.37339,"Loft","Entire home/apt",2,1,1,40,2,1125,12,"2020-05-31",720
+"1147",12107561,"LA MALVA-ROSA","valencia","spain",39.48006,-0.3294,"Apartment","Entire home/apt",6,3,3,80,30,1124,1,"2020-05-31",2320
+"1148",12109183,"ELS ORRIOLS","valencia","spain",39.49278,-0.36963,"Apartment","Private room",2,1,1,25,2,1125,30,"2020-05-31",0
+"1149",12125957,"LA ROQUETA","valencia","spain",39.46595,-0.38119,"Apartment","Entire home/apt",2,1,1,50,2,30,29,"2020-05-31",50
+"1150",12127505,"LA MALVA-ROSA","valencia","spain",39.48192,-0.32804,"Apartment","Entire home/apt",4,3,3,40,1,1125,28,"2020-05-31",80
+"1151",12174435,"CIUTAT JARDI","valencia","spain",39.47224,-0.341,"Apartment","Entire home/apt",4,3,4,85,2,1125,0,"2020-05-31",2550
+"1152",12185089,"MONT-OLIVET","valencia","spain",39.45788,-0.36766,"House","Private room",1,1,1,24,1,1125,0,"2020-05-31",720
+"1153",12189309,"LA MALVA-ROSA","valencia","spain",39.48245,-0.32819,"Apartment","Entire home/apt",5,3,3,80,14,1124,1,"2020-05-31",2320
+"1154",12198697,"EL PILAR","valencia","spain",39.47465,-0.38185,"Apartment","Entire home/apt",6,2,3,90,2,30,0,"2020-05-31",2700
+"1155",12218868,"EL CARME","valencia","spain",39.48063,-0.37949,"Apartment","Entire home/apt",3,1,1,130,2,1125,16,"2020-05-31",1820
+"1156",12225584,"SANT FRANCESC","valencia","spain",39.47011,-0.37289,"Apartment","Entire home/apt",4,2,3,150,2,1125,22,"2020-05-31",1200
+"1157",12226039,"CABANYAL-CANYAMELAR","valencia","spain",39.47488,-0.32953,"House","Entire home/apt",4,2,2,55,6,1125,11,"2020-05-31",1045
+"1158",12228319,"FAITANAR","valencia","spain",39.42914,-0.39379,"House","Private room",16,1,11,NA,1,1125,30,"2020-05-31",0
+"1159",12237760,"RUSSAFA","valencia","spain",39.4604,-0.37548,"Apartment","Entire home/apt",4,2,2,55,5,1125,0,"2020-05-31",1650
+"1160",12259478,"MASSARROJOS","valencia","spain",39.5461,-0.41381,"House","Private room",3,1,2,33,1,1125,30,"2020-05-31",0
+"1161",12283919,"LA MALVA-ROSA","valencia","spain",39.47684,-0.33146,"House","Entire home/apt",4,3,3,55,7,12,29,"2020-05-31",55
+"1162",12302531,"EL CARME","valencia","spain",39.4786,-0.38183,"Apartment","Entire home/apt",4,2,3,60,2,1125,26,"2020-05-31",240
+"1163",12313372,"CABANYAL-CANYAMELAR","valencia","spain",39.47434,-0.32921,"Apartment","Entire home/apt",4,1,1,95,5,1125,29,"2020-05-31",95
+"1164",12320022,"BETERO","valencia","spain",39.47432,-0.33501,"Apartment","Entire home/apt",5,3,4,45,2,1125,0,"2020-05-31",1350
+"1165",12324169,"NOU MOLES","valencia","spain",39.47015,-0.39357,"Apartment","Entire home/apt",5,2,2,48,2,1125,0,"2020-05-31",1440
+"1166",12330758,"MESTALLA","valencia","spain",39.47324,-0.35441,"Apartment","Private room",1,1,1,12,4,1125,20,"2020-05-31",120
+"1167",12338712,"MARXALENES","valencia","spain",39.48911,-0.38629,"Apartment","Entire home/apt",6,4,4,39,6,1125,0,"2020-05-31",1170
+"1168",12395670,"MORVEDRE","valencia","spain",39.48368,-0.37702,"Apartment","Entire home/apt",4,2,3,80,5,15,0,"2020-05-31",2400
+"1169",12400805,"LA XEREA","valencia","spain",39.47639,-0.37176,"Apartment","Entire home/apt",4,1,2,130,2,1125,28,"2020-05-31",260
+"1170",12421215,"LA VEGA BAIXA","valencia","spain",39.4769,-0.3493,"Apartment","Private room",2,1,1,18,2,1125,16,"2020-05-31",252
+"1171",12421224,"EL PILAR","valencia","spain",39.47587,-0.38301,"Apartment","Entire home/apt",4,2,3,56,3,60,16,"2020-05-31",784
+"1172",12438005,"EL PLA DEL REMEI","valencia","spain",39.46605,-0.37148,"Apartment","Entire home/apt",3,2,2,99,2,1125,29,"2020-05-31",99
+"1173",12443739,"ARRANCAPINS","valencia","spain",39.46588,-0.38509,"Apartment","Entire home/apt",6,3,5,200,2,1125,20,"2020-05-31",2000
+"1174",12508080,"CABANYAL-CANYAMELAR","valencia","spain",39.46311,-0.3322,"Apartment","Entire home/apt",2,1,1,85,1,1125,29,"2020-05-31",85
+"1175",12510218,"LA MALVA-ROSA","valencia","spain",39.47853,-0.32677,"Apartment","Entire home/apt",4,1,2,80,3,1125,29,"2020-05-31",80
+"1176",12513652,"MESTALLA","valencia","spain",39.46944,-0.35799,"Loft","Entire home/apt",2,1,1,59,5,30,29,"2020-05-31",59
+"1177",12529873,"NOU MOLES","valencia","spain",39.47049,-0.40145,"Apartment","Entire home/apt",6,4,5,118,1,1125,29,"2020-05-31",118
+"1178",12538365,"AIORA","valencia","spain",39.46597,-0.34451,"Apartment","Entire home/apt",4,2,3,60,2,1125,0,"2020-05-31",1800
+"1179",12538697,"CABANYAL-CANYAMELAR","valencia","spain",39.4729,-0.32815,"Apartment","Entire home/apt",5,2,4,53,5,30,6,"2020-05-31",1272
+"1180",12576923,"AIORA","valencia","spain",39.46675,-0.3487,"Apartment","Entire home/apt",4,2,3,49,150,1125,0,"2020-05-31",1470
+"1181",12619448,"SANT FRANCESC","valencia","spain",39.47056,-0.37809,"Apartment","Entire home/apt",4,1,2,85,2,1125,17,"2020-05-31",1105
+"1182",12634331,"CABANYAL-CANYAMELAR","valencia","spain",39.46424,-0.32909,"Apartment","Private room",1,1,1,25,1,1125,0,"2020-05-31",750
+"1183",12635289,"NATZARET","valencia","spain",39.44817,-0.33212,"Apartment","Entire home/apt",4,1,2,55,3,1125,30,"2020-05-31",0
+"1184",12638743,"MONT-OLIVET","valencia","spain",39.45959,-0.36664,"Apartment","Entire home/apt",8,3,5,120,3,1125,28,"2020-05-31",240
+"1185",12650275,"BENIMACLET","valencia","spain",39.48743,-0.36672,"Apartment","Entire home/apt",6,3,5,90,5,21,23,"2020-05-31",630
+"1186",12663778,"LA PUNTA","valencia","spain",39.45358,-0.33677,"Condominium","Entire home/apt",2,1,1,40,4,1125,28,"2020-05-31",80
+"1187",12689336,"CABANYAL-CANYAMELAR","valencia","spain",39.47279,-0.33361,"Apartment","Entire home/apt",1,0,1,55,2,1125,29,"2020-05-31",55
+"1188",12733122,"EL PERELLONET","valencia","spain",39.30079,-0.29029,"Apartment","Entire home/apt",9,5,6,130,3,1125,0,"2020-05-31",3900
+"1189",12752398,"RUSSAFA","valencia","spain",39.4593,-0.37789,"Apartment","Entire home/apt",6,2,3,99,2,1125,28,"2020-05-31",198
+"1190",12757791,"EN CORTS","valencia","spain",39.4573,-0.37156,"Apartment","Private room",2,1,1,12,1,1125,5,"2020-05-31",300
+"1191",12758773,"EL CARME","valencia","spain",39.47947,-0.37757,"Apartment","Entire home/apt",3,1,2,44,1,1125,1,"2020-05-31",1276
+"1192",12758872,"EN CORTS","valencia","spain",39.45621,-0.37123,"Apartment","Private room",2,1,1,22,1,1125,0,"2020-05-31",660
+"1193",12759786,"EXPOSICIO","valencia","spain",39.47488,-0.36314,"Apartment","Entire home/apt",6,2,2,85,2,1125,30,"2020-05-31",0
+"1194",12768573,"CABANYAL-CANYAMELAR","valencia","spain",39.46483,-0.33022,"Condominium","Private room",2,1,1,24,1,30,0,"2020-05-31",720
+"1195",12775319,"SANT FRANCESC","valencia","spain",39.47082,-0.37804,"Apartment","Entire home/apt",9,4,7,170,2,1125,24,"2020-05-31",1020
+"1196",12785288,"MALILLA","valencia","spain",39.45423,-0.37415,"Apartment","Private room",2,1,1,15,2,1125,0,"2020-05-31",450
+"1197",12804382,"SANT FRANCESC","valencia","spain",39.46867,-0.37561,"Apartment","Entire home/apt",4,1,2,120,2,1125,30,"2020-05-31",0
+"1198",12818845,"EL PERELLONET","valencia","spain",39.28045,-0.27838,"Apartment","Entire home/apt",4,2,3,62,15,1125,0,"2020-05-31",1860
+"1199",12827692,"EXPOSICIO","valencia","spain",39.47556,-0.36212,"Apartment","Entire home/apt",4,2,2,65,3,1124,29,"2020-05-31",65
+"1200",12831202,"RUSSAFA","valencia","spain",39.4605,-0.37061,"Apartment","Entire home/apt",5,3,3,82,7,1125,30,"2020-05-31",0
+"1201",12844005,"CABANYAL-CANYAMELAR","valencia","spain",39.4745,-0.32905,"Apartment","Entire home/apt",5,2,3,58,2,1125,29,"2020-05-31",58
+"1202",12846148,"BENICALAP","valencia","spain",39.49587,-0.38313,"Condominium","Private room",1,1,1,50,1,1125,30,"2020-05-31",0
+"1203",12858493,"EL BOTANIC","valencia","spain",39.47417,-0.38501,"Apartment","Entire home/apt",4,2,3,55,3,1125,1,"2020-05-31",1595
+"1204",12863682,"CABANYAL-CANYAMELAR","valencia","spain",39.4678,-0.32864,"Apartment","Entire home/apt",4,1,2,36,7,1124,30,"2020-05-31",0
+"1205",12866526,"LA SEU","valencia","spain",39.476,-0.37869,"Apartment","Entire home/apt",3,1,1,60,2,1125,30,"2020-05-31",0
+"1206",12871051,"MESTALLA","valencia","spain",39.47343,-0.36317,"Apartment","Private room",2,1,1,27,7,1125,1,"2020-05-31",783
+"1207",12871512,"LA MALVA-ROSA","valencia","spain",39.48019,-0.32818,"Apartment","Entire home/apt",4,2,2,75,2,1125,5,"2020-05-31",1875
+"1208",12881096,"L'ILLA PERDUDA","valencia","spain",39.47039,-0.34041,"Apartment","Entire home/apt",7,4,4,50,5,1125,0,"2020-05-31",1500
+"1209",12894016,"ALBORS","valencia","spain",39.46917,-0.35273,"Apartment","Entire home/apt",5,3,4,69,6,30,0,"2020-05-31",2070
+"1210",12895281,"ARRANCAPINS","valencia","spain",39.46331,-0.3839,"Apartment","Private room",3,1,2,32,5,1125,0,"2020-05-31",960
+"1211",12901297,"CABANYAL-CANYAMELAR","valencia","spain",39.46537,-0.3309,"Apartment","Entire home/apt",6,2,3,80,2,1125,30,"2020-05-31",0
+"1212",12902044,"FAVARA","valencia","spain",39.45518,-0.39743,"Apartment","Entire home/apt",9,3,4,150,2,1125,29,"2020-05-31",150
+"1213",12909961,"CASTELLAR-L'OLIVERAL","valencia","spain",39.42795,-0.36162,"Apartment","Private room",3,1,0,25,2,1001,30,"2020-05-31",0
+"1214",12911281,"LA PETXINA","valencia","spain",39.47477,-0.39082,"Apartment","Entire home/apt",3,1,2,85,2,1125,14,"2020-05-31",1360
+"1215",12938638,"LA ROQUETA","valencia","spain",39.46579,-0.37912,"Apartment","Entire home/apt",6,2,4,140,2,365,30,"2020-05-31",0
+"1216",12962306,"LA PETXINA","valencia","spain",39.47196,-0.3888,"Apartment","Entire home/apt",6,2,3,55,2,1125,29,"2020-05-31",55
+"1217",12968575,"SANT FRANCESC","valencia","spain",39.47031,-0.38122,"Apartment","Entire home/apt",3,2,1,39,90,365,5,"2020-05-31",975
+"1218",12970898,"LA XEREA","valencia","spain",39.47572,-0.37055,"Apartment","Entire home/apt",6,3,7,55,2,60,29,"2020-05-31",55
+"1219",12978302,"AIORA","valencia","spain",39.464,-0.34476,"Apartment","Entire home/apt",5,3,4,46,2,31,29,"2020-05-31",46
+"1220",12979453,"ARRANCAPINS","valencia","spain",39.46568,-0.38706,"Apartment","Entire home/apt",6,3,4,80,2,30,27,"2020-05-31",240
+"1221",12983168,"LA MALVA-ROSA","valencia","spain",39.47782,-0.32599,"Apartment","Entire home/apt",6,3,6,100,7,1125,0,"2020-05-31",3000
+"1222",12988066,"RUSSAFA","valencia","spain",39.46179,-0.37292,"Apartment","Entire home/apt",4,2,3,55,3,1125,0,"2020-05-31",1650
+"1223",12999403,"EL MERCAT","valencia","spain",39.47243,-0.37716,"Apartment","Entire home/apt",5,1,4,105,2,1125,30,"2020-05-31",0
+"1224",13000210,"LA SEU","valencia","spain",39.47386,-0.3758,"Apartment","Entire home/apt",4,1,1,88,2,1125,30,"2020-05-31",0
+"1225",13001373,"ARRANCAPINS","valencia","spain",39.46145,-0.38586,"Apartment","Private room",2,1,1,20,2,1125,29,"2020-05-31",20
+"1226",13003066,"L'HORT DE SENABRE","valencia","spain",39.45355,-0.39026,"Apartment","Entire home/apt",8,4,6,32,2,99,1,"2020-05-31",928
+"1227",13004917,"EL CARME","valencia","spain",39.47763,-0.38213,"Apartment","Private room",2,1,0,28,2,31,0,"2020-05-31",840
+"1228",13012447,"LA RAIOSA","valencia","spain",39.45897,-0.38361,"Apartment","Entire home/apt",4,2,3,67,7,1125,29,"2020-05-31",67
+"1229",13012487,"CABANYAL-CANYAMELAR","valencia","spain",39.46553,-0.33456,"Apartment","Entire home/apt",5,3,3,118,3,90,30,"2020-05-31",0
+"1230",13064531,"CABANYAL-CANYAMELAR","valencia","spain",39.47434,-0.3289,"Apartment","Entire home/apt",6,2,3,65,2,1125,30,"2020-05-31",0
+"1231",13081092,"ARRANCAPINS","valencia","spain",39.46591,-0.38488,"Apartment","Entire home/apt",4,2,4,78,2,900,1,"2020-05-31",2262
+"1232",13081564,"NOU MOLES","valencia","spain",39.46761,-0.39072,"Apartment","Entire home/apt",6,3,5,50,90,1125,0,"2020-05-31",1500
+"1233",13085996,"LA XEREA","valencia","spain",39.47251,-0.37242,"Condominium","Entire home/apt",2,2,1,35,90,1125,0,"2020-05-31",1050
+"1234",13093453,"EXPOSICIO","valencia","spain",39.47399,-0.36037,"Apartment","Entire home/apt",6,3,5,140,5,30,29,"2020-05-31",140
+"1235",13108430,"CABANYAL-CANYAMELAR","valencia","spain",39.46327,-0.33162,"Apartment","Entire home/apt",6,3,3,59,2,1124,0,"2020-05-31",1770
+"1236",13109657,"BETERO","valencia","spain",39.46937,-0.33965,"Apartment","Entire home/apt",8,4,4,125,6,75,0,"2020-05-31",3750
+"1237",13111332,"CABANYAL-CANYAMELAR","valencia","spain",39.47412,-0.33009,"Apartment","Entire home/apt",7,4,5,85,3,1125,0,"2020-05-31",2550
+"1238",13124100,"LA MALVA-ROSA","valencia","spain",39.47778,-0.32894,"Apartment","Entire home/apt",6,3,4,120,2,1125,29,"2020-05-31",120
+"1239",13133766,"EN CORTS","valencia","spain",39.45597,-0.37262,"Apartment","Private room",3,1,3,44,2,4,24,"2020-05-31",264
+"1240",13139948,"CABANYAL-CANYAMELAR","valencia","spain",39.47225,-0.3278,"Apartment","Entire home/apt",4,1,2,60,3,1124,6,"2020-05-31",1440
+"1241",13160806,"ARRANCAPINS","valencia","spain",39.46214,-0.38578,"Apartment","Entire home/apt",3,2,2,89,5,31,29,"2020-05-31",89
+"1242",13165736,"TORREFIEL","valencia","spain",39.49848,-0.37367,"Apartment","Entire home/apt",3,2,2,300,6,1125,30,"2020-05-31",0
+"1243",13169783,"LA ROQUETA","valencia","spain",39.46598,-0.37972,"Apartment","Entire home/apt",5,2,3,70,1,1125,25,"2020-05-31",350
+"1244",13183943,"LA GRAN VIA","valencia","spain",39.46455,-0.36544,"Apartment","Entire home/apt",7,4,5,65,3,1125,28,"2020-05-31",130
+"1245",13188048,"EL GRAU","valencia","spain",39.45944,-0.33406,"Apartment","Private room",2,1,3,24,2,1125,0,"2020-05-31",720
+"1246",13196767,"TORMOS","valencia","spain",39.4864,-0.37839,"Apartment","Entire home/apt",6,2,6,60,2,28,0,"2020-05-31",1800
+"1247",13199372,"CABANYAL-CANYAMELAR","valencia","spain",39.46505,-0.33232,"Apartment","Entire home/apt",3,1,2,48,3,1125,1,"2020-05-31",1392
+"1248",13203265,"ARRANCAPINS","valencia","spain",39.47089,-0.38575,"Apartment","Entire home/apt",8,3,4,80,2,1125,28,"2020-05-31",160
+"1249",13207528,"LA SEU","valencia","spain",39.47534,-0.37589,"Apartment","Entire home/apt",4,1,2,65,2,1125,0,"2020-05-31",1950
+"1250",13212997,"EL CARME","valencia","spain",39.47818,-0.37875,"Apartment","Entire home/apt",3,1,2,65,2,1125,29,"2020-05-31",65
+"1251",13214766,"CABANYAL-CANYAMELAR","valencia","spain",39.46626,-0.32718,"Apartment","Entire home/apt",4,2,3,40,14,270,29,"2020-05-31",40
+"1252",13219448,"EL GRAU","valencia","spain",39.46275,-0.33477,"Apartment","Entire home/apt",4,3,3,69,3,1125,29,"2020-05-31",69
+"1253",13228650,"LA MALVA-ROSA","valencia","spain",39.48208,-0.3258,"Townhouse","Entire home/apt",11,4,11,376,3,60,28,"2020-05-31",752
+"1254",13237427,"EL PILAR","valencia","spain",39.47477,-0.38275,"Apartment","Entire home/apt",8,4,6,55,1,1000,30,"2020-05-31",0
+"1255",13246878,"LA ROQUETA","valencia","spain",39.46557,-0.37899,"Apartment","Entire home/apt",4,2,2,49,3,1125,30,"2020-05-31",0
+"1256",13248324,"BETERO","valencia","spain",39.47491,-0.33575,"Apartment","Private room",2,1,1,21,2,1125,0,"2020-05-31",630
+"1257",13249641,"AIORA","valencia","spain",39.46774,-0.34286,"Apartment","Entire home/apt",8,3,5,42,1,1125,0,"2020-05-31",1260
+"1258",13256123,"EL MERCAT","valencia","spain",39.47397,-0.3772,"Apartment","Entire home/apt",2,1,1,65,2,1125,26,"2020-05-31",260
+"1259",13256668,"ELS ORRIOLS","valencia","spain",39.49533,-0.36886,"Apartment","Entire home/apt",6,3,3,39,1,1125,30,"2020-05-31",0
+"1260",13260550,"CIUTAT UNIVERSITARIA","valencia","spain",39.47643,-0.35374,"Condominium","Private room",2,1,2,40,6,1125,30,"2020-05-31",0
+"1261",13262280,"NOU MOLES","valencia","spain",39.47112,-0.40078,"Apartment","Private room",2,1,2,16,2,1125,28,"2020-05-31",32
+"1262",13263630,"ARRANCAPINS","valencia","spain",39.46628,-0.38798,"Loft","Entire home/apt",4,2,3,55,2,30,0,"2020-05-31",1650
+"1263",13270586,"MESTALLA","valencia","spain",39.47539,-0.35406,"Apartment","Private room",5,3,1,35,7,1125,1,"2020-05-31",1015
+"1264",13273187,"CIUTAT UNIVERSITARIA","valencia","spain",39.47687,-0.35535,"Apartment","Private room",4,3,1,30,7,1125,30,"2020-05-31",0
+"1265",13285996,"ELS ORRIOLS","valencia","spain",39.4897,-0.37051,"Apartment","Entire home/apt",5,3,4,39,1,30,30,"2020-05-31",0
+"1266",13286351,"ARRANCAPINS","valencia","spain",39.46179,-0.38541,"Apartment","Private room",2,1,1,38,7,1125,28,"2020-05-31",76
+"1267",13288540,"CABANYAL-CANYAMELAR","valencia","spain",39.46781,-0.33034,"Apartment","Entire home/apt",4,0,3,50,2,1124,18,"2020-05-31",600
+"1268",13291288,"EL BOTANIC","valencia","spain",39.47777,-0.38614,"Apartment","Private room",1,1,1,15,28,180,23,"2020-05-31",105
+"1269",13294514,"ALBORS","valencia","spain",39.46832,-0.35108,"Apartment","Entire home/apt",4,2,4,59,4,1125,12,"2020-05-31",1062
+"1270",13295149,"PENYA-ROJA","valencia","spain",39.45847,-0.34588,"Apartment","Private room",2,1,1,28,2,1125,0,"2020-05-31",840
+"1271",13304104,"MORVEDRE","valencia","spain",39.48305,-0.37725,"Apartment","Entire home/apt",6,3,4,150,1,1125,29,"2020-05-31",150
+"1272",13309889,"EN CORTS","valencia","spain",39.45526,-0.36806,"Apartment","Private room",2,1,1,30,2,1125,0,"2020-05-31",900
+"1273",13323229,"NA ROVELLA","valencia","spain",39.45479,-0.36731,"Apartment","Private room",2,1,1,30,2,1125,1,"2020-05-31",870
+"1274",13323951,"NATZARET","valencia","spain",39.44847,-0.33232,"House","Entire home/apt",12,5,8,220,2,1125,28,"2020-05-31",440
+"1275",13330981,"TRES FORQUES","valencia","spain",39.46799,-0.3985,"Apartment","Entire home/apt",4,2,2,55,3,30,30,"2020-05-31",0
+"1276",13341440,"BENICALAP","valencia","spain",39.49303,-0.39572,"Apartment","Entire home/apt",4,2,3,38,4,1125,0,"2020-05-31",1140
+"1277",13356263,"NOU MOLES","valencia","spain",39.47311,-0.39739,"Apartment","Private room",1,1,1,23,2,1125,26,"2020-05-31",92
+"1278",13365100,"LA PETXINA","valencia","spain",39.47262,-0.39135,"Apartment","Private room",2,1,2,25,2,1125,28,"2020-05-31",50
+"1279",13367614,"SANT FRANCESC","valencia","spain",39.47076,-0.37792,"Loft","Entire home/apt",2,1,1,85,1,1125,9,"2020-05-31",1785
+"1280",13389207,"CABANYAL-CANYAMELAR","valencia","spain",39.4735,-0.33032,"Apartment","Entire home/apt",2,1,1,65,1,1125,29,"2020-05-31",65
+"1281",13405972,"EL MERCAT","valencia","spain",39.47473,-0.37768,"Apartment","Entire home/apt",4,2,2,72,3,1124,1,"2020-05-31",2088
+"1282",13409286,"EL CARME","valencia","spain",39.4792,-0.3764,"Apartment","Entire home/apt",6,2,4,102,3,90,0,"2020-05-31",3060
+"1283",13411769,"EL CARME","valencia","spain",39.47909,-0.38095,"Apartment","Entire home/apt",11,3,7,155,2,1125,28,"2020-05-31",310
+"1284",13423043,"LA FONTETA S.LLUIS","valencia","spain",39.44506,-0.36862,"Condominium","Private room",2,1,1,29,2,1125,30,"2020-05-31",0
+"1285",13427650,"TRINITAT","valencia","spain",39.482,-0.37031,"Apartment","Entire home/apt",8,4,5,110,2,1125,25,"2020-05-31",550
+"1286",13430117,"EL MERCAT","valencia","spain",39.472,-0.37778,"Apartment","Entire home/apt",8,4,5,500,2,1124,30,"2020-05-31",0
+"1287",13430980,"CIUTAT JARDI","valencia","spain",39.47318,-0.34508,"Apartment","Entire home/apt",6,4,6,95,4,30,0,"2020-05-31",2850
+"1288",13437756,"AIORA","valencia","spain",39.46372,-0.34477,"Loft","Entire home/apt",4,2,2,50,4,15,29,"2020-05-31",50
+"1289",13461545,"CIUTAT JARDI","valencia","spain",39.47272,-0.34211,"Condominium","Entire home/apt",5,4,4,65,14,40,25,"2020-05-31",325
+"1290",13504083,"CABANYAL-CANYAMELAR","valencia","spain",39.47203,-0.33093,"Apartment","Entire home/apt",5,2,3,45,2,1124,30,"2020-05-31",0
+"1291",13512801,"MONT-OLIVET","valencia","spain",39.459,-0.36257,"Apartment","Private room",2,1,1,30,1,1125,0,"2020-05-31",900
+"1292",13513120,"CIUTAT JARDI","valencia","spain",39.47076,-0.34573,"Apartment","Entire home/apt",7,3,3,87,1,1125,30,"2020-05-31",0
+"1293",13523726,"EL MERCAT","valencia","spain",39.4737,-0.37978,"Apartment","Entire home/apt",2,1,1,70,2,7,8,"2020-05-31",1540
+"1294",13527624,"NA ROVELLA","valencia","spain",39.44871,-0.36894,"Apartment","Entire home/apt",5,3,4,115,3,15,13,"2020-05-31",1955
+"1295",13528151,"MESTALLA","valencia","spain",39.47192,-0.35448,"Apartment","Private room",1,1,1,12,4,1124,29,"2020-05-31",12
+"1296",13536223,"LA GRAN VIA","valencia","spain",39.46648,-0.36583,"Apartment","Entire home/apt",5,3,4,85,2,90,29,"2020-05-31",85
+"1297",13543731,"CABANYAL-CANYAMELAR","valencia","spain",39.46944,-0.33463,"Loft","Entire home/apt",4,2,3,55,2,1125,29,"2020-05-31",55
+"1298",13546860,"SANT PAU","valencia","spain",39.48136,-0.40464,"Condominium","Private room",2,1,2,35,2,1125,16,"2020-05-31",490
+"1299",13550126,"AIORA","valencia","spain",39.46557,-0.34476,"Apartment","Private room",2,1,2,30,1,1125,1,"2020-05-31",870
+"1300",13568825,"CABANYAL-CANYAMELAR","valencia","spain",39.47291,-0.32909,"Condominium","Entire home/apt",6,3,4,80,2,120,29,"2020-05-31",80
+"1301",13577285,"SANT PAU","valencia","spain",39.48183,-0.4023,"Condominium","Private room",2,1,2,35,2,1125,30,"2020-05-31",0
+"1302",13585695,"EL CARME","valencia","spain",39.47779,-0.38136,"Apartment","Entire home/apt",3,2,2,76,2,1125,0,"2020-05-31",2280
+"1303",13588903,"AIORA","valencia","spain",39.46698,-0.34094,"Apartment","Entire home/apt",4,3,3,90,2,1125,29,"2020-05-31",90
+"1304",13599285,"ARRANCAPINS","valencia","spain",39.46957,-0.38884,"Apartment","Entire home/apt",4,3,3,60,14,1125,1,"2020-05-31",1740
+"1305",13603077,"CABANYAL-CANYAMELAR","valencia","spain",39.47054,-0.32878,"Apartment","Entire home/apt",4,2,3,49,2,28,29,"2020-05-31",49
+"1306",13612572,"RUSSAFA","valencia","spain",39.46068,-0.37024,"Apartment","Entire home/apt",5,2,5,53,3,1125,10,"2020-05-31",1060
+"1307",13620577,"CABANYAL-CANYAMELAR","valencia","spain",39.46668,-0.33119,"Apartment","Private room",10,4,4,99,5,60,1,"2020-05-31",2871
+"1308",13629056,"MARXALENES","valencia","spain",39.48443,-0.38225,"Apartment","Entire home/apt",4,2,3,55,3,1125,19,"2020-05-31",605
+"1309",13647395,"SANT FRANCESC","valencia","spain",39.46842,-0.37578,"Apartment","Entire home/apt",6,2,4,98,2,60,28,"2020-05-31",196
+"1310",13653347,"MESTALLA","valencia","spain",39.47355,-0.3543,"Apartment","Private room",1,1,1,12,3,1125,30,"2020-05-31",0
+"1311",13653671,"PATRAIX","valencia","spain",39.45944,-0.39121,"Apartment","Entire home/apt",4,3,3,300,1,20,29,"2020-05-31",300
+"1312",13672350,"MONT-OLIVET","valencia","spain",39.46083,-0.36229,"Apartment","Private room",2,1,1,30,2,15,0,"2020-05-31",900
+"1313",13683239,"BENIMACLET","valencia","spain",39.48582,-0.3633,"Apartment","Entire home/apt",6,3,4,147,20,20,0,"2020-05-31",4410
+"1314",13685509,"CABANYAL-CANYAMELAR","valencia","spain",39.4649,-0.32878,"Apartment","Entire home/apt",5,3,4,60,6,1125,28,"2020-05-31",120
+"1315",13712781,"VARA DE QUART","valencia","spain",39.46304,-0.40455,"Apartment","Entire home/apt",6,3,4,60,2,1125,0,"2020-05-31",1800
+"1316",13717028,"RUSSAFA","valencia","spain",39.46151,-0.3723,"Apartment","Entire home/apt",3,1,2,50,7,360,30,"2020-05-31",0
+"1317",13735092,"MESTALLA","valencia","spain",39.46458,-0.35791,"Apartment","Entire home/apt",4,2,3,134,4,180,30,"2020-05-31",0
+"1318",13737216,"CABANYAL-CANYAMELAR","valencia","spain",39.47169,-0.33293,"Apartment","Entire home/apt",6,2,2,59,2,1125,0,"2020-05-31",1770
+"1319",13743679,"MONT-OLIVET","valencia","spain",39.46117,-0.36152,"Apartment","Private room",2,2,3,24,2,5,28,"2020-05-31",48
+"1320",13753690,"MESTALLA","valencia","spain",39.47336,-0.35452,"Apartment","Private room",2,1,1,34,5,60,30,"2020-05-31",0
+"1321",13757352,"MESTALLA","valencia","spain",39.47586,-0.35557,"Apartment","Private room",6,3,1,30,7,1125,1,"2020-05-31",870
+"1322",13758789,"PATRAIX","valencia","spain",39.46267,-0.39332,"Apartment","Private room",1,1,1,16,4,90,30,"2020-05-31",0
+"1323",13763119,"ARRANCAPINS","valencia","spain",39.46162,-0.38165,"Apartment","Private room",2,1,2,20,3,50,29,"2020-05-31",20
+"1324",13764636,"SANT ANTONI","valencia","spain",39.48743,-0.3733,"Apartment","Private room",2,1,1,20,2,185,30,"2020-05-31",0
+"1325",13773070,"EL PILAR","valencia","spain",39.4754,-0.38259,"Apartment","Entire home/apt",6,2,4,57,4,1125,2,"2020-05-31",1596
+"1326",13780039,"LA GRAN VIA","valencia","spain",39.46452,-0.36635,"Apartment","Private room",2,1,1,35,2,1125,29,"2020-05-31",35
+"1327",13783737,"TRINITAT","valencia","spain",39.4839,-0.36624,"Apartment","Private room",1,1,2,13,2,1125,29,"2020-05-31",13
+"1328",13793896,"LA RAIOSA","valencia","spain",39.45891,-0.38749,"Apartment","Entire home/apt",4,2,3,45,2,1125,30,"2020-05-31",0
+"1329",13805735,"ARRANCAPINS","valencia","spain",39.4696,-0.38779,"Apartment","Entire home/apt",4,1,1,35,6,1125,20,"2020-05-31",350
+"1330",13806228,"RUSSAFA","valencia","spain",39.46138,-0.37635,"Apartment","Entire home/apt",2,1,1,50,3,1125,30,"2020-05-31",0
+"1331",13806673,"LA CARRASCA","valencia","spain",39.47385,-0.33937,"Apartment","Private room",2,1,1,35,1,15,0,"2020-05-31",1050
+"1332",13807367,"MARXALENES","valencia","spain",39.48369,-0.38158,"Apartment","Entire home/apt",5,2,3,100,2,1125,23,"2020-05-31",700
+"1333",13807821,"LES TENDETES","valencia","spain",39.48161,-0.38436,"Apartment","Entire home/apt",6,2,4,60,2,900,29,"2020-05-31",60
+"1334",13812641,"CIUTAT JARDI","valencia","spain",39.4733,-0.34038,"Apartment","Private room",2,1,1,28,1,1125,0,"2020-05-31",840
+"1335",13812877,"CIUTAT JARDI","valencia","spain",39.47256,-0.34077,"Apartment","Private room",2,1,1,27,1,30,0,"2020-05-31",810
+"1336",13819703,"MARXALENES","valencia","spain",39.48341,-0.37985,"Loft","Entire home/apt",3,2,2,60,3,1125,29,"2020-05-31",60
+"1337",13825094,"CABANYAL-CANYAMELAR","valencia","spain",39.46513,-0.32314,"Apartment","Entire home/apt",4,2,3,60,2,28,25,"2020-05-31",300
+"1338",13828353,"LA SEU","valencia","spain",39.47451,-0.3762,"Apartment","Entire home/apt",4,1,2,65,3,365,29,"2020-05-31",65
+"1339",13828435,"EL MERCAT","valencia","spain",39.4725,-0.37869,"Apartment","Entire home/apt",6,2,4,90,3,1125,29,"2020-05-31",90
+"1340",13840373,"RUSSAFA","valencia","spain",39.46191,-0.37449,"Apartment","Entire home/apt",2,1,1,60,2,31,8,"2020-05-31",1320
+"1341",13841281,"LA MALVA-ROSA","valencia","spain",39.47786,-0.32549,"House","Private room",2,1,0,60,2,10,30,"2020-05-31",0
+"1342",13841447,"LA GRAN VIA","valencia","spain",39.46799,-0.36418,"Apartment","Entire home/apt",4,2,2,65,3,150,29,"2020-05-31",65
+"1343",13841554,"LA MALVA-ROSA","valencia","spain",39.47868,-0.32678,"House","Private room",2,1,2,30,2,10,15,"2020-05-31",450
+"1344",13841693,"EL PERELLONET","valencia","spain",39.30542,-0.29403,"Townhouse","Entire home/apt",7,4,6,89,7,1125,30,"2020-05-31",0
+"1345",13842345,"LA GRAN VIA","valencia","spain",39.46635,-0.36555,"Apartment","Private room",1,1,1,23,3,15,29,"2020-05-31",23
+"1346",13861179,"RUSSAFA","valencia","spain",39.46339,-0.37237,"Apartment","Private room",2,1,0,16,2,20,0,"2020-05-31",480
+"1347",13862609,"SANT FRANCESC","valencia","spain",39.47118,-0.37864,"Loft","Entire home/apt",2,0,1,60,1,1125,30,"2020-05-31",0
+"1348",13871210,"LA VEGA BAIXA","valencia","spain",39.47728,-0.34972,"Apartment","Entire home/apt",8,4,6,150,5,15,0,"2020-05-31",4500
+"1349",13877718,"CAMPANAR","valencia","spain",39.47868,-0.39243,"Apartment","Private room",2,1,1,35,1,1125,0,"2020-05-31",1050
+"1350",13881242,"BENICALAP","valencia","spain",39.48713,-0.39369,"Apartment","Entire home/apt",7,4,5,85,2,1124,30,"2020-05-31",0
+"1351",13897888,"MONT-OLIVET","valencia","spain",39.45949,-0.36682,"Apartment","Entire home/apt",8,4,4,192,3,1125,29,"2020-05-31",192
+"1352",13906092,"SANT FRANCESC","valencia","spain",39.46761,-0.37608,"Apartment","Entire home/apt",4,2,2,49,3,500,30,"2020-05-31",0
+"1353",13908955,"BENIMACLET","valencia","spain",39.48465,-0.3617,"Apartment","Private room",3,1,1,20,3,60,0,"2020-05-31",600
+"1354",13919116,"","valencia","spain",NA,NA,"","",NA,NA,NA,NA,NA,NA,30,"2020-05-31",0
