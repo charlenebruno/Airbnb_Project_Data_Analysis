@@ -9,10 +9,30 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ## R Markdown
-
-This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+Explication objectifs 
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word do cuments. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## Explication du preprocess
+
+
+## Lecture de la donnée 
+
+## Explication de l'architechrure de l'app 
+
+## Lecture de la donnée 
+
+## Explication Tab 1 ( screen )
+
+## Explication Tab 2 ( sreen )
+
+## Distribuée avec rshinny 
+
+## Bilan de l'analyse 
+
+
+
 
 ## Slide with Bullets
 
