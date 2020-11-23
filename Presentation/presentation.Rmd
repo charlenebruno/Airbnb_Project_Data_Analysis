@@ -1,6 +1,6 @@
 ---
 title: "Airbnb Project"
-subtitle: "Charlene BRUNO, Loic CHANG, Pierre PHILBERT, Anas SORY"
+subtitle: "Charlene BRUNO, Loic CHANG, Pierre PHILBERT, SORY Anas"
 output: ioslides_presentation
 ---
 
