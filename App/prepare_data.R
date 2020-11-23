@@ -38,7 +38,7 @@ prepare_data <- function(url,country,city,date)
      select(which(names(.) %in% columns_listings)) %>% 
       arrange(id)
 
-  ## clean price column and transform to numeric
+   ## clean price column and transform to numeric
    listings$price <- as.numeric(str_remove(listings$price,"[$]"))
    listings$price[is.na(listings$price)]<-0
    listings$availability_30 <- as.numeric(listings$availability_30)

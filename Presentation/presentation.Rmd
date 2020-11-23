@@ -61,19 +61,24 @@ urls_data$date <- url_decomposed[,7]
 
 ## 
  
-* From the selected url 
-
+* Bring some modifications to downloaded data
 ```R
-urls_data <-urls_data %>%
-  filter(country %in% c("france","spain","germany")) %>%
-  filter(city !="paris" ) %>%
-  arrange(country)
-  
-#filter dates: 3 first available dates 
-  urls_data <-slice_head(urls_data%>%group_by(city), n = 3)
-  return(urls_data) 
-}
-  
+## clean price column and transform to numeric
+listings$price <- as.numeric(str_remove(listings$price,"[$]"))
+listings$price[is.na(listings$price)]<-0
+listings$availability_30 <- as.numeric(listings$availability_30)
+listings$availability_30[is.na(listings$availability_30)]<-30
+listings$revenue_30 <- listings$price *(30-listings$availability_30)
+```
+* Then, we save everything in csv files to corresponding directories
+```R
+#write the cleansed data in csv
+dir.create(file.path("data_cleansed",country, city, date), 
+            recursive = TRUE)
+write.csv(listings, 
+    file.path("data_cleansed", country,city, date, "listings.csv"))
+print(paste0("saving data into ", 
+    file.path("data_cleansed", country,city,date, "listings.csv")))
 ```
 
 ## Lecture de la donnée 

@@ -3238,19 +3238,27 @@ urls_data$date &lt;- url_decomposed[,7]
 </article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section-1">
 
 <ul>
-<li>Then filter the URLS on countries and dates</li>
+<li>Bring some modifications to downloaded data</li>
 </ul>
 
-<pre class = 'prettyprint lang-r'>urls_data &lt;-urls_data %&gt;%
-  filter(country %in% c(&quot;france&quot;,&quot;spain&quot;,&quot;germany&quot;)) %&gt;%
-  filter(city !=&quot;paris&quot; ) %&gt;%
-  arrange(country)
-  
-#filter dates: 3 first available dates 
-  urls_data &lt;-slice_head(urls_data%&gt;%group_by(city), n = 3)
-  return(urls_data) 
-}
-  </pre>
+<pre class = 'prettyprint lang-r'>## clean price column and transform to numeric
+listings$price &lt;- as.numeric(str_remove(listings$price,&quot;[$]&quot;))
+listings$price[is.na(listings$price)]&lt;-0
+listings$availability_30 &lt;- as.numeric(listings$availability_30)
+listings$availability_30[is.na(listings$availability_30)]&lt;-30
+listings$revenue_30 &lt;- listings$price *(30-listings$availability_30)</pre>
+
+<ul>
+<li>Then, we save everything in csv files to corresponding directories</li>
+</ul>
+
+<pre class = 'prettyprint lang-r'>#write the cleansed data in csv
+dir.create(file.path(&quot;data_cleansed&quot;,country, city, date), 
+            recursive = TRUE)
+write.csv(listings, 
+    file.path(&quot;data_cleansed&quot;, country,city, date, &quot;listings.csv&quot;))
+print(paste0(&quot;saving data into &quot;, 
+    file.path(&quot;data_cleansed&quot;, country,city,date, &quot;listings.csv&quot;)))</pre>
 
 </article></slide><slide class=""><hgroup><h2>Lecture de la donnée</h2></hgroup><article  id="lecture-de-la-donnée">
 
