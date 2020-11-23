@@ -9,6 +9,8 @@ library(data.table)
 ##setwd("C:/Users/LOL/Desktop/LOIC/ECE/ING5/Data Analysis/Project/Airbnb_Project_Data_Analysis/App")
 # chemin Pierre 
 setwd("C:/Users/Pierre/Desktop/Airbnb_Project_Data_Analysis/App")
+# chemin Anas
+setwd("C:\Users\admin123\Documents\GitHub\Airbnb_Project_Data_Analysis")
 
 # a generic function to prepare data for a specific url,country,city, date
 prepare_data <- function(url,country,city,date)

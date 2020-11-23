@@ -83,26 +83,52 @@ print(paste0("saving data into ",
 
 ## Reading Data 
 
+```R
+# # Read data in cities between min_date and max_date
+for(country in countries){
+  file_dir <- file.path(".", "data_cleansed", country)
+  file_subdirs_cities <- list.dirs(file_dir,recursive=FALSE)
+  
+  for(file_subdir_city in file_subdirs_cities){
+    file_subdirs_dates <- list.dirs(file_subdir_city,recursive=FALSE)
+    files_paths <- c(files_paths, file_subdirs_dates)
+  }
+}
+```
 
 ## App architechture explanation
+ The application aims to visualize the airbnb data 
 
 
-## Tab 1 Explication ( screen )
+## Tab 1 Explanation 
 
-## Tab 2 Explication  ( sreen )
+ <img src=".\img\tab1.PNG" style = "display: block;
+  placement : center;
+  height :100%;
+  width: 90%" />
+
+## Tab 2 Explanation
+
+<img src=".\img\tab2.PNG" style = "display: block;
+  placement : center;
+  height :100%;
+  width: 90%" />
 
 ## Share with rshinny 
 
+
+
 ## Conclusion
+To conclude,the application made with the technologies we learnt in class allowed us to
+succeed in our project.  
+Just like any technology, we tried to make a benefit from its strengths and avoid its weaknesses  
+We got :   
+- A magnificient user interface  
+- Intuitive Interactions to get relevant data  
 
-
-
-
-## Slide with Bullets
-
-- Bullet 1
-- Bullet 2
-- Bullet 3
+But since The dataset provides us with a ton of data,   
+- Data had been a bit slow to be shown   
+- Our implementation could be optimized   
 
 ## Slide with R Output
 
