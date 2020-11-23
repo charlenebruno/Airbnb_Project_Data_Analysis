@@ -2,6 +2,7 @@
 title: "Airbnb Project"
 subtitle: "Charlene BRUNO, Loic CHANG, Pierre PHILBERT, SORY Anas"
 output: ioslides_presentation
+
 ---
 
 ```{r setup, include=FALSE}
@@ -9,13 +10,66 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ## Introduction 
-<p><img src=".\img\intro.PNG" /></p>
+
+  <img src=".\img\intro.PNG"  
+  style = "display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; " />
+  
+<h3> A project to get threw Airbnb's dataset and visualize </h3>
+  
+We are a team of Four student at ECE - CHEONG Loic, BRUNO CHarlene, PHILBERT Pierre and SORY Anas. We present here our exploratory data analysis, visualizations, interactive plots of the Airbnb data.
+
+
 
 ## Project objectif 
 
-
+ * The aim of the project is to optimize the price of houses listing relatively to ( mettre les paramètres qui entrent en jeu par exemple taille de la chambre ect ect )
+ 
 ## Explication du preprocess
 
+First of all, we had to load a .csv file which contains a list of URLS under the following form : 
+```R
+http://data.insideairbnb.com/country/region/city/date/data/listings.csv.gz
+```
+  <img src=".\img\listing_data.PNG" style = "display: block;
+  margin-left: auto;
+  margin-right: auto;" />
+  
+## 
+
+* The next step is to remove from URLS the countries that aren't important in our analysis.    
+   
+* To do that, we have to retrieve the country name from the URLS then apply a filter to get only what we want.  
+A simple way to do that is to split the URLS by "/" then put the country name into a vector
+
+```R
+#We split the url to add columns to filter later
+url_decomposed <- str_split(urls_data$listings_data_url,"/",simplify = TRUE)
+  
+urls_data$country <- url_decomposed[,4]
+urls_data$city <- url_decomposed[,6]
+urls_data$date <- url_decomposed[,7]
+  
+```
+
+## 
+ 
+* Then filter the URLS on countries and dates 
+
+```R
+urls_data <-urls_data %>%
+  filter(country %in% c("france","spain","germany")) %>%
+  filter(city !="paris" ) %>%
+  arrange(country)
+  
+#filter dates: 3 first available dates 
+  urls_data <-slice_head(urls_data%>%group_by(city), n = 3)
+  return(urls_data) 
+}
+  
+```
 
 ## Lecture de la donnée 
 
