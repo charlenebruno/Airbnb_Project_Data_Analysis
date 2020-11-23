@@ -31,7 +31,7 @@ We present here our exploratory data analysis, visualizations, interactive plots
   -Number of bedrooms
   -Neighborhood 
  
-## Explication du preprocess
+## Preprocess Explanation
 
 First of all, we had to load a .csv file which contains a list of URLS under the following form : 
 ```R
@@ -81,19 +81,19 @@ print(paste0("saving data into ",
     file.path("data_cleansed", country,city,date, "listings.csv")))
 ```
 
-## Lecture de la donnée 
+## Reading Data 
 
-## Explication de l'architechrure de l'app 
 
-## Lecture de la donnée 
+## App architechture explanation
 
-## Explication Tab 1 ( screen )
 
-## Explication Tab 2 ( sreen )
+## Tab 1 Explication ( screen )
 
-## Distribuée avec rshinny 
+## Tab 2 Explication  ( sreen )
 
-## Bilan de l'analyse 
+## Share with rshinny 
+
+## Conclusion
 
 
 
