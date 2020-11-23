@@ -26,6 +26,48 @@ server <- function(session,input, output) {
       filter(date >= input$date_range[1], date <= input$date_range[2])
   })
   
+  
+  min_date <- reactive({
+    min(as.vector((mydata_cities_selected_tab1()%>% select(date))[,1]))
+  })
+  
+  max_date <- reactive({
+    max(as.vector((mydata_cities_selected_tab1()%>% select(date))[,1]))
+  })
+  
+  observeEvent(
+    input$checkGroup_city,
+    updateDateRangeInput(session, "date_range","Date range", 
+                         start  = min_date(),
+                         end    = max_date(),
+                         min    = min_date(),
+                         max    = max_date()
+    )
+  )
+  
+  observeEvent(
+    input$features,
+    switch(
+      input$features,
+      availability_30 = updateSliderInput(session, "slider", 
+                                          min = min(mydata_filtered_by_date_tab1()$availability_30), 
+                                          max = max(mydata_filtered_by_date_tab1()$availability_30),
+                                          value=c(min(mydata_filtered_by_date_tab1()$availability_30),max(mydata_filtered_by_date_tab1()$availability_30))
+                                          ), 
+      revenue_30 = updateSliderInput(session, "slider", 
+                                     min = min(mydata_filtered_by_date_tab1()$revenue_30), 
+                                     max = max(mydata_filtered_by_date_tab1()$revenue_30),
+                                     value=c(min(mydata_filtered_by_date_tab1()$revenue_30),max(mydata_filtered_by_date_tab1()$revenue_30))
+                                     ),
+      price = updateSliderInput(session, "slider", 
+                                min = min(mydata_filtered_by_date_tab1()$price), 
+                                max = max(mydata_filtered_by_date_tab1()$price),
+                                value=c(min(mydata_filtered_by_date_tab1()$price),max(mydata_filtered_by_date_tab1()$price))
+                                )
+      )
+    )
+  
+  
   output$my_table <- renderTable({
     if (input$dimension == "None"){
       if (input$aggreg == "Average") {
@@ -91,7 +133,7 @@ server <- function(session,input, output) {
                         Room_Type = room_type, 
                         nb_Bedrooms = bedrooms,
                         Neighborhood = neighbourhood_cleansed))+ 
-        facet_grid(.~city) + guides(fill=guide_legend(title=input$dimension))
+        facet_grid(.~city) + guides(fill=guide_legend(title=input$dimension)) +xlim(c(input$slider[1]-5,input$slider[2]+5))
     }
     
     else if(input$aggreg == "Density"){
@@ -101,7 +143,7 @@ server <- function(session,input, output) {
                      revenue_30 = revenue_30,
                      price = price),
               data=mydata_filtered_by_date_tab1(),geom="density", xlab=input$features, 
-              color=city)
+              color=city) +coord_cartesian(xlim=c(input$slider[1],input$slider[2]))
       }
       else{
         qplot(switch(input$features,
@@ -114,7 +156,8 @@ server <- function(session,input, output) {
                            Room_Type = room_type, 
                            nb_Bedrooms = bedrooms,
                            Neighborhood = neighbourhood_cleansed))+ 
-          facet_grid(.~city) + guides(color=guide_legend(title=input$dimension))
+          facet_grid(.~city) + guides(color=guide_legend(title=input$dimension))+
+          coord_cartesian(xlim=c(input$slider[1],input$slider[2]))
       }
      
     }
@@ -157,12 +200,16 @@ server <- function(session,input, output) {
   ###############################################################################################################################
   #OUTPUT FOR TAB2
   
-  output$text2 <- renderText(paste("You have selected",input$select_city))
-
+  #output$text2 <- renderText(paste("You have selected",input$select_city))
+  
+  mydata_cities_selected_tab2 <- reactive({
+    #the data is filtered by the cities selected by the user
+    mydata %>% 
+      filter( city == input$select_city, date == input$select_date2)
+  })
+  
   output$mymap <- renderLeaflet({
-    CITY <- input$select_city
-    DATE <- input$select_date2
-    my_data <- filter(mydata, city == CITY, date == DATE)
+    my_data <- mydata_cities_selected_tab2()
     my_data %>%
       leaflet() %>%
       addTiles() %>%
@@ -183,8 +230,8 @@ server <- function(session,input, output) {
   
   
   output$plot_tab2 <- renderPlot({
-    DATA <- mydata %>% 
-      filter(city == input$select_city, !is.na(bedrooms), date == input$select_date2)
+    DATA <- mydata_cities_selected_tab2() %>% 
+      filter(!is.na(bedrooms))
     
     p<-ggplot(DATA, aes(x=switch(input$dimension_tab2, 
                                  Room_Type = room_type, 
@@ -199,23 +246,5 @@ server <- function(session,input, output) {
     input$select_city,
     updateSelectInput(session, "select_date2","Select a date", 
                       choices = mydata$date[mydata$city==input$select_city]))
-  
-  min_date <- reactive({
-    min(as.vector((mydata %>% filter(city %in% str_split(paste0(input$checkGroup_city, collapse = ","),",", simplify = TRUE))%>% select(date))[,1]))
-  })
-  
-  max_date <- reactive({
-    max(as.vector((mydata %>% filter(city %in% str_split(paste0(input$checkGroup_city, collapse = ","),",", simplify = TRUE))%>% select(date))[,1]))
-  })
-  
-  observeEvent(
-    input$checkGroup_city,
-    updateDateRangeInput(session, "date_range","Date range", 
-                      start  = min_date(),
-                      end    = max_date(),
-                      min    = min_date(),
-                      max    = max_date()
-                      )
-    )
   
 }

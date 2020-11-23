@@ -40,10 +40,7 @@ ui <- fluidPage(
                                                               "Histogram","Density",
                                                              "Boxplot"),selected = "Average")
                                     )
-                        
                            ),
-                           
-                           
                            fluidRow(
                              column(4,
                                     radioButtons("features", h3("Features"),
@@ -62,21 +59,14 @@ ui <- fluidPage(
                              column(10,
                                     dateRangeInput("date_range", h3("Date range"))),
                              column(10,
-                                    sliderInput("slider2", "Zoom in/out the graph",
-                                                min = 0, max = 100, value = c(25, 75)))
+                                    sliderInput("slider", "Zoom in/out the graph",
+                                                min = 0, max = 100, value = c(0, 75)))
                              )
-                           
-                           
-                           
-
-                           
                          ),
                          
                          # Main panel for displaying outputs ----
                          mainPanel(
-                           
-                           
-                           h3("Hello Wolrd !"),br(),
+                           h3("Comparing cities"),br(),
                            textOutput("text1"),
                            textOutput("text_feature_selected"),
                            tableOutput("my_table"),
@@ -84,6 +74,8 @@ ui <- fluidPage(
                          )
                        )
               ),#End of Tab1
+              
+              
               tabPanel("Tab 2  (Analysis 2 - Deep dive into a city)", 
                        #DT::dataTableOutput("mytable"),
                        sidebarLayout(
@@ -100,13 +92,11 @@ ui <- fluidPage(
                                         choices = c("Room_Type", "nb_Bedrooms", "Neighborhood"),
                                         selected = "Room_Type")
                          ),
-                           
-                         
                          # Main panel for displaying outputs ----
                          mainPanel(
-                           textOutput("text2"),
-                            
+                           #textOutput("text2"),
                            leafletOutput("mymap"),
+                           br(),br(),br(),
                            plotOutput(outputId = "plot_tab2")
                          )
                        )
