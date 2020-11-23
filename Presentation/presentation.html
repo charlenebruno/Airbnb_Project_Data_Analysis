@@ -3196,16 +3196,17 @@ slide:not(.current) .plotly.html-widget{
 
 <h3>
 
-A project to get threw Airbnb’s dataset and visualize
+A project to get threw Airbnb’s dataset and visualize.
 
 </h3>
 
-<p>We are a team of Four student at ECE - CHEONG Loic, BRUNO CHarlene, PHILBERT Pierre and SORY Anas. We present here our exploratory data analysis, visualizations, interactive plots of the Airbnb data.</p>
+<p>We are a team of Four student at ECE - CHEONG Loic, BRUNO Charlene, PHILBERT Pierre and SORY Anas.<br/>We present here our exploratory data analysis, visualizations, interactive plots of the Airbnb data.</p>
 
 </article></slide><slide class=""><hgroup><h2>Project objectif</h2></hgroup><article  id="project-objectif">
 
 <ul>
-<li>The aim of the project is to optimize the price of houses listing relatively to ( mettre les paramètres qui entrent en jeu par exemple taille de la chambre ect ect )</li>
+<li>The aim of the project is to optimize the price of houses listing relatively to :</li>
+<li>Room Type -Number of bedrooms -Neighborhood</li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2>Explication du preprocess</h2></hgroup><article  id="explication-du-preprocess">
@@ -3226,7 +3227,8 @@ A project to get threw Airbnb’s dataset and visualize
 </ul>
 
 <pre class = 'prettyprint lang-r'>#We split the url to add columns to filter later
-url_decomposed &lt;- str_split(urls_data$listings_data_url,&quot;/&quot;,simplify = TRUE)
+url_decomposed &lt;- str_split(urls_data$listings_data_url,&quot;/&quot;,
+                            simplify = TRUE)
   
 urls_data$country &lt;- url_decomposed[,4]
 urls_data$city &lt;- url_decomposed[,6]
