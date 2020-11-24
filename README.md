@@ -4,8 +4,8 @@
 
 1. Git clone the repository and open it in Rstudio
 2. Download the data
-  A. Set your working directory
-  B. In the file prepare_data.R, uncomment the commande "clean_all_data()" and execute the script to get the cleansed data into CSV files
+  1. Set your working directory
+  2. In the file prepare_data.R, uncomment the commande "clean_all_data()" and execute the script to get the cleansed data into CSV files
 3. Lanch the App 
 
 ## Acces directly to the website of the app
