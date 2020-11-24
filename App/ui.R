@@ -90,7 +90,7 @@ ui <- fluidPage(
                            selectInput("select_date2",
                                        "Select a date",choices ="", selected = ""),
                            radioButtons("dimension_tab2",
-                                        h3("Select a dimension for the histogram"),
+                                        h3("Select a dimension"),
                                         choices = c("Room_Type", "Property_Type", "nb_Bedrooms", "Neighborhood"),
                                         selected = "Room_Type")
                          ),
@@ -101,11 +101,11 @@ ui <- fluidPage(
                            br(),br(),br()
                          )
                        ),
-                       #splitLayout(
+                       splitLayout(
                          # plotOutput(outputId = "plot_tab2"),
                           htmlOutput( "Gvis_columnChart_tab2"),
                           htmlOutput( "Gvis_pieChart_tab2")
-                       #)
+                       )
                        
                        
               )#End of Tab2

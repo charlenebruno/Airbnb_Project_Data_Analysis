@@ -4,7 +4,6 @@ library(leaflet)
 library(googleVis)
 source("prepare_data.R")
 
-##SERVER FUNCTION
 server <- function(session,input, output) {
   
   #OUTPUT FOR TAB1
@@ -46,7 +45,15 @@ server <- function(session,input, output) {
                          max    = max_date()
     )
   )
-
+  
+  # if(is.null(input$slider[1])){
+  #   updateSliderInput(session, "slider", 
+  #                     min = min(mydata_filtered_by_date_tab1()$availability_30), 
+  #                     max = max(mydata_filtered_by_date_tab1()$availability_30),
+  #                     value=c(min(mydata_filtered_by_date_tab1()$availability_30),max(mydata_filtered_by_date_tab1()$availability_30))
+  #   )
+  # }
+  
   observeEvent(
     input$features,
     switch(
@@ -201,7 +208,9 @@ server <- function(session,input, output) {
   
   ###############################################################################################################################
   #OUTPUT FOR TAB2
-
+  
+  #output$text2 <- renderText(paste("You have selected",input$select_city))
+  
   mydata_cities_selected_tab2 <- reactive({
     #the data is filtered by the cities selected by the user
     mydata %>% 
@@ -243,25 +252,30 @@ server <- function(session,input, output) {
       ggtitle(paste("The proportion of each",input$dimension_tab2," for the city",input$select_city, "in", input$select_date2 ))
   })
   
+  
+  
   output$Gvis_columnChart_tab2 <- renderGvis({
     DATA <- mydata_cities_selected_tab2() %>%
+      filter(!is.na(bedrooms)) %>% 
       group_by(switch(input$dimension_tab2,
                       Room_Type = room_type,
                       Property_Type = property_type,
                       nb_Bedrooms = bedrooms,
                       Neighborhood = neighbourhood_cleansed)) %>% 
                       count(name = "Total")
-    gvisColumnChart(DATA) 
+    gvisColumnChart(DATA, options=list(height="500px")) 
   })
   
   output$Gvis_pieChart_tab2 <- renderGvis({
     DATA <- mydata_cities_selected_tab2() %>% 
+      filter(!is.na(bedrooms)) %>% 
       group_by(switch(input$dimension_tab2, 
                       Room_Type = room_type,
                       Property_Type = property_type, 
                       nb_Bedrooms = bedrooms,
                       Neighborhood = neighbourhood_cleansed)) %>% count(name = "Total")
-    gvisPieChart(DATA)
+   P<-  gvisPieChart(DATA, options=list(height="500px") )
+   
   })
   
   observeEvent(
