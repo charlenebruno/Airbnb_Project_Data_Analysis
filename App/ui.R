@@ -58,9 +58,11 @@ ui <- fluidPage(
                            fluidRow(
                              column(10,
                                     dateRangeInput("date_range", h3("Date range"))),
-                             column(10,
+                             conditionalPanel(
+                               condition = "input.aggreg == 'Histogram' | input.aggreg == 'Density'",
+                               column(10,
                                     sliderInput("slider", "Zoom in/out the graph",
-                                                min = 0, max = 100, value = c(0, 75)))
+                                                min = 0, max = 100, value = c(0, 75))))
                              )
                          ),
                          
@@ -89,17 +91,22 @@ ui <- fluidPage(
                                        "Select a date",choices ="", selected = ""),
                            radioButtons("dimension_tab2",
                                         h3("Select a dimension for the histogram"),
-                                        choices = c("Room_Type", "nb_Bedrooms", "Neighborhood"),
+                                        choices = c("Room_Type", "Property_Type", "nb_Bedrooms", "Neighborhood"),
                                         selected = "Room_Type")
                          ),
                          # Main panel for displaying outputs ----
                          mainPanel(
                            #textOutput("text2"),
                            leafletOutput("mymap"),
-                           br(),br(),br(),
-                           plotOutput(outputId = "plot_tab2")
+                           br(),br(),br()
                          )
-                       )
+                       ),
+                       #splitLayout(
+                         # plotOutput(outputId = "plot_tab2"),
+                          htmlOutput( "Gvis_columnChart_tab2"),
+                          htmlOutput( "Gvis_pieChart_tab2")
+                       #)
+                       
                        
               )#End of Tab2
   )

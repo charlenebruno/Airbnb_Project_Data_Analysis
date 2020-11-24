@@ -1,6 +1,7 @@
 # Define server logic required to draw a histogram ----
 library(shiny)
 library(leaflet)
+library(googleVis)
 source("prepare_data.R")
 
 server <- function(session,input, output) {
@@ -44,7 +45,7 @@ server <- function(session,input, output) {
                          max    = max_date()
     )
   )
-  
+
   observeEvent(
     input$features,
     switch(
@@ -199,9 +200,7 @@ server <- function(session,input, output) {
   
   ###############################################################################################################################
   #OUTPUT FOR TAB2
-  
-  #output$text2 <- renderText(paste("You have selected",input$select_city))
-  
+
   mydata_cities_selected_tab2 <- reactive({
     #the data is filtered by the cities selected by the user
     mydata %>% 
@@ -234,12 +233,34 @@ server <- function(session,input, output) {
       filter(!is.na(bedrooms))
     
     p<-ggplot(DATA, aes(x=switch(input$dimension_tab2, 
-                                 Room_Type = room_type, 
+                                 Room_Type = room_type,
+                                 Property_Type = property_type,
                                  nb_Bedrooms = bedrooms,
                                  Neighborhood = neighbourhood_cleansed)))
     p + geom_bar() + xlab(input$dimension_tab2)+
       theme(axis.text.x=element_text(angle=90,hjust=1,vjust=0.5))+
       ggtitle(paste("The proportion of each",input$dimension_tab2," for the city",input$select_city, "in", input$select_date2 ))
+  })
+  
+  output$Gvis_columnChart_tab2 <- renderGvis({
+    DATA <- mydata_cities_selected_tab2() %>%
+      group_by(switch(input$dimension_tab2,
+                      Room_Type = room_type,
+                      Property_Type = property_type,
+                      nb_Bedrooms = bedrooms,
+                      Neighborhood = neighbourhood_cleansed)) %>% 
+                      count(name = "Total")
+    gvisColumnChart(DATA) 
+  })
+  
+  output$Gvis_pieChart_tab2 <- renderGvis({
+    DATA <- mydata_cities_selected_tab2() %>% 
+      group_by(switch(input$dimension_tab2, 
+                      Room_Type = room_type,
+                      Property_Type = property_type, 
+                      nb_Bedrooms = bedrooms,
+                      Neighborhood = neighbourhood_cleansed)) %>% count(name = "Total")
+    gvisPieChart(DATA)
   })
   
   observeEvent(
