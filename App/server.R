@@ -4,6 +4,7 @@ library(leaflet)
 library(googleVis)
 source("prepare_data.R")
 
+##SERVER FUNCTION
 server <- function(session,input, output) {
   
   #OUTPUT FOR TAB1
