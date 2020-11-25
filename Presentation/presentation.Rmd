@@ -1,6 +1,6 @@
 ---
 title: "Airbnb Project"
-subtitle: "Charlene BRUNO, Loic CHEONG \n Pierre PHILBERT, SORY Anas"
+subtitle: "Charlene BRUNO, Loic CHEONG               Pierre PHILBERT, SORY Anas ING5 BDA2"
 output: ioslides_presentation
 
 ---
@@ -23,31 +23,23 @@ We present here our exploratory data analysis, visualizations, interactive plots
 
 
 
-## Project objectif 
+## Project objective 
 
-The aim of the project is to show differents aggregations of differents data types relatively to :  
+The aim of the project is to show come aggregations of different data types relatively to :  
 - Room Type  
 - Number of bedrooms  
 - Neighborhood  
 - Dates  
 - City  
  
-<h1>Preprocess Explanation</h1>
+## Data and Preprocess Explanation
 
 First of all, we had to load a .csv file which contains a list of URLS under the following form : 
 ```R
 http://data.insideairbnb.com/country/region/city/date/data/listings.csv.gz
 ```
-  <img src=".\img\listing_data.PNG" style = "display: block;
-  margin-left: auto;
-  margin-right: auto;" />
-  
-## 
 
-* The next step is to remove from URLS the countries that aren't important in our analysis.    
-   
-* To do that, we have to retrieve the country name from the URLS then apply a filter to get only what we want.  
-A simple way to do that is to split the URLS by "/" then put the country name into a vector
+-STEP1 : Decompose URL
 
 ```R
 #We split the url to add columns to filter later
@@ -59,6 +51,11 @@ urls_data$city <- url_decomposed[,6]
 urls_data$date <- url_decomposed[,7]
   
 ```
+
+-STEP2 : Filtered URL in function of countries, date
+-STEP3 : Clean and store data
+-STEP4 : Read data in dataframe 
+## 
 
 ## 
  
