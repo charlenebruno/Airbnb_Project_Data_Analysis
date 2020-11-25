@@ -1,5 +1,7 @@
 # Airbnb_Project_Data_Analysis
 
+* BRUNO Charlène, CHEONG Loïc, PHILBERT Pierre, SORY Anas
+
 ## Getting starting with the App in Rstudio
 
 1. Git clone the repository and open it in Rstudio
