@@ -5,25 +5,28 @@ library(shinydashboard)
 source("prepare_data.R")
 
 ui <- dashboardPage(
+  skin="purple",
   dashboardHeader(title = "Airbnb Analysis"),
   dashboardSidebar(
     sidebarMenuOutput("menu")
   ),
   dashboardBody(
     tabItems(
+      tabItem(tabName="doc",
+              h1("Documentation"),
+              br(),br(),
+              p("Here is a tutorial to explain how to use the Rshiny app. 
+                It is composed of two principal tabs. 
+                The first one is dedicated to the comparison between cities on different features. 
+                The second one deeps dive in more details about one specific city."),
+              br(),br(),
+              
+              ),
       tabItem(tabName = "tab1",  # Sidebar layout with input and output definitions ----
               sidebarLayout(
                 
                 # Sidebar panel for inputs ----
                 sidebarPanel(
-                  
-                  # Input: Slider for the number of bins ----
-                  # sliderInput(inputId = "bins",
-                  #             label = "Number of bins:",
-                  #             min = 1,
-                  #             max = 50,
-                  #             value = 30),
-                  
                   fluidRow(
                     
                     column(4,
@@ -59,7 +62,7 @@ ui <- dashboardPage(
                     column(10,
                            dateRangeInput("date_range", h3("Date range"))),
                     conditionalPanel(
-                      condition = "input.aggreg == 'Histogram' | input.aggreg == 'Density'",
+                      condition = "input.aggreg == 'Histogram' | input.aggreg == 'Density' ",
                       column(10,
                              sliderInput("slider", "Zoom in/out the graph",
                                          min = 0, max = 100, value = c(0, 75))))
@@ -72,7 +75,15 @@ ui <- dashboardPage(
                   textOutput("text1"),
                   textOutput("text_feature_selected"),
                   tableOutput("my_table"),
-                  plotOutput(outputId = "plot_tab1")
+                  conditionalPanel(
+                    condition = "input.aggreg == 'Histogram' | input.aggreg == 'Density' | input.aggreg == 'Boxplot'",
+                  box(
+                    title = "input.aggreg",
+                    status = "primary", solidHeader = TRUE,
+                    collapsible = TRUE,
+                    plotOutput(outputId = "plot_tab1", width = 450)
+                    )
+                  )
                 )
               ) ),
       tabItem(tabName = "tab2",
@@ -98,7 +109,6 @@ ui <- dashboardPage(
                 )
               ),
               splitLayout(
-                # plotOutput(outputId = "plot_tab2"),
                 htmlOutput( "Gvis_columnChart_tab2"),
                 htmlOutput( "Gvis_pieChart_tab2")
               )
