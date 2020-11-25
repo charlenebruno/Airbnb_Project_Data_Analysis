@@ -9,21 +9,17 @@ output: ioslides_presentation
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Introduction 
+## Introduction & Project objective 
 
   <img src=".\img\intro.PNG"  
   style = "display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%; " />
+  width: 30%; " />
   
 <h3> A project to get through Airbnb's dataset and visualize it. </h3>
   
 We present here our exploratory data analysis, visualizations, interactive plots of the Airbnb's data.
-
-
-
-## Project objective 
 
 The aim of the project is to show come aggregations of different data types relatively to :  
 - Room Type  
@@ -137,14 +133,6 @@ urls_data$date <- url_decomposed[,7]
   width: 90%" />
 - City - Date - Dimension  
 
-
-## Share with rshinny 
-
-<img src=".\img\shinyapp.PNG" style = "display: block;
-  placement : center;
-  height :100%;
-  width: 90%" />
-
 ## Conclusion
  
 Advantages :  
@@ -153,5 +141,12 @@ Advantages :
 
 Drawbacks :  
 - Data had been a bit slow to be shown   
-- Our implementation could be optimized   
+- Our implementation could be optimized 
+
+App shared on shinyApp.io:
+<img src=".\img\shinyapp.PNG" style = "display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height :70%;
+  width: 60%" />
 
