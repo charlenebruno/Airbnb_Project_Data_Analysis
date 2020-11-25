@@ -46,14 +46,6 @@ server <- function(session,input, output) {
     )
   )
   
-  # if(is.null(input$slider[1])){
-  #   updateSliderInput(session, "slider", 
-  #                     min = min(mydata_filtered_by_date_tab1()$availability_30), 
-  #                     max = max(mydata_filtered_by_date_tab1()$availability_30),
-  #                     value=c(min(mydata_filtered_by_date_tab1()$availability_30),max(mydata_filtered_by_date_tab1()$availability_30))
-  #   )
-  # }
-  
   observeEvent(
     input$features,
     switch(
@@ -126,12 +118,7 @@ server <- function(session,input, output) {
    
     })#END OF TABLE
   
-  
-  
   output$plot_tab1 <- renderPlot({
-    # DATA <- mydata %>% 
-    #   filter(city %in% str_split(paste0(input$checkGroup_city, collapse = ","),",", simplify = TRUE), !is.na(bedrooms))
-    
     if(input$aggreg == "Histogram"){ 
       qplot(switch(input$features,
                    availability_30 = availability_30,
@@ -177,7 +164,7 @@ server <- function(session,input, output) {
                                            availability_30 = availability_30,
                                            revenue_30 = revenue_30,
                                            price = price)))
-        p + geom_boxplot(aes(colour = "red"), outlier.shape = NA) +
+        p + geom_boxplot(aes(colour = city), outlier.shape = NA) +
           scale_y_continuous(limits = quantile(switch(input$features,
                                                       availability_30 = mydata_filtered_by_date_tab1()$availability_30,
                                                       revenue_30 = mydata_filtered_by_date_tab1()$revenue_30,
@@ -194,12 +181,12 @@ server <- function(session,input, output) {
                                            availability_30 = availability_30,
                                            revenue_30 = revenue_30,
                                            price = price)))
-        p + geom_boxplot(aes(colour = "red"), outlier.shape = NA) +
+        p + geom_boxplot(aes(colour = city), outlier.shape = NA) +
           scale_y_continuous(limits = quantile(switch(input$features,
                                                       availability_30 = mydata_filtered_by_date_tab1()$availability_30,
                                                       revenue_30 = mydata_filtered_by_date_tab1()$revenue_30,
                                                       price = mydata_filtered_by_date_tab1()$price), c(0.1, 0.9), na.rm = T))+
-          ylab(input$features) + xlab(input$dimension)+ facet_wrap(~ city)+
+          ylab(input$features) + xlab(input$dimension)+ 
           theme(axis.text.x=element_text(angle=90,hjust=1,vjust=0.5))
       }
       
@@ -208,8 +195,6 @@ server <- function(session,input, output) {
   
   ###############################################################################################################################
   #OUTPUT FOR TAB2
-  
-  #output$text2 <- renderText(paste("You have selected",input$select_city))
   
   mydata_cities_selected_tab2 <- reactive({
     #the data is filtered by the cities selected by the user
@@ -263,7 +248,7 @@ server <- function(session,input, output) {
                       nb_Bedrooms = bedrooms,
                       Neighborhood = neighbourhood_cleansed)) %>% 
                       count(name = "Total")
-    gvisColumnChart(DATA, options=list(height="500px")) 
+    gvisColumnChart(DATA, options=list(height="550px")) 
   })
   
   output$Gvis_pieChart_tab2 <- renderGvis({
@@ -274,7 +259,7 @@ server <- function(session,input, output) {
                       Property_Type = property_type, 
                       nb_Bedrooms = bedrooms,
                       Neighborhood = neighbourhood_cleansed)) %>% count(name = "Total")
-   P<-  gvisPieChart(DATA, options=list(height="500px") )
+   P<-  gvisPieChart(DATA, options=list(height="550px") )
    
   })
   
@@ -282,5 +267,13 @@ server <- function(session,input, output) {
     input$select_city,
     updateSelectInput(session, "select_date2","Select a date", 
                       choices = mydata$date[mydata$city==input$select_city]))
+  
+  output$menu <- renderMenu({
+    sidebarMenu(
+      menuItem("Documentation", tabName="doc", icon = icon("list-alt"),selected = TRUE),
+      menuItem("Analysis 1 - Comparing cities", tabName="tab1", icon = icon("bar-chart-o")),
+      menuItem("Analysis 2 - Deep dive into city", tabName="tab2", icon = icon("bar-chart-o"))
+    )
+  })
   
 }
