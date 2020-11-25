@@ -17,21 +17,20 @@ knitr::opts_chunk$set(echo = FALSE)
   margin-right: auto;
   width: 50%; " />
   
-<h3> A project to get through Airbnb's dataset and visualize them. </h3>
+<h3> A project to get through Airbnb's dataset and visualize it. </h3>
   
-We are a team of four student at ECE - CHEONG Loic, BRUNO Charlene, PHILBERT Pierre and SORY Anas.  
 We present here our exploratory data analysis, visualizations, interactive plots of the Airbnb's data.
 
 
 
 ## Project objectif 
 
-The aim of the project is to show differents aggregations of differents data types relatively to :
-- Room Type
-- Number of bedrooms
-- Neighborhood
-- Dates
-- City
+The aim of the project is to show differents aggregations of differents data types relatively to :  
+- Room Type  
+- Number of bedrooms  
+- Neighborhood  
+- Dates  
+- City  
  
 <h1>Preprocess Explanation</h1>
 
@@ -109,6 +108,12 @@ listings <- do.call(rbind,
   placement : center;
   height :100%;
   width: 90%" />
+  
+- City  
+- Aggregation type  
+- Features  
+- Dimension  
+- Date  
 
 ## Tab 2 Explanation
 
@@ -116,6 +121,11 @@ listings <- do.call(rbind,
   placement : center;
   height :100%;
   width: 90%" />
+  
+- City  
+- Date  
+- Dimension  
+
 
 ## Share with rshinny 
 
@@ -123,11 +133,11 @@ listings <- do.call(rbind,
 
 ## Conclusion
  
-Pros :
+Pros :  
 - A magnificient user interface  
 - Intuitive Interactions to get relevant data  
 
-Cons :
+Cons :  
 - Data had been a bit slow to be shown   
 - Our implementation could be optimized   
 

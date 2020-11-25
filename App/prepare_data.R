@@ -8,7 +8,7 @@ library(data.table)
 #chemin Loïc
 ##setwd("C:/Users/LOL/Desktop/LOIC/ECE/ING5/Data Analysis/Project/Airbnb_Project_Data_Analysis/App")
 # chemin Pierre 
-#setwd("C:/Users/Pierre/Desktop/Airbnb_Project_Data_Analysis/App")
+setwd("C:/Users/Pierre/Desktop/Airbnb_Project_Data_Analysis/App")
 # chemin Anas
 #setwd("C:\Users\admin123\Documents\GitHub\Airbnb_Project_Data_Analysis")
 
