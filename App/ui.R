@@ -2,7 +2,7 @@ library(shiny)
 library(leaflet)
 library(shinydashboard)
 
-source("prepare_data.R")
+source("../Scripts/prepare_data.R")
 
 ui <- dashboardPage(
   skin="purple",
@@ -127,7 +127,6 @@ ui <- dashboardPage(
                 ),
                 # Main panel for displaying outputs ----
                 mainPanel(
-                  #textOutput("text2"),
                   leafletOutput("mymap"),
                   br(),br(),br()
                 )

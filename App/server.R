@@ -2,7 +2,7 @@
 library(shiny)
 library(leaflet)
 suppressPackageStartupMessages(library(googleVis))
-source("prepare_data.R")
+source("../Scripts/prepare_data.R")
 
 server <- function(session,input, output) {
   
@@ -196,7 +196,7 @@ server <- function(session,input, output) {
   
   
   output$imgTab1 <- renderImage({
-    return(list(src = "img/tab1.png",height = 400, width = 800,
+    return(list(src = "img/tab1.PNG",height = 400, width = 800,
          filetype = "image/png",align = "center",
          alt = "tab1"))
   }, deleteFile = FALSE)

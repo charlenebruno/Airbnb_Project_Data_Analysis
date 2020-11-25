@@ -4,7 +4,7 @@ library(ggplot2)
 library(data.table)
 
 #chemin Charlène
-#setwd("C:/Users/user/Documents/ING5/Data Analytics/Projet/Airbnb_Project_Data_Analysis/App")
+setwd("C:/Users/user/Documents/ING5/Data Analytics/Projet/Airbnb_Project_Data_Analysis/App")
 #chemin Loïc
 ##setwd("C:/Users/LOL/Desktop/LOIC/ECE/ING5/Data Analysis/Project/Airbnb_Project_Data_Analysis/App")
 # chemin Pierre 
@@ -21,16 +21,13 @@ prepare_data <- function(url,country,city,date)
   tmp <- tempfile()
   download.file(url,tmp)
   listings <- read.csv(gzfile(tmp))
-  
-  #Read data online directly in R:
-  #read.csv(textConnection(readLines(gzcon(url(url_name)))))
  
-  ## Add Keys: columns country,city and day date
+  # Add Keys: columns country,city and day date
   listings$country <- country
   listings$city <- city
   listings$date <- date
   
-  # ## Select interesting columns
+  # Select interesting columns
   columns_listings <- c("country","city", "date", "id", "neighbourhood_cleansed", 
                          "latitude", "longitude", 
                         "property_type", "room_type", "accommodates", "bedrooms", 
@@ -40,24 +37,24 @@ prepare_data <- function(url,country,city,date)
      select(which(names(.) %in% columns_listings)) %>% 
       arrange(id)
 
-   ## clean price column and transform to numeric
+   # clean price column and transform to numeric
    listings$price <- as.numeric(str_remove(listings$price,"[$]"))
    listings$price[is.na(listings$price)]<-0
    listings$availability_30 <- as.numeric(listings$availability_30)
    listings$availability_30[is.na(listings$availability_30)]<-30
-   ##Add revenue_30
+   #Add revenue_30
    listings$revenue_30 <- listings$price *(30-listings$availability_30)
   
   #write the cleansed data in csv
-  dir.create(file.path("data_cleansed",country, city, date), recursive = TRUE)
-  write.csv(listings, file.path("data_cleansed", country,city, date, "listings.csv"))
-  print(paste0("saving data into ", file.path("data_cleansed", country,city,date, "listings.csv")))
+  dir.create(file.path("../data/data_cleansed",country, city, date), recursive = TRUE)
+  write.csv(listings, file.path("../data/data_cleansed", country,city, date, "listings.csv"))
+  print(paste0("saving data into ", file.path("../data/data_cleansed", country,city,date, "listings.csv")))
 
 }  
 
 decompose__filtered_urls <-function(){
   #We get the list of urls
-  urls_path <- file.path("all_data_urls.csv")
+  urls_path <- file.path("../data/all_data_urls.csv")
   print(paste0("reading data from ", urls_path))
   urls_data <- read.csv(urls_path)
   
@@ -74,7 +71,6 @@ decompose__filtered_urls <-function(){
     filter(country %in% c("france","spain","germany")) %>%
     filter(city !="paris" ) %>%
     arrange(country)
-  #Paris 
   #filter dates: 3 first available dates 
   urls_data <-slice_head(urls_data%>%group_by(city), n = 3)
   return(urls_data) 
@@ -91,17 +87,17 @@ clean_all_data <- function(){
 #Download the data 
 #clean_all_data() #Uncomment this line for the 1st running execution of the code
 
-## Once data for multiple cities are prepared
-## We can read these data and concatenate them together into one dataframe
+## Once data for multiple cities is prepared
+## We can read this data and concatenate them together into one dataframe
 read_cleansed_data <- function(){
   # Reading cleansed data
   countries <- c("france","germany","spain")
   
   files_paths <- c()
   
-  # # Read data in cities between min_date and max_date
+  # # Read data in cities 
   for(country in countries){
-    file_dir <- file.path(".", "data_cleansed", country)
+    file_dir <- file.path("../data/", "data_cleansed", country)
     file_subdirs_cities <- list.dirs(file_dir,recursive=FALSE)
     
     for(file_subdir_city in file_subdirs_cities){
