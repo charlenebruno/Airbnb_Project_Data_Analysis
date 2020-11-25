@@ -283,4 +283,12 @@ server <- function(session,input, output) {
     updateSelectInput(session, "select_date2","Select a date", 
                       choices = mydata$date[mydata$city==input$select_city]))
   
+  output$menu <- renderMenu({
+    sidebarMenu(
+      menuItem("Documentation", tabName="doc", icon = icon("list-alt"),selected = TRUE),
+      menuItem("Analysis 1 - Comparing cities", tabName="tab1", icon = icon("bar-chart-o")),
+      menuItem("Analysis 2 - Deep dive into city", tabName="tab2", icon = icon("bar-chart-o"))
+    )
+  })
+  
 }
