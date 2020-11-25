@@ -1,6 +1,6 @@
 ---
 title: "Airbnb Project"
-subtitle: "Charlene BRUNO, Loic CHANG, Pierre PHILBERT, SORY Anas"
+subtitle: "Charlene BRUNO, Loic CHEONG \n Pierre PHILBERT, SORY Anas"
 output: ioslides_presentation
 
 ---
@@ -17,21 +17,23 @@ knitr::opts_chunk$set(echo = FALSE)
   margin-right: auto;
   width: 50%; " />
   
-<h3> A project to get threw Airbnb's dataset and visualize. </h3>
+<h3> A project to get through Airbnb's dataset and visualize them. </h3>
   
-We are a team of Four student at ECE - CHEONG Loic, BRUNO Charlene, PHILBERT Pierre and SORY Anas.  
-We present here our exploratory data analysis, visualizations, interactive plots of the Airbnb data.
+We are a team of four student at ECE - CHEONG Loic, BRUNO Charlene, PHILBERT Pierre and SORY Anas.  
+We present here our exploratory data analysis, visualizations, interactive plots of the Airbnb's data.
 
 
 
 ## Project objectif 
 
- * The aim of the project is to optimize the price of houses listing relatively to : 
-  - Room Type 
-  -Number of bedrooms
-  -Neighborhood 
+The aim of the project is to show differents aggregations of differents data types relatively to :
+- Room Type
+- Number of bedrooms
+- Neighborhood
+- Dates
+- City
  
-## Preprocess Explanation
+<h1>Preprocess Explanation</h1>
 
 First of all, we had to load a .csv file which contains a list of URLS under the following form : 
 ```R
@@ -94,10 +96,11 @@ for(country in countries){
     files_paths <- c(files_paths, file_subdirs_dates)
   }
 }
-```
 
-## App architechture explanation
- The application aims to visualize the airbnb data 
+files_paths <- file.path(files_paths, "listings.csv")
+listings <- do.call(rbind,
+            lapply(files_paths, read.csv, row.names=1))
+```
 
 
 ## Tab 1 Explanation 
@@ -119,26 +122,12 @@ for(country in countries){
 
 
 ## Conclusion
-To conclude,the application made with the technologies we learnt in class allowed us to
-succeed in our project.  
-Just like any technology, we tried to make a benefit from its strengths and avoid its weaknesses  
-We got :   
+ 
+Pros :
 - A magnificient user interface  
 - Intuitive Interactions to get relevant data  
 
-But since The dataset provides us with a ton of data,   
+Cons :
 - Data had been a bit slow to be shown   
 - Our implementation could be optimized   
-
-## Slide with R Output
-
-```{r cars, echo = TRUE}
-summary(cars)
-```
-
-## Slide with Plot
-
-```{r pressure}
-plot(pressure)
-```
 
