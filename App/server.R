@@ -1,7 +1,7 @@
 # Define server logic required to draw a histogram ----
 library(shiny)
 library(leaflet)
-library(googleVis)
+suppressPackageStartupMessages(library(googleVis))
 source("prepare_data.R")
 
 server <- function(session,input, output) {
@@ -192,6 +192,32 @@ server <- function(session,input, output) {
       
       }
   })#END OF PLOT_TAB1
+  
+  
+  
+  output$imgTab1 <- renderImage({
+    return(list(src = "img/tab1.png",height = 400, width = 800,
+         filetype = "image/png",align = "center",
+         alt = "tab1"))
+  }, deleteFile = FALSE)
+  
+  output$imgTab2 <- renderImage({
+    return(list(src = "img/tab2.png",height = 400, width = 800,
+                filetype = "image/png",align = "center",
+                alt = "tab1"))
+  }, deleteFile = FALSE)
+  
+  output$imgTab2Map <- renderImage({
+    return(list(src = "img/tab2_map.png",height = 400, width = 800,
+                filetype = "image/png",align = "center",
+                alt = "tab1"))
+  }, deleteFile = FALSE)
+  
+  
+  
+  
+  
+  
   
   ###############################################################################################################################
   #OUTPUT FOR TAB2

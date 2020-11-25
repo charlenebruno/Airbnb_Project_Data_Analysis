@@ -14,12 +14,36 @@ ui <- dashboardPage(
     tabItems(
       tabItem(tabName="doc",
               h1("Documentation"),
-              br(),br(),
-              p("Here is a tutorial to explain how to use the Rshiny app. 
+              br(),
+              h4("Here is a tutorial to explain you how to use the Rshiny app. 
                 It is composed of two principal tabs. 
                 The first one is dedicated to the comparison between cities on different features. 
                 The second one deeps dive in more details about one specific city."),
               br(),br(),
+              h2("Analysis 1 - Comparing cities"),
+              imageOutput("imgTab1", inline = TRUE ),
+              h3("1. Choose your aggregation"),
+                h4(em("Average")," and ", em("Median"), " will display a table. It will compute the average or the median of the feature you chose for each city. Whereas" ,
+                  em("Histogram, Density and Boxplot"), "will display the corresponded plot."),
+              h4("In ", em("Histogram and Density"), " you can zoom in and zoom out, thanks to the slider on the axe X."),
+              br(),
+              h3("2. Choose your cities"),
+                h4("In the checkbox, choose as many as cities you want to compare between them."),
+              br(),
+              h3("3. Choose your feature and dimension"),
+                h4("Choose an additional dimension to analysis the data of your cities"),
+              br(),
+              h3("4. Filter the date"),
+                h4("The date range you choose will filter the data and display what you want."),
+              br(),
+              h2("Analysis 2 - Deep dive into city"),
+              imageOutput("imgTab2", inline = TRUE ),
+              div(h4("Following the same principal as before, you will only be able to select one city and one date to analyse here 
+                     (You can only choose one date because it will slow down the latency to load the data).")),
+              br(),
+              imageOutput("imgTab2Map", inline = TRUE ),
+              h4("In the map, there are many housings represented by a blue marker. 
+                  For more details about the housing, click on the link. It will redirect you to the official Airbnb website. ")
               
               ),
       tabItem(tabName = "tab1",  # Sidebar layout with input and output definitions ----
@@ -77,12 +101,12 @@ ui <- dashboardPage(
                   tableOutput("my_table"),
                   conditionalPanel(
                     condition = "input.aggreg == 'Histogram' | input.aggreg == 'Density' | input.aggreg == 'Boxplot'",
-                  box(
-                    title = "input.aggreg",
-                    status = "primary", solidHeader = TRUE,
-                    collapsible = TRUE,
-                    plotOutput(outputId = "plot_tab1", width = 450)
-                    )
+                  # box(
+                  #   title = "input.aggreg",
+                  #   status = "primary", solidHeader = TRUE,
+                  #   collapsible = TRUE,
+                    plotOutput(outputId = "plot_tab1")
+                    # )
                   )
                 )
               ) ),
